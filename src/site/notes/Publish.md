@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/publish/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/publish/","tags":["gardenEntry"],"dg-note-properties":{}}
 ---
 
 Halo ini test
