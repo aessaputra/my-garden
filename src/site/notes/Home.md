@@ -1,8 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/home/","tags":["gardenEntry"],"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/home/","title":"Welcome to my Digital Garden 🌿","tags":["gardenEntry"],"dg-note-properties":{"title":"Welcome to my Digital Garden 🌿"}}
 ---
-
-# Welcome to my Digital Garden 🌿
 
 Hello! 👋 You've found my digital grove—an evolving space where I cultivate ideas, document my research, and think in public.
 
