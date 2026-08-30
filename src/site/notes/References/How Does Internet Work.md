@@ -2,8 +2,6 @@
 {"dg-publish":true,"permalink":"/references/how-does-internet-work/","title":"How Does Internet Work","hideInFiletree":true,"tags":["network","http","ssl","security","architecture","guide"],"dg-note-properties":{"title":"How Does Internet Work","category":"references","tags":["network","http","ssl","security","architecture","guide"],"sources":["_raw/articles/how-does-internet-work-cs-fyi.md","_raw/articles/how-does-internet-work-mdn.md"],"created":"2026-08-21","updated":"2026-08-30"}}
 ---
 
-# How Does Internet Work
-
 Internet adalah jaringan dari banyak jaringan yang memakai protokol bersama agar perangkat dapat bertukar data. Halaman ini menggabungkan penjelasan bertahap MDN tentang infrastruktur Internet dengan pembahasan teknis cs.fyi tentang packet, TCP/IP, port, socket, dan TLS.
 
 ## Dari dua komputer ke Internet
