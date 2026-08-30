@@ -5,7 +5,7 @@
 DNS (Domain Name System) adalah phonebook Internet: sistem yang menerjemahkan domain names menjadi IP addresses sehingga browser bisa memuat website. Halaman ini menyintesis komik howdns.works (perjalanan resolver) dan penjelasan teknis Cloudflare.
 
 ## Perjalanan satu DNS lookup
-![[2026-08-31-how-dns-works.avif]]
+![[2026-08-31-how-dns-works.avif|How DNS Works]]
 
 1. User mengetik `example.com` di browser. Browser minta OS menerjemahkan nama ke IP.
 2. OS (stub resolver) cek cache lokal. Jika tidak ada, kirim query ke DNS resolver (biasanya milik ISP).
