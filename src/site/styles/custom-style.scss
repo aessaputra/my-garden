@@ -80,29 +80,6 @@ body {
         margin-bottom: 1.5rem;
     }
 
-    @media (min-width: 801px) and (max-width: 1400px) {
-        .sidebar {
-            position: fixed !important;
-            top: var(--dg-sidebar-top) !important;
-            left: auto !important;
-            right: 20px !important;
-            width: var(--dg-sidebar-max-width);
-            max-width: var(--dg-sidebar-max-width);
-            margin: 0;
-            padding: 0;
-            border-top: 0;
-        }
-
-        .sidebar-container {
-            flex-direction: column;
-            height: var(--dg-sidebar-container-height);
-        }
-
-        .backlinks {
-            max-width: none;
-        }
-    }
-
     @media (max-width: 1000px) {
         --dg-content-padding-top-mobile: 88px;
     }
