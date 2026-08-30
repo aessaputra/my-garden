@@ -1,6 +1,8 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/home/","title":"Home","contentClasses":"home","tags":["gardenEntry"],"dgShowFileTree":true,"dgEnableSearch":true,"dgShowToc":true,"dgShowBacklinks":true,"dgShowLocalGraph":false,"dg-note-properties":{"title":"Home"}}
+{"dg-publish":true,"dg-home":true,"permalink":"/home/","title":"Home","contentClasses":"home","tags":["gardenEntry"],"dgShowFileTree":true,"dgEnableSearch":true,"dgShowToc":true,"dgShowBacklinks":true,"dgShowLocalGraph":false,"dgShowInlineTitle":false,"dg-note-properties":{"title":"Home"}}
 ---
+
+# Welcome
 
 Welcome to Aes's Garden, where I collect ideas, lessons, and useful things I discover along the way.
 
