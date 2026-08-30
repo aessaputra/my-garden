@@ -50,7 +50,6 @@ Solusinya: saat TLD merespons daftar name servers, dilampirkan minimal satu IP a
 ## Lihat juga
 
 - [[References/Domain Name\|Domain Name]]: apa itu domain, struktur TLD/SLD, registrasi; DNS lookup dijelaskan singkat
-- [[What is Internet\|What is Internet]]: IP address dan DNS sebagai dasar cara kerja internet
 - [[References/How Does Internet Work\|How Does Internet Work]]: TCP/IP, ports, sockets, koneksi
 - [[References/Web Hosting\|Web Hosting]]: DNS menghubungkan domain ke server hosting
 - [[References/HTTP\|HTTP]]: protokol yang dijalankan setelah DNS selesai
