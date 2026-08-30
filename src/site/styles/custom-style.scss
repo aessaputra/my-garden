@@ -5,15 +5,18 @@ body {
    ***/
 
     /* =========================================
+    ROOT
+    ========================================= */
+    .content :not(pre) > code {
+        color: #315f72;
+        background-color: #e8f0f1;
+    }
+
+    /* =========================================
     HOME PAGE
     ========================================= */
     .content.home > header > h1 {
         display: none;
-    }
-
-    p > code {
-        color: #315f72;
-        background-color: #e8f0f1;
     }
 
 }
