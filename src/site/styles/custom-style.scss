@@ -8,13 +8,15 @@ body {
     --background-modifier-border: #d9d8d0;
 
     --dg-content-max-width: 700px;
+    --dg-content-padding-top: 80px;
     --dg-content-font-size: 17px;
     --dg-content-line-height: 1.7;
-    --dg-filetree-width: 250px;
-    --dg-filetree-min-width: 250px;
-    --dg-filetree-gap: 64px;
+    --dg-filetree-width: 260px;
+    --dg-filetree-min-width: 260px;
+    --dg-filetree-gap: 48px;
+    --dg-sidebar-top: 80px;
     --dg-sidebar-max-width: 280px;
-    --dg-sidebar-gap: 64px;
+    --dg-sidebar-gap: 48px;
     --dg-notelink-hover-bg: rgba(63, 107, 87, 0.08);
 
     background: var(--background-primary);
