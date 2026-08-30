@@ -39,8 +39,8 @@ Tabbed browsing, bookmarks, browsing history, downloads manager, search bar, UI 
 - Tracker blocking dan sandboxing (isolasi website dari OS).
 - Keep updated; kelola third-party cookies, permissions, clear data/cache.
 
-## Alur loading halaman (bagaimana browser bekerja)
-
+## bagaimana browser bekerja
+![2026-08-31-how-browser-works.webp\|How browser wors](/img/user/Attachments/2026-08-31-how-browser-works.webp)
 ### Navigation
 1. **DNS lookup**: temukan IP asset page. Sekali per hostname; tiap hostname unik (fonts, images, scripts, ads) butuh lookup sendiri, berisiko lambat di mobile.
 2. **TCP handshake**: three-way handshake (SYN, SYN-ACK, ACK), tiga pesan bolak-balik.
