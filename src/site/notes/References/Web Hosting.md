@@ -65,7 +65,5 @@ Reliabilitas 24/7 hanya realistis di plan berbayar. Cek uptime history dan garan
 ## Lihat juga
 
 - [[References/Domain Name\|Domain Name]]: domain sebagai identitas; hosting sebagai rumah file website
-- [[What is Internet\|What is Internet]]: dasar internet, IP address dan DNS
 - [[References/HTTP\|HTTP]]: protokol yang melayani file website ke browser
 - [[References/How Does Internet Work\|How Does Internet Work]]: TCP/IP, server dan koneksi
-- [[VPSTailscaleSSH\|VPSTailscaleSSH]]: praktik VPS + SSH via Tailscale (contoh nyata dedicated/VPS self-managed)
