@@ -10,6 +10,7 @@ I use this space to explore technical ideas, record what works, and keep lessons
 
 Everything here is meant to be useful twice: once while I am learning it, and again when I need it later.
 ## Recent
+- [[References/What is Internet\|What is Internet]]
 - [[References/How Does Internet Work\|How Does Internet Work]]
 
 { .block-language-dataview}
