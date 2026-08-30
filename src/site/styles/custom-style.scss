@@ -1,86 +1,13 @@
 body {
-    --background-primary: #f7f6f1;
-    --background-secondary: #efeee7;
-    --text-normal: #292c29;
-    --text-muted: #6d746f;
-    --text-accent: #3f6b57;
-    --text-accent-hover: #294b3a;
-    --background-modifier-border: #d9d8d0;
-
-    --dg-content-max-width: 700px;
-    --dg-content-padding-top: 90px;
-    --dg-content-font-size: 16px;
-    --dg-content-line-height: 2;
-    --dg-filetree-width: 300px;
-    --dg-filetree-min-width: 300px;
-    --dg-filetree-gap: 80px;
-    --dg-filetree-title-size: 1.2em;
-    --dg-notelink-padding: 10px;
-    --dg-notelink-size: 1rem;
-    --dg-sidebar-top: 75px;
-    --dg-sidebar-max-width: 350px;
-    --dg-sidebar-gap: 80px;
-    --dg-notelink-hover-bg: rgba(63, 107, 87, 0.08);
-
-    background: var(--background-primary);
-    color: var(--text-normal);
-
-    h1,
-    h2,
-    h3,
-    h4 {
-        color: var(--text-normal);
-        letter-spacing: -0.02em;
-        text-wrap: balance;
-    }
-
-    h1 {
-        font-size: clamp(2rem, 5vw, 3rem);
-        line-height: 1.1;
-    }
-
-    h2 {
-        margin-top: 2.5rem;
-        padding-bottom: 0.35rem;
-        border-bottom: 1px solid var(--background-modifier-border);
-    }
-
-    p,
-    li {
-        text-wrap: pretty;
-    }
-
-    a {
-        color: var(--text-accent);
-        text-underline-offset: 0.18em;
-    }
-
-    a:hover {
-        color: var(--text-accent-hover);
-    }
-
-    a:focus-visible,
-    button:focus-visible {
-        outline: 2px solid var(--text-accent);
-        outline-offset: 3px;
-    }
-
-    .filetree-sidebar,
-    .navbar,
-    .sidebar {
-        background: var(--background-primary);
-    }
-
-    .active-note {
-        background: var(--dg-notelink-hover-bg);
-        border-color: var(--text-accent);
-    }
-
-    .home > header h1 {
-        margin-bottom: 1.5rem;
-    }
-
-    @media (max-width: 1000px) {
-        --dg-content-padding-top-mobile: 88px;
-    }
+    /***
+      ADD YOUR CUSTOM STYLING HERE. (INSIDE THE body {...} section.)
+      IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
+   ***/
+    //  background-color: white;
+    //  .content {
+    //   font-size: 14px;
+    //  }
+    //  h1 {
+    //   color: black;
+    //  }
 }
