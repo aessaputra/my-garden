@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/home/","title":"Welcome","tags":["gardenEntry"],"dg-note-properties":{"title":"Welcome","tags":["gardenEntry"],"dgShowInlineTitle":false}}
+{"dg-publish":true,"permalink":"/home/","title":"Welcome","tags":["gardenEntry"],"dg-note-properties":{"title":"Welcome","tags":["gardenEntry"],"dgShowInlineTitle":true}}
 ---
 
 ![2026-08-30-digital-garden-logo-no-bg.png\|123](/img/user/Attachments/2026-08-30-digital-garden-logo-no-bg.png)
