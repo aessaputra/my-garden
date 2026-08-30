@@ -2,8 +2,6 @@
 {"dg-publish":true,"dg-path":"Domain Name.md","permalink":"/domain-name/","title":"Domain Name","hideInFiletree":true,"tags":["references","network","dns","security","guide"],"dg-note-properties":{"title":"Domain Name","category":"references","tags":["references","network","dns","security","guide"],"sources":["_raw/articles/domain-name-expanded.md"],"created":"2026-08-21","updated":"2026-08-30","confidence":"high"}}
 ---
 
-# Domain Name
-
 Domain name adalah nama hierarkis yang digunakan untuk mengenali sumber daya di Internet. Nama seperti `example.com` lebih mudah digunakan manusia daripada alamat IP, sementara [[References/DNS\|DNS]] menghubungkan nama tersebut dengan rekaman seperti alamat server, server surat elektronik, atau server nama.
 
 Domain tidak sama dengan website. Registrasi domain memberi hak untuk memakai sebuah nama selama periode tertentu, sedangkan website memerlukan konten dan layanan [[References/Web Hosting\|hosting]]. Satu domain juga dapat dipakai untuk website, alamat email, API, atau layanan lain melalui konfigurasi DNS yang berbeda.
