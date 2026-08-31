@@ -10,10 +10,10 @@ I use this space to explore technical ideas, record what works, and keep lessons
 
 Everything here is meant to be useful twice: once while I am learning it, and again when I need it later.
 ## Recent
-- [[References/Bun\|Bun]]
-- [[References/Yarn\|Yarn]]
-- [[References/pnpm\|pnpm]]
-- [[References/npm\|npm]]
-- [[References/Package Managers\|Package Managers]]
+- [[References/Astro\|Astro]]
+- [[References/Cloudflare\|Cloudflare]]
+- [[References/GitHub Pages\|GitHub Pages]]
+- [[References/TanStack Start\|TanStack Start]]
+- [[References/Next.js\|Next.js]]
 
 { .block-language-dataview}
