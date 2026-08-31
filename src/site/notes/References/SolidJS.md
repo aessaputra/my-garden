@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"SolidJS.md","permalink":"/solid-js/","title":"SolidJS","hideInFiletree":true,"tags":["references","frameworks","javascript","typescript","ui","architecture","performance"],"dg-note-properties":{"title":"SolidJS","category":"references","tags":["references","frameworks","javascript","typescript","ui","architecture","performance"],"sources":["_raw/articles/solidjs-expanded.md"],"created":"2026-08-31","updated":"2026-08-31","confidence":"high"}}
 ---
 
-SolidJS adalah pustaka JavaScript deklaratif untuk membangun antarmuka pengguna. Alih-alih memakai *virtual DOM*, Solid mengompilasi templat JSX menjadi operasi pada DOM nyata, lalu memperbarui hanya bagian yang bergantung pada data yang berubah. Pendekatan ini disebut reaktivitas berbutir halus (*fine-grained reactivity*).
+[[]]SolidJS adalah pustaka JavaScript deklaratif untuk membangun antarmuka pengguna. Alih-alih memakai *virtual DOM*, Solid mengompilasi templat JSX menjadi operasi pada DOM nyata, lalu memperbarui hanya bagian yang bergantung pada data yang berubah. Pendekatan ini disebut reaktivitas berbutir halus (*fine-grained reactivity*).
 
 ## Cara kerja reaktivitas
 
