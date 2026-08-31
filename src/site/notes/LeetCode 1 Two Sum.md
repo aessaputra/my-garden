@@ -4,7 +4,7 @@
 
 ## Masalah
 
-Diberikan array integer `nums` dan integer `target`. Cari indeks dua elemen berbeda yang ejumlahnya sama dengan `target`. Setiap input dijamin mempunyai tepat satu jawaban.
+Diberikan array integer `nums` dan integer `target`. Cari indeks dua elemen berbeda yang jumlahnya sama dengan `target`. Setiap input dijamin mempunyai tepat satu jawaban.
 
 ## Pola utama: hash map
 
