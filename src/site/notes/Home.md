@@ -10,10 +10,10 @@ I use this space to explore technical ideas, record what works, and keep lessons
 
 Everything here is meant to be useful twice: once while I am learning it, and again when I need it later.
 ## Recent
+- [[References/Parcel\|Parcel]]
+- [[References/Rollup\|Rollup]]
 - [[References/SolidJS\|SolidJS]]
 - [[References/SWC\|SWC]]
 - [[References/Svelte\|Svelte]]
-- [[References/React Native\|React Native]]
-- [[References/Tauri\|Tauri]]
 
 { .block-language-dataview}
