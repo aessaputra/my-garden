@@ -10,10 +10,10 @@ I use this space to explore technical ideas, record what works, and keep lessons
 
 Everything here is meant to be useful twice: once while I am learning it, and again when I need it later.
 ## Recent
-- [[References/Astro\|Astro]]
-- [[References/Cloudflare\|Cloudflare]]
-- [[References/GitHub Pages\|GitHub Pages]]
-- [[References/TanStack Start\|TanStack Start]]
-- [[References/Next.js\|Next.js]]
+- [[References/React Native\|React Native]]
+- [[References/Tauri\|Tauri]]
+- [[References/Electron\|Electron]]
+- [[References/Apollo\|Apollo]]
+- [[References/GraphQL\|GraphQL]]
 
 { .block-language-dataview}
