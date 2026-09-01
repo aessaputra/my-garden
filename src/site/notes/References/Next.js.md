@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Next.js.md","permalink":"/next-js/","title":"Next.js","hideInFiletree":true,"tags":["references","programming","javascript","typescript","react","frameworks","ssr","deployment","performance"],"dg-note-properties":{"title":"Next.js","category":"references","tags":["references","programming","javascript","typescript","react","frameworks","ssr","deployment","performance"],"sources":["_raw/articles/nextjs-expanded.md"],"created":"2026-08-29","updated":"2026-08-29","confidence":"high"}}
+{"dg-publish":true,"dg-path":"Next.js.md","permalink":"/next-js/","title":"Next.js","hideInFiletree":true,"tags":["references","programming","javascript","typescript","react","frameworks","ssr","deployment","performance"],"dg-note-properties":{"title":"Next.js","category":"references","tags":["references","programming","javascript","typescript","react","frameworks","ssr","deployment","performance"],"sources":["_raw/articles/nextjs-expanded.md"],"created":"2026-08-29","updated":"2026-09-01","confidence":"high"}}
 ---
 
 Next.js adalah framework [[References/React\|React]] untuk membangun aplikasi web full-stack. React menyediakan model komponen untuk antarmuka, sedangkan Next.js menambahkan routing, rendering di server, pengambilan dan perubahan data, endpoint HTTP, optimasi aset, serta pilihan deployment. Next.js dapat digunakan untuk situs statis, aplikasi yang dirender saat permintaan masuk, maupun aplikasi interaktif yang memadukan pekerjaan server dan browser.
@@ -57,6 +57,7 @@ Framework ini membawa biaya berupa model cache dan rendering yang perlu dipahami
 ## Lihat juga
 
 - [[References/React\|React]]
+- [[References/Vercel\|Vercel]]
 - [[References/Vite\|Vite]]
 - [[References/JavaScript\|JavaScript]]
 - [[TypeScript\|TypeScript]]
