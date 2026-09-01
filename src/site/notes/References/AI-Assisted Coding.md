@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"AI-Assisted Coding.md","permalink":"/ai-assisted-coding/","title":"AI-Assisted Coding","hideInFiletree":true,"tags":["programming","coding","gpt","research","testing","security","workflow"],"dg-note-properties":{"title":"AI-Assisted Coding","category":"references","tags":["programming","coding","gpt","research","testing","security","workflow"],"sources":["_raw/articles/ai-assisted-coding-research-packet.md"],"created":"2026-09-01","updated":"2026-09-01","confidence":"medium"}}
+{"dg-publish":true,"dg-path":"AI-Assisted Coding.md","permalink":"/ai-assisted-coding/","title":"AI-Assisted Coding","hideInFiletree":true,"tags":["programming","coding","gpt","research","testing","security","workflow"],"dg-note-properties":{"title":"AI-Assisted Coding","category":"references","tags":["programming","coding","gpt","research","testing","security","workflow"],"sources":["_raw/articles/ai-assisted-coding-research-packet.md"],"created":"2026-09-01","updated":"2026-09-02","confidence":"medium"}}
 ---
 
 AI-assisted coding memakai model AI untuk membantu pengembang memahami, menulis, mengubah, menguji, dan meninjau kode.
@@ -166,6 +166,9 @@ Confidence halaman ini medium. Definisi, risiko, dan kontrol didukung kuat, teta
 
 ## Lihat juga
 
+- [[References/AI Agents\|AI Agents]]
+- [[References/Prompt Engineering\|Prompt Engineering]]
+- [[References/Google Antigravity\|Google Antigravity]]
 - [[References/Cara Kerja LLM\|Cara Kerja LLM]]
 - [[References/AI dan Pengembangan Perangkat Lunak Tradisional\|AI dan Pengembangan Perangkat Lunak Tradisional]]
 - [[References/Generative AI for Frontend Development\|Generative AI for Frontend Development]]

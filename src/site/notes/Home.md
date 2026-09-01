@@ -10,10 +10,10 @@ I use this space to explore technical ideas, record what works, and keep lessons
 
 Everything here is meant to be useful twice: once while I am learning it, and again when I need it later.
 ## Recent
-- [[References/Vercel\|Vercel]]
-- [[References/Next.js\|Next.js]]
-- [[References/GitHub Copilot\|GitHub Copilot]]
-- [[References/Cursor\|Cursor]]
+- [[References/Prompt Engineering\|Prompt Engineering]]
+- [[References/Google Antigravity\|Google Antigravity]]
 - [[References/AI-Assisted Coding\|AI-Assisted Coding]]
+- [[References/AI Agents\|AI Agents]]
+- [[References/Cara Kerja LLM\|Cara Kerja LLM]]
 
 { .block-language-dataview}

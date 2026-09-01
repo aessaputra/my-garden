@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Vercel.md","permalink":"/vercel/","title":"Vercel","hideInFiletree":true,"tags":["references","deployment","devops","performance"],"dg-note-properties":{"title":"Vercel","category":"references","tags":["references","deployment","devops","performance"],"sources":["_raw/articles/vercel-expanded.md","_raw/articles/vercel-9router-fetch-correction-2026-09-01.md"],"created":"2026-09-01","updated":"2026-09-01","confidence":"high"}}
+{"dg-publish":true,"dg-path":"Vercel.md","permalink":"/vercel/","title":"Vercel","hideInFiletree":true,"tags":["references","deployment","devops","performance"],"dg-note-properties":{"title":"Vercel","category":"references","tags":["references","deployment","devops","performance"],"sources":["_raw/articles/vercel-expanded.md","_raw/articles/vercel-9router-fetch-correction-2026-09-01.md"],"created":"2026-09-01","updated":"2026-09-02","confidence":"high"}}
 ---
 
 Vercel adalah platform terkelola untuk membangun, menerbitkan, dan menjalankan aplikasi web. Platform ini memadukan proses build, deployment, CDN, komputasi terkelola, domain, keamanan, serta observabilitas.
@@ -80,6 +80,10 @@ Backend stateful, proses sangat panjang, protokol khusus, atau kontrol jaringan 
 
 ## Lihat juga
 
+- [[References/Deployment\|Deployment]]
+- [[References/Render\|Render]]
+- [[References/Railway\|Railway]]
+- [[References/Netlify\|Netlify]]
 - [[References/Next.js\|Next.js]]
 - [[References/Cloudflare\|Cloudflare]]
 - [[Content Delivery Network\|Content Delivery Network]]
