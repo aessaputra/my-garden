@@ -167,6 +167,7 @@ Confidence halaman ini medium. Definisi, risiko, dan kontrol didukung kuat, teta
 ## Lihat juga
 
 - [[References/AI Agents\|AI Agents]]
+- [[References/Skills pada AI Coding Assistants\|Skills pada AI Coding Assistants]]
 - [[References/Prompt Engineering\|Prompt Engineering]]
 - [[References/Google Antigravity\|Google Antigravity]]
 - [[References/Cara Kerja LLM\|Cara Kerja LLM]]

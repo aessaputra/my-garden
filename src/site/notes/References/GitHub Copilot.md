@@ -142,6 +142,8 @@ Dibanding [[References/Cursor\|Cursor]], Copilot terintegrasi lebih erat dengan 
 
 - [[References/Google Antigravity\|Google Antigravity]]
 - [[References/AI-Assisted Coding\|AI-Assisted Coding]]
+- [[References/AI-Powered Code Review\|AI-Powered Code Review]]
+- [[References/Refactoring dengan AI\|Refactoring dengan AI]]
 - [[References/GitHub\|GitHub]]
 - [[References/Cursor\|Cursor]]
 - [[References/Claude Code\|Claude Code]]

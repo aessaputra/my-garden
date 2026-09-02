@@ -134,6 +134,7 @@ Prompt engineering bukan pengganti desain produk, data yang benar, model yang me
 ## Lihat juga
 
 - [[References/AI Agents\|AI Agents]]
+- [[References/Model Context Protocol\|Model Context Protocol]]
 - [[References/Cara Kerja LLM\|Cara Kerja LLM]]
 - [[References/AI-Assisted Coding\|AI-Assisted Coding]]
 - [[References/Google Antigravity\|Google Antigravity]]

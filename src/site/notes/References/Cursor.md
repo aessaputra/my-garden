@@ -216,6 +216,7 @@ Confidence halaman ini high untuk kemampuan dan kebijakan yang terdokumentasi pa
 
 - [[References/Google Antigravity\|Google Antigravity]]
 - [[References/AI-Assisted Coding\|AI-Assisted Coding]]
+- [[References/Model Context Protocol\|Model Context Protocol]]
 - [[References/Cara Kerja LLM\|Cara Kerja LLM]]
 - [[References/Claude Code\|Claude Code]]
 - [[References/Git\|Git]]

@@ -1,121 +1,175 @@
 ---
-{"dg-publish":true,"dg-path":"Generative AI for Frontend Development.md","permalink":"/generative-ai-for-frontend-development/","title":"Generative AI for Frontend Development","hideInFiletree":true,"tags":["programming","ui","coding","gpt","react"],"dg-note-properties":{"title":"Generative AI for Frontend Development","category":"references","tags":["programming","ui","coding","gpt","react"],"sources":["_raw/articles/generative-ai-for-frontend-development.md","_raw/articles/ai-software-development-ibm.md","_raw/articles/ai-software-development-github.md","_raw/articles/frontend-ai-tools-logrocket.md","_raw/articles/ai-models-frontend-ui-index-dev.md"],"created":"2026-08-25","updated":"2026-08-26","confidence":"medium"}}
+{"dg-publish":true,"dg-path":"Generative AI for Frontend Development.md","permalink":"/generative-ai-for-frontend-development/","title":"AI dalam Pengembangan Frontend","hideInFiletree":true,"tags":["programming","ui","coding","gpt","react","testing","security","performance","research"],"dg-note-properties":{"title":"AI dalam Pengembangan Frontend","category":"references","tags":["programming","ui","coding","gpt","react","testing","security","performance","research"],"sources":["_raw/articles/ai-frontend-development-research-packet.md","_raw/articles/ai-frontend-development-research-packet-correction-2026-09-02.md"],"created":"2026-08-25","updated":"2026-09-02","confidence":"medium"}}
 ---
 
-Generative AI membuat konten baru dari pola yang dipelajari dalam data pelatihan. Dalam pengembangan frontend, keluarannya dapat berupa potongan kode, komponen UI, test case, dokumentasi, wireframe, atau tata letak halaman. Nilai utamanya bukan menggantikan developer, melainkan mempersingkat pekerjaan berulang agar waktu dapat dialihkan ke arsitektur, pengalaman pengguna, dan pemeriksaan kualitas.
+AI dalam pengembangan frontend mencakup dua lapisan. AI dapat membantu proses desain, implementasi, pengujian, dan review. AI juga dapat menjadi fitur aplikasi yang berinteraksi langsung dengan pengguna.
+
+Perbedaan ini penting. Code assistant bekerja pada proses pembuatan produk, sedangkan runtime AI menjadi bagian dari arsitektur, data, performa, keamanan, dan pengalaman pengguna produk tersebut.
 
 ## Posisi dalam alur pengembangan
 
-Generative AI dapat dipakai sepanjang software development lifecycle (SDLC), bukan hanya saat menulis kode:
+Pada tahap kebutuhan, AI dapat membantu menyusun user story, acceptance criteria, variasi alur, dan pertanyaan yang belum terjawab. Hasilnya tetap perlu diselaraskan dengan kebutuhan pengguna dan keputusan produk.
 
-1. Pada tahap kebutuhan, AI mengubah gagasan menjadi requirement, user story, dan rancangan fitur.
-2. Pada tahap desain, AI membantu membuat wireframe, mockup, variasi layout, serta rancangan komponen.
-3. Pada tahap implementasi, AI menghasilkan boilerplate, autocomplete, fungsi, dokumentasi, dan usulan refactoring.
-4. Pada tahap pengujian, AI menyusun test case, mencari bug, memeriksa kerentanan, dan membandingkan konsistensi visual.
-5. Pada deployment dan pemeliharaan, AI membantu CI/CD, monitoring, prediksi kegagalan, serta analisis masalah setelah rilis. ^[_raw/articles/ai-software-development-ibm.md] ^[_raw/articles/ai-software-development-github.md]
+Pada tahap desain, model generatif dapat membuat wireframe, mockup, komponen, teks antarmuka, dan alternatif visual. Ia mempercepat eksplorasi, tetapi tidak otomatis memahami design system atau konteks merek.
 
-Bagi frontend developer, bagian paling terasa berada pada peralihan antara desain dan kode. Prompt teks, screenshot, atau desain Figma dapat diubah menjadi struktur [[References/HTML\|HTML]], styling [[References/CSS\|CSS]] atau [[References/Tailwind CSS\|Tailwind CSS]], dan komponen [[References/React\|React]]. Hasil awal ini cocok untuk prototipe dan scaffolding, tetapi belum otomatis layak produksi.
+Pada implementasi, asisten dapat menghasilkan boilerplate, saran inline, tipe, dokumentasi, refactor, dan test awal. [GitHub](https://docs.github.com/en/copilot/responsible-use/copilot-code-completion) mendokumentasikan kemampuan ini.
 
-## Pekerjaan yang cocok dibantu AI
+Pada pengujian, AI dapat membantu menyusun skenario, menghasilkan test, menjalankan suite, dan mengusulkan perbaikan. Otomatisasi tersebut memperluas kandidat cakupan, bukan membuktikan bahwa assertion sudah benar.
 
-### Pembuatan UI dan prototipe
+Setelah rilis, AI dapat membantu analisis error, observability, klasifikasi feedback, dan eksperimen UI. Keputusan produksi tetap memerlukan metrik yang dapat diaudit serta prosedur rollback.
 
-AI dapat menyusun navbar, hero section, form, card, dashboard, dan layout responsif dari deskripsi singkat. Beberapa alat juga menawarkan saran warna, tipografi, spacing, dan variasi desain. Ini mempercepat eksplorasi karena tim dapat membandingkan beberapa arah visual sebelum menghabiskan waktu untuk implementasi rinci.
+## Pembuatan UI dan kode
 
-### Penulisan dan refactoring kode
+Prompt teks, screenshot, atau desain dapat diubah menjadi struktur [[References/HTML\|HTML]], styling [[References/CSS\|CSS]], dan komponen [[References/React\|React]]. Hasil awal cocok untuk prototipe dan scaffolding, tetapi belum otomatis layak produksi.
 
-Coding assistant membaca komentar, file aktif, atau konteks repositori untuk menyarankan kode. Kegunaannya paling jelas pada boilerplate, migrasi pola berulang, pembuatan tipe, dokumentasi fungsi, dan refactoring lintas file. Perubahan besar tetap perlu ditinjau karena alat dapat salah memahami dependensi atau mempertahankan pola lama yang tidak diinginkan.
+AI paling berguna pada pekerjaan yang jelas, berulang, dan mudah diverifikasi. Contohnya adalah komponen dasar, migrasi pola, dokumentasi, variasi copy, data tiruan, serta test untuk perilaku yang sudah ditentukan.
 
-### Pengujian dan quality assurance
+Hasil perlu dinilai terhadap requirement, design token, state, aksesibilitas, responsivitas, performa, keamanan, dan struktur proyek. UI yang tampak rapi dapat tetap salah secara perilaku atau sulit dipelihara.
 
-AI dapat menghasilkan unit test, mengusulkan edge case, menjalankan pemeriksaan statis, dan membantu menemukan pola yang rawan bug. Computer vision juga dapat dipakai untuk membandingkan hasil render, mendeteksi pergeseran layout, dan memeriksa konsistensi visual pada perangkat berbeda. Cakupan yang lebih luas tetap tidak menjamin kualitas jika assertion yang dibuat tidak menguji perilaku penting.
+AI tidak menghapus kebutuhan pemahaman framework. Developer tetap perlu mengetahui lifecycle, rendering, state management, event, browser API, jaringan, dan batas platform untuk menilai solusi.
 
-### Aksesibilitas, performa, dan keamanan
+## Pengujian dan quality assurance
 
-Asisten AI dapat menyarankan semantic markup, label aksesibilitas, optimasi render, atau perbaikan kerentanan. Saran tersebut harus diperlakukan sebagai bahan review. Kode yang tampak benar masih dapat membawa masalah seperti XSS, validasi input yang lemah, dependensi yang tidak aman, atau interaksi yang sulit digunakan dengan keyboard dan screen reader.
+[Playwright Test Agents](https://playwright.dev/docs/test-agents) menyediakan planner, generator, dan healer. Ketiganya dapat menyusun rencana, menghasilkan test, menjalankan suite, dan memperbaiki test yang gagal.
 
-## Jenis alat dan kegunaannya
+[Playwright Codegen](https://playwright.dev/docs/codegen-intro) merekam interaksi dan menyarankan locator. Ia memprioritaskan role, text, dan test ID untuk menghasilkan locator yang lebih tahan perubahan.
 
-| Kategori | Contoh dalam sumber | Kegunaan utama | Catatan |
-| --- | --- | --- | --- |
-| Coding assistant | GitHub Copilot | Autocomplete, chat tentang kode, debugging, perubahan lintas file | Cocok di IDE dan tetap membutuhkan review |
-| AI code editor | Cursor | Memahami konteks repositori dan refactoring banyak file | Indexing proyek membantu konteks, tetapi perubahan massal berisiko luas |
-| UI generator | Vercel v0 | Membuat halaman dan komponen Next.js dengan Tailwind CSS serta shadcn/ui | Kuat untuk scaffolding dalam ekosistem tertentu |
-| Design-to-code | Google Stitch, CodeParrot | Mengubah prompt, screenshot, atau Figma menjadi desain dan kode | Periksa struktur komponen dan kesesuaian design system |
-| No-code component generator | WebCrumbs | Membuat komponen React, JSX, dan Tailwind dari prompt atau wireframe | Berguna untuk prototipe dan komponen awal |
-| UX prototyping | UX Pilot | Membuat wireframe, screen flow, dan high-fidelity screen | Lebih dekat ke tahap eksplorasi desain |
-| Analisis keamanan | DeepCode AI dari Snyk | Static analysis dan deteksi pola kerentanan | Dapat menghasilkan false positive |
+Test yang dihasilkan tetap harus diperiksa. Assertion yang mengulang implementasi, healer yang mengubah ekspektasi, atau data uji yang terlalu bersih dapat memberi status hijau tanpa melindungi perilaku pengguna.
 
-Daftar alat tersebut terikat waktu. Fitur, model, harga, integrasi, dan kualitas keluarannya dapat berubah. Evaluasi sebaiknya dilakukan menggunakan repositori dan kebutuhan tim sendiri, bukan hanya contoh dari vendor atau artikel perbandingan.
+Verifikasi frontend perlu mencakup unit test, integration test, end-to-end test, visual regression, lint, type check, serta uji manual pada browser, viewport, input, jaringan, dan teknologi bantu yang relevan.
 
-## Cara memilih alat
+## AI sebagai fitur frontend
 
-Alat frontend berbasis AI perlu dinilai dari hasil yang dapat diperiksa:
+AI runtime dapat menjalankan tugas seperti penerjemahan, peringkasan, klasifikasi, pencarian semantik, pengolahan media, rekomendasi, dan bantuan percakapan.
 
-- Ketepatan UI terhadap requirement dan design system.
-- Keterbacaan serta kemudahan mengubah kode.
-- Dukungan terhadap framework dan struktur proyek yang dipakai.
-- Kualitas responsive behavior, aksesibilitas, dan performa.
-- Kemampuan bekerja dengan Figma, IDE, Git, testing, dan CI/CD.
-- Privasi kode, kebijakan retensi data, lisensi, dan kepemilikan keluaran.
-- Banyaknya koreksi manual sebelum hasil dapat digabungkan.
+Frontend dapat memanggil model pada server, memakai model bawaan browser, atau menjalankan model sendiri di perangkat. Pemilihan lokasi inferensi menentukan kemampuan, biaya, latensi, privasi, dan kompatibilitas.
 
-Kecepatan generasi saja kurang berguna jika developer harus menulis ulang struktur komponen, memperbaiki state management, atau membersihkan styling yang tidak konsisten. 
+### Inferensi pada server
+
+Server dapat memakai model lebih besar dan memberi hasil yang konsisten lintasperangkat. Ia juga mempermudah pembaruan model, kontrol akses, moderasi terpusat, observability, dan integrasi dengan data aplikasi.
+
+Trade-off-nya adalah latensi jaringan, biaya inferensi, kebutuhan konektivitas, dan pengiriman data keluar perangkat. Streaming serta caching dapat membantu, tetapi tidak menghapus kewajiban privasi dan keamanan.
+
+### Inferensi pada perangkat
+
+[web.dev](https://web.dev/learn/ai/client-side) membedakan API AI bawaan browser dari library yang menjalankan model kustom. Keduanya memungkinkan inferensi tanpa server pada perangkat pengguna.
+
+[Chrome](https://developer.chrome.com/docs/ai/built-in/overview) menyebut pemrosesan lokal dapat mengurangi round trip, menjaga sebagian data sensitif tetap lokal, dan membantu penggunaan saat koneksi buruk.
+
+Manfaat tersebut tidak universal. Model mungkin perlu diunduh, hardware dapat tidak memenuhi syarat, dan dukungan browser belum merata. Aplikasi perlu feature detection, batas resource, dan fallback yang jelas.
+
+[TensorFlow.js](https://www.tensorflow.org/js) dapat menjalankan model yang ada, mengonversi model Python, serta membangun atau melatih model dengan JavaScript di browser maupun Node.js.
+
+Model client-side memberi fleksibilitas, tetapi ukuran unduhan, memori, waktu inisialisasi, panas perangkat, baterai, dan backend akselerasi menjadi bagian dari anggaran performa frontend.
+
+### Arsitektur hybrid
+
+Arsitektur hybrid memilih lokasi inferensi menurut tugas dan kondisi. Tugas kecil atau sensitif dapat berjalan lokal, sedangkan model besar, retrieval, agent, dan workflow kompleks dapat tetap berada di server.
+
+Fallback harus mempertahankan fungsi inti. Aplikasi tidak boleh menjadi tidak dapat dipakai hanya karena model belum tersedia, unduhan gagal, perangkat lemah, atau API browser tidak didukung.
+
+## Personalisasi dan antarmuka adaptif
+
+AI dapat memilih urutan konten, rekomendasi, tingkat detail, bahasa, atau bantuan berdasarkan konteks. Personalisasi demikian perlu tujuan yang terukur, data minimum, kontrol pengguna, dan cara untuk memulihkan keadaan.
+
+AI bukan prasyarat bagi layout responsif atau adaptif. CSS, media query, container query, dan preferensi sistem dapat menyesuaikan antarmuka secara deterministik dengan hasil yang lebih mudah diprediksi.
+
+[MDN](https://developer.mozilla.org/en-US/docs/Web/Accessibility/Guides/Browsing_safely) mencontohkan `prefers-reduced-motion`, yang meneruskan preferensi pengguna dari sistem operasi ke browser dan CSS.
+
+Antarmuka yang berubah tanpa penjelasan dapat mengganggu orientasi, konsistensi, dan pembelajaran pengguna. Personalisasi sebaiknya dapat dipahami, dibatalkan, serta tidak menyembunyikan fungsi penting.
+
+## Aksesibilitas
+
+AI dapat membantu menghasilkan alternatif teks, caption, transkripsi, simplifikasi bahasa, deteksi masalah, dan transformasi konten. Hasilnya harus diuji dengan pengguna dan teknologi bantu, bukan hanya dinilai oleh model.
+
+[W3C](https://www.w3.org/WAI/fundamentals/accessibility-principles) menempatkan aksesibilitas pada empat prinsip: perceivable, operable, understandable, dan robust. AI tidak menggantikan persyaratan tersebut.
+
+Simposium [W3C tentang AI dan aksesibilitas](https://www.w3.org/WAI/research/ai2023) mencatat peluang sekaligus risiko, termasuk bias, representasi data, privasi, transparansi, dan dampak pada pengguna disabilitas.
+
+Evaluasi otomatis tidak membuktikan kepatuhan. Keyboard, screen reader, zoom, kontras, reduced motion, cognitive load, error recovery, dan prediktabilitas interaksi tetap memerlukan pemeriksaan nyata.
+
+## Performa dan pengalaman pengguna
+
+Nilai AI harus diukur dari pengalaman akhir, bukan kecanggihan model. Waktu respons, kestabilan layout, penggunaan memori, konsumsi data, baterai, serta kegagalan parsial memengaruhi apakah fitur benar-benar membantu.
+
+Tampilkan status saat model memuat atau bekerja. Sediakan cancel, retry, timeout, fallback, dan penjelasan error. Jangan membuat pengguna menunggu tanpa mengetahui apakah proses masih berjalan.
+
+Pisahkan konten deterministik dari keluaran probabilistik. Harga, izin, transaksi, status akun, dan instruksi keselamatan tidak boleh berubah hanya karena generasi model yang tidak tervalidasi.
+
+## Keamanan, privasi, dan kepercayaan
+
+Prompt, output model, dokumen retrieval, dan hasil tool harus diperlakukan sebagai input tidak tepercaya. Escape output, validasi struktur, batasi izin, dan jangan mengeksekusi kode atau markup hasil model secara langsung.
+
+[OWASP GenAI](https://genai.owasp.org/llm-top-10/) mencantumkan prompt injection dan kelas risiko lain untuk sistem LLM. Frontend perlu menghindari kebocoran system prompt, token, data pengguna, dan konteks internal.
+
+Pemrosesan lokal dapat mengurangi pengiriman data, tetapi tidak otomatis membuat aplikasi privat. Telemetry, sinkronisasi, model download, browser extension, cache, dan layanan pihak ketiga masih perlu diaudit.
+
+Personalisasi memerlukan dasar data yang jelas. Kumpulkan sesedikit mungkin, jelaskan tujuannya, batasi retensi, dan sediakan kontrol untuk melihat, mengubah, atau menghapus preferensi.
+
+Keluaran yang memengaruhi pengguna perlu menunjukkan batas kemampuan. Untuk keputusan penting, sediakan sumber, konfirmasi manusia, jalur banding, dan alternatif non-AI.
+
+## Bukti dan cara mengevaluasi
+
+Riset [GitHub](https://github.blog/news-insights/research/research-quantifying-github-copilots-impact-on-code-quality) melaporkan review 15 persen lebih cepat dan persepsi mutu lebih tinggi pada eksperimen Copilot Chat.
+
+Temuan itu berasal dari vendor dan kondisi tertentu. Ia tidak membuktikan percepatan universal untuk semua framework, repositori, tingkat pengalaman, atau standar produksi.
+
+Evaluasi alat dengan tugas frontend nyata. Ukur waktu total, fidelity terhadap desain, defect, rework, review time, accessibility issue, performa, keamanan, biaya, dan keberhasilan pengguna.
+
+Bandingkan dengan baseline tanpa AI. Hitung waktu prompt, menunggu, audit, koreksi, pengujian, dan integrasi. Kecepatan generasi saja dapat menyembunyikan verification tax.
+
+Untuk fitur runtime, lakukan eksperimen terkontrol. Ukur task completion, error, latency, fallback rate, opt-out, kepuasan, serta dampak berbeda pada perangkat, bahasa, dan kelompok pengguna.
 
 ## Alur kerja yang aman
 
-1. Berikan konteks yang cukup: framework, design system, browser target, aturan aksesibilitas, format data, dan batasan performa.
-2. Minta perubahan kecil dengan ruang lingkup jelas. Periksa hasil sebelum memperluas tugas.
-3. Tinjau setiap diff. Jangan menerima perubahan lintas file hanya karena kode berhasil dikompilasi.
-4. Jalankan lint, type check, unit test, integration test, visual regression test, dan pemeriksaan keamanan yang relevan.
-5. Uji UI dengan keyboard, screen reader, ukuran layar berbeda, koneksi lambat, dan data ekstrem.
-6. Hentikan prompt cycle jika beberapa percobaan menghasilkan solusi yang makin tidak konsisten. Selesaikan bagian tersebut secara manual atau gunakan alat lain.
-7. Catat keputusan desain dan alasan perubahan agar kode tidak hanya mengikuti keluaran model terakhir.
-
-Aturan pembagian 80% kode manusia dan 20% bantuan AI disebut sebagai pedoman dalam artikel LogRocket, bukan standar universal. Ukuran yang lebih berguna adalah berapa banyak waktu yang benar-benar hemat setelah review, pengujian, dan perbaikan dihitung.
-
-## Risiko
-
-### Kode yang meyakinkan tetapi salah
-
-Model dapat menghasilkan API yang tidak ada, salah memahami versi framework, atau menulis kode yang lolos lint tetapi tidak memenuhi requirement. Pengujian terhadap perilaku lebih penting daripada sekadar memastikan kode dapat dijalankan.
-
-### Kerentanan keamanan
-
-Kode hasil AI dapat membawa validasi yang lemah, pola autentikasi yang keliru, XSS, SQL injection pada bagian backend yang terkait, atau penggunaan dependensi bermasalah. Human review dan automated security checks tetap diperlukan.
-
-### Inkonsistensi design system
-
-UI generator sering menghasilkan halaman yang tampak rapi secara terpisah, tetapi tidak selalu mengikuti token, spacing, komponen, atau pola interaksi produk. Tim perlu menetapkan satu design system dan menyertakan aturannya dalam prompt serta review.
-
-### Ketergantungan dan penurunan pemahaman
-
-Developer yang menerima kode tanpa memahami alurnya akan kesulitan saat debugging atau ketika alat gagal. AI lebih aman dipakai untuk mempercepat pekerjaan yang sudah dapat dievaluasi oleh developer, bukan untuk menutupi pemahaman yang belum dimiliki.
-
-### Bias, privasi, dan kekayaan intelektual
-
-Keluaran dapat mewarisi bias data pelatihan. Pengiriman source code ke layanan eksternal juga menimbulkan persoalan privasi, sedangkan kode yang dihasilkan dapat memiliki implikasi lisensi dan kepemilikan. Kebijakan organisasi perlu menjelaskan data apa yang boleh dikirim dan bagaimana hasil AI diperiksa. 
+1. Tetapkan masalah pengguna, kriteria penerimaan, framework, browser target, design system, batas data, aksesibilitas, performa, dan keamanan.
+2. Pilih apakah AI hanya membantu developer atau menjadi fitur produk. Lapisan kedua memerlukan desain arsitektur dan threat model yang lebih luas.
+3. Batasi perubahan. Minta diff kecil dan inspectable, lalu periksa sebelum memperluas tugas.
+4. Jalankan lint, type check, test, visual regression, security check, dan uji aksesibilitas yang relevan.
+5. Uji hasil pada data ekstrem, browser berbeda, keyboard, screen reader, koneksi lambat, perangkat lemah, timeout, dan model yang tidak tersedia.
+6. Untuk runtime AI, validasi input dan output, batasi resource, sediakan fallback, dan catat telemetry tanpa mengumpulkan isi sensitif secara berlebihan.
+7. Dokumentasikan keputusan, model, prompt atau konfigurasi, dataset evaluasi, batas kemampuan, serta prosedur rollback.
 
 ## Peran frontend developer
 
-Generative AI mengurangi waktu untuk scaffolding dan pencarian sintaks, tetapi tidak mengambil alih tanggung jawab teknis. Frontend developer tetap menentukan arsitektur komponen, state management, aksesibilitas, performa, keamanan, konsistensi visual, dan kesesuaian produk dengan kebutuhan pengguna.
+AI memindahkan sebagian waktu dari pengetikan menuju perumusan masalah, pemberian konteks, evaluasi, dan integrasi. Tanggung jawab atas kode dan pengalaman pengguna tidak berpindah kepada model.
 
-Peran tersebut bergeser ke pekerjaan yang membutuhkan konteks dan penilaian: memilih pendekatan, membatasi ruang perubahan, menilai trade-off, menguji hasil, serta memperbaiki keluaran model. AI dapat menulis kode lebih cepat, tetapi developer tetap bertanggung jawab atas kode yang masuk ke produksi.
+Frontend developer tetap menentukan arsitektur komponen, state, aksesibilitas, performa, keamanan, konsistensi visual, observability, dan kesesuaian produk dengan kebutuhan pengguna.
+
+Kemampuan terpenting adalah membedakan kandidat yang cepat dari solusi yang benar. Developer perlu memahami hasil, menguji perilakunya, dan mampu memeliharanya ketika alat atau model asal tidak tersedia.
+
+## Batas kesimpulan
+
+Confidence halaman ini medium. Kemampuan teknis dan kelas risiko didukung sumber primer, tetapi manfaat produktivitas, personalisasi, dan pengalaman pengguna bergantung pada tugas serta konteks implementasi.
+
+API AI browser berubah cepat. Status dukungan, persyaratan hardware, dan versi stabil harus diperiksa kembali sebelum implementasi.
+
+Belum ada benchmark independen yang mencakup seluruh workflow frontend sambil mengisolasi code generation, design-to-code, testing, runtime AI, review, dan rework.
 
 ## Lihat juga
 
+- [[References/AI-Assisted Coding\|AI-Assisted Coding]]
+- [[References/Cara Kerja LLM\|Cara Kerja LLM]]
 - [[References/AI dan Pengembangan Perangkat Lunak Tradisional\|AI dan Pengembangan Perangkat Lunak Tradisional]]
+- [[References/Prompt Engineering\|Prompt Engineering]]
+- [[References/Aksesibilitas\|Aksesibilitas]]
+- [[References/Chrome DevTools\|Chrome DevTools]]
+- [[References/Playwright\|Playwright]]
 - [[References/React\|React]]
 - [[References/CSS\|CSS]]
 - [[References/JavaScript\|JavaScript]]
-- [[References/Tailwind CSS\|Tailwind CSS]]
-- [[References/Pengujian di React Native\|Pengujian di React Native]]
-- [[References/Aksesibilitas\|Aksesibilitas]]
-- [[References/Performa di React Native\|Performa di React Native]]
 
 ## Sumber
 
-- [IBM: AI in software development](https://www.ibm.com/think/topics/ai-in-software-development), gambaran penggunaan AI sepanjang SDLC, manfaat, dan risikonya.
-- [GitHub: AI in software development](https://github.com/resources/articles/ai-in-software-development), penggunaan machine learning, NLP, computer vision, dan Generative AI dalam pengembangan perangkat lunak.
-- [LogRocket: Frontend AI tools for developers](https://blog.logrocket.com/frontend-ai-tools-for-developers/), kategori alat frontend, contoh alur kerja, dan batasan penggunaan.
-- [Index.dev: AI models for frontend development and UI generation](https://www.index.dev/blog/ai-models-frontend-development-ui-generation), perbandingan alat UI generation dan design-to-code.
+- [GitHub Docs: Copilot inline suggestions](https://docs.github.com/en/copilot/responsible-use/copilot-code-completion), kemampuan code generation, test, keterbatasan, dan review manusia.
+- [GitHub Research: Copilot dan code quality](https://github.blog/news-insights/research/research-quantifying-github-copilots-impact-on-code-quality), eksperimen vendor tentang mutu dan review.
+- [Playwright: Test Agents](https://playwright.dev/docs/test-agents), planner, generator, dan healer untuk pengujian web.
+- [Playwright: Codegen](https://playwright.dev/docs/codegen-intro), perekaman interaksi dan pembuatan locator.
+- [web.dev: Client-side AI stack](https://web.dev/learn/ai/client-side), API bawaan browser dan library model client-side.
+- [Chrome for Developers: Built-in AI](https://developer.chrome.com/docs/ai/built-in/overview), manfaat, batas perangkat, dan fallback.
+- [Chrome for Developers: Built-in AI APIs](https://developer.chrome.com/docs/ai/built-in-apis), status dan use case API AI browser.
+- [TensorFlow.js](https://www.tensorflow.org/js), inferensi, konversi, dan pelatihan model dalam JavaScript.
+- [W3C: AI and Accessibility Research Symposium](https://www.w3.org/WAI/research/ai2023), peluang dan risiko AI bagi aksesibilitas digital.
+- [W3C: Accessibility Principles](https://www.w3.org/WAI/fundamentals/accessibility-principles), prinsip antarmuka yang accessible.
+- [MDN: Personalization for safer browsing](https://developer.mozilla.org/en-US/docs/Web/Accessibility/Guides/Browsing_safely), preferensi aksesibilitas dan `prefers-reduced-motion`.
+- [OWASP GenAI: LLM Risks](https://genai.owasp.org/llm-top-10/), kelas risiko keamanan aplikasi LLM.

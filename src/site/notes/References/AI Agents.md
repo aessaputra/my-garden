@@ -168,7 +168,9 @@ Tujuan yang prudent bukan otonomi maksimum. Tujuannya adalah tingkat delegasi te
 ## Lihat juga
 
 - [[References/Cara Kerja LLM\|Cara Kerja LLM]]
+- [[References/Skills pada AI Coding Assistants\|Skills pada AI Coding Assistants]]
 - [[References/Prompt Engineering\|Prompt Engineering]]
+- [[References/Model Context Protocol\|Model Context Protocol]]
 - [[References/AI-Assisted Coding\|AI-Assisted Coding]]
 - [[References/Google Antigravity\|Google Antigravity]]
 - [[References/Cursor\|Cursor]]
