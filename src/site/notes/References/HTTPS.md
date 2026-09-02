@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"HTTPS.md","permalink":"/https/","title":"HTTPS","hideInFiletree":true,"tags":["references","security","programming","http","networking"],"dg-note-properties":{"title":"HTTPS","category":"references","tags":["references","security","programming","http","networking"],"sources":["_raw/articles/https-expanded.md"],"created":"2026-08-29","updated":"2026-08-29","confidence":"high"}}
+{"dg-publish":true,"dg-path":"HTTPS.md","permalink":"/https/","title":"HTTPS","hideInFiletree":true,"tags":["references","security","programming","http","networking"],"noteIcon":"","dg-note-properties":{"title":"HTTPS","category":"references","tags":["references","security","programming","http","networking"],"sources":["_raw/articles/https-expanded.md"],"created":"2026-08-29","updated":"2026-08-29","confidence":"high"}}
 ---
 
 ![2026-08-29-how-https-works.jpeg](/img/user/Attachments/2026-08-29-how-https-works.jpeg)

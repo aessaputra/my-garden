@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/home/","title":"Home","contentClasses":"home","tags":["gardenEntry"],"dg-note-properties":{"title":"Home","tags":["gardenEntry"],"cssClasses":["home"]}}
+{"dg-publish":true,"permalink":"/home/","title":"Home","contentClasses":"home","tags":["gardenEntry"],"noteIcon":"","dg-note-properties":{"title":"Home","tags":["gardenEntry"],"cssClasses":["home"],"noteIcon":"1"}}
 ---
 
 ![2026-08-30-digital-garden-logo-no-bg.png\|123](/img/user/Attachments/2026-08-30-digital-garden-logo-no-bg.png)
@@ -10,8 +10,8 @@ I use this space to explore technical ideas, record what works, and keep lessons
 
 Everything here is meant to be useful twice: once while I am learning it, and again when I need it later.
 ## Recent
-- [[SiFarma\|SiFarma]]
 - [[Craft\|Craft]]
+- [[SiFarma\|SiFarma]]
 - [[References/Cursor\|Cursor]]
 - [[LeetCode 2 Add Two Numbers\|LeetCode 2 Add Two Numbers]]
 - [[References/Refactoring dengan AI\|Refactoring dengan AI]]

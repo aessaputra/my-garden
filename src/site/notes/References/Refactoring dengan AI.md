@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Refactoring dengan AI.md","permalink":"/refactoring-dengan-ai/","title":"Refactoring dengan AI","hideInFiletree":true,"tags":["programming","coding","gpt","workflow","testing","optimization","research"],"dg-note-properties":{"title":"Refactoring dengan AI","category":"references","tags":["programming","coding","gpt","workflow","testing","optimization","research"],"sources":["_raw/articles/refactoring-dengan-ai-research-packet.md"],"created":"2026-09-02","updated":"2026-09-02","confidence":"medium"}}
+{"dg-publish":true,"dg-path":"Refactoring dengan AI.md","permalink":"/refactoring-dengan-ai/","title":"Refactoring dengan AI","hideInFiletree":true,"tags":["programming","coding","gpt","workflow","testing","optimization","research"],"noteIcon":"","dg-note-properties":{"title":"Refactoring dengan AI","category":"references","tags":["programming","coding","gpt","workflow","testing","optimization","research"],"sources":["_raw/articles/refactoring-dengan-ai-research-packet.md"],"created":"2026-09-02","updated":"2026-09-02","confidence":"medium"}}
 ---
 
 Refactoring dengan AI memakai model AI untuk membantu memahami, merencanakan, menyarankan, atau menerapkan restrukturisasi kode tanpa mengubah perilaku eksternal yang diharapkan.

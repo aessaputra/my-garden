@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"GitHub.md","permalink":"/git-hub/","title":"GitHub","hideInFiletree":true,"tags":["git","github","version-control","programming","tutorial","guide"],"dg-note-properties":{"title":"GitHub","category":"references","tags":["git","github","version-control","programming","tutorial","guide"],"sources":["_raw/articles/github-hello-world.md","_raw/articles/github-skills-quickstart.md","_raw/articles/github-skills-content-model.md","_raw/articles/github-how-github-works-youtube.md"],"created":"2026-08-21","updated":"2026-08-21"}}
+{"dg-publish":true,"dg-path":"GitHub.md","permalink":"/git-hub/","title":"GitHub","hideInFiletree":true,"tags":["git","github","version-control","programming","tutorial","guide"],"noteIcon":"","dg-note-properties":{"title":"GitHub","category":"references","tags":["git","github","version-control","programming","tutorial","guide"],"sources":["_raw/articles/github-hello-world.md","_raw/articles/github-skills-quickstart.md","_raw/articles/github-skills-content-model.md","_raw/articles/github-how-github-works-youtube.md"],"created":"2026-08-21","updated":"2026-08-21"}}
 ---
 
 GitHub adalah layanan hosting untuk repository Git dan tempat orang membangun software bersama.

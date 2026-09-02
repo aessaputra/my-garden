@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"React Router.md","permalink":"/react-router/","title":"React Router","hideInFiletree":true,"tags":["references","programming","javascript","architecture","performance"],"dg-note-properties":{"title":"React Router","category":"references","tags":["references","programming","javascript","architecture","performance"],"sources":["_raw/articles/react-router-expanded.md"],"created":"2026-08-31","updated":"2026-08-31","confidence":"high"}}
+{"dg-publish":true,"dg-path":"React Router.md","permalink":"/react-router/","title":"React Router","hideInFiletree":true,"tags":["references","programming","javascript","architecture","performance"],"noteIcon":"","dg-note-properties":{"title":"React Router","category":"references","tags":["references","programming","javascript","architecture","performance"],"sources":["_raw/articles/react-router-expanded.md"],"created":"2026-08-31","updated":"2026-08-31","confidence":"high"}}
 ---
 
 React Router adalah pustaka routing untuk [[References/React\|React]] yang mencocokkan lokasi URL dengan antarmuka, mengelola navigasi, dan menyusun tampilan berdasarkan hierarki rute. Pustaka ini dapat dipakai untuk aplikasi satu halaman, tetapi versi modernnya tidak terbatas pada routing sisi klien. Framework Mode juga mendukung rendering sisi server dan prerendering statis.

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Cara Kerja LLM.md","permalink":"/cara-kerja-llm/","title":"Cara Kerja LLM","hideInFiletree":true,"tags":["references","gpt","architecture","algorithms","research"],"dg-note-properties":{"title":"Cara Kerja LLM","category":"references","tags":["references","gpt","architecture","algorithms","research"],"sources":["_raw/articles/cara-kerja-llm-expanded.md"],"created":"2026-08-26","updated":"2026-09-02","confidence":"medium"}}
+{"dg-publish":true,"dg-path":"Cara Kerja LLM.md","permalink":"/cara-kerja-llm/","title":"Cara Kerja LLM","hideInFiletree":true,"tags":["references","gpt","architecture","algorithms","research"],"noteIcon":"","dg-note-properties":{"title":"Cara Kerja LLM","category":"references","tags":["references","gpt","architecture","algorithms","research"],"sources":["_raw/articles/cara-kerja-llm-expanded.md"],"created":"2026-08-26","updated":"2026-09-02","confidence":"medium"}}
 ---
 
 ![Cara Kerja LLM](/img/user/Attachments/2026-08-26-Cara-Kerja-LLM.png)

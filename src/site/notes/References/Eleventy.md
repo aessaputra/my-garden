@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Eleventy.md","permalink":"/eleventy/","title":"Eleventy","hideInFiletree":true,"tags":["references","programming","javascript","frameworks","deployment","performance"],"dg-note-properties":{"title":"Eleventy","category":"references","tags":["references","programming","javascript","frameworks","deployment","performance"],"sources":["_raw/articles/eleventy-expanded.md"],"created":"2026-08-31","updated":"2026-08-31","confidence":"high"}}
+{"dg-publish":true,"dg-path":"Eleventy.md","permalink":"/eleventy/","title":"Eleventy","hideInFiletree":true,"tags":["references","programming","javascript","frameworks","deployment","performance"],"noteIcon":"","dg-note-properties":{"title":"Eleventy","category":"references","tags":["references","programming","javascript","frameworks","deployment","performance"],"sources":["_raw/articles/eleventy-expanded.md"],"created":"2026-08-31","updated":"2026-08-31","confidence":"high"}}
 ---
 
 Eleventy, juga disebut 11ty, adalah static site generator berbasis [[References/JavaScript\|JavaScript]] yang mengubah template dan data menjadi berkas statis. Ia mendukung beberapa bahasa template dalam satu proyek, termasuk [[References/HTML\|HTML]], Markdown, JavaScript, Liquid, Nunjucks, dan WebC. Eleventy memberi kontrol langsung atas keluaran dan tidak menambahkan client-side JavaScript secara bawaan.

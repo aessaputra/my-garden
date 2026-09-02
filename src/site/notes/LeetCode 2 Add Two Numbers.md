@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/leet-code-2-add-two-numbers/","title":"LeetCode 2 Add Two Numbers","hideInFiletree":true,"tags":["programming"],"dg-note-properties":{"title":"LeetCode 2 Add Two Numbers","tags":["programming"],"created":"2026-09-02","updated":"2026-09-02"}}
+{"dg-publish":true,"permalink":"/leet-code-2-add-two-numbers/","title":"LeetCode 2 Add Two Numbers","hideInFiletree":true,"tags":["programming"],"noteIcon":"","dg-note-properties":{"title":"LeetCode 2 Add Two Numbers","tags":["programming"],"created":"2026-09-02","updated":"2026-09-02"}}
 ---
 
 ## Masalah

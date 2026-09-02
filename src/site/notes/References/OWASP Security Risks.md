@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"OWASP Security Risks.md","permalink":"/owasp-security-risks/","title":"OWASP Security Risks","hideInFiletree":true,"tags":["references","security","programming","testing","devops"],"dg-note-properties":{"title":"OWASP Security Risks","category":"references","tags":["references","security","programming","testing","devops"],"sources":["_raw/articles/owasp-top-10-2025-expanded.md"],"created":"2026-08-29","updated":"2026-08-29","confidence":"high"}}
+{"dg-publish":true,"dg-path":"OWASP Security Risks.md","permalink":"/owasp-security-risks/","title":"OWASP Security Risks","hideInFiletree":true,"tags":["references","security","programming","testing","devops"],"noteIcon":"","dg-note-properties":{"title":"OWASP Security Risks","category":"references","tags":["references","security","programming","testing","devops"],"sources":["_raw/articles/owasp-top-10-2025-expanded.md"],"created":"2026-08-29","updated":"2026-08-29","confidence":"high"}}
 ---
 
 Open Worldwide Application Security Project (OWASP) menerbitkan OWASP Top 10 sebagai dokumen kesadaran bagi pengembang dan praktisi keamanan aplikasi web. Edisi 2025 merangkum konsensus luas mengenai sepuluh kategori risiko yang dinilai paling serius, tetapi daftar ini bukan standar verifikasi lengkap dan bukan pengganti penilaian risiko yang disesuaikan dengan organisasi.

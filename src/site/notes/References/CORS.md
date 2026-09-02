@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"CORS.md","permalink":"/cors/","title":"CORS","hideInFiletree":true,"tags":["references","security","programming","javascript","http"],"dg-note-properties":{"title":"CORS","category":"references","tags":["references","security","programming","javascript","http"],"sources":["_raw/articles/cors-expanded.md"],"created":"2026-08-29","updated":"2026-08-29","confidence":"high"}}
+{"dg-publish":true,"dg-path":"CORS.md","permalink":"/cors/","title":"CORS","hideInFiletree":true,"tags":["references","security","programming","javascript","http"],"noteIcon":"","dg-note-properties":{"title":"CORS","category":"references","tags":["references","security","programming","javascript","http"],"sources":["_raw/articles/cors-expanded.md"],"created":"2026-08-29","updated":"2026-08-29","confidence":"high"}}
 ---
 
 ![2026-08-29-how-cors-works.png](/img/user/Attachments/2026-08-29-how-cors-works.png)

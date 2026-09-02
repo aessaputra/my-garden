@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Netlify.md","permalink":"/netlify/","title":"Netlify","hideInFiletree":true,"tags":["references","deployment","devops","performance"],"dg-note-properties":{"title":"Netlify","category":"references","tags":["references","deployment","devops","performance"],"sources":["_raw/articles/netlify-research-packet.md","_raw/articles/netlify-research-packet-correction-2026-09-02.md"],"created":"2026-09-02","updated":"2026-09-02","confidence":"high"}}
+{"dg-publish":true,"dg-path":"Netlify.md","permalink":"/netlify/","title":"Netlify","hideInFiletree":true,"tags":["references","deployment","devops","performance"],"noteIcon":"","dg-note-properties":{"title":"Netlify","category":"references","tags":["references","deployment","devops","performance"],"sources":["_raw/articles/netlify-research-packet.md","_raw/articles/netlify-research-packet-correction-2026-09-02.md"],"created":"2026-09-02","updated":"2026-09-02","confidence":"high"}}
 ---
 
 Netlify adalah platform terkelola untuk membangun, menerbitkan, dan menjalankan situs serta aplikasi web.
