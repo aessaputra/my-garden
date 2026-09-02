@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"Cursor.md","permalink":"/cursor/","title":"Cursor","hideInFiletree":true,"tags":["programming","coding","gpt","ai-agents","workflow","security","development"],"dg-note-properties":{"title":"Cursor","category":"references","tags":["programming","coding","gpt","ai-agents","workflow","security","development"],"sources":["_raw/articles/cursor-research-packet.md"],"created":"2026-09-01","updated":"2026-09-02","confidence":"high"}}
 ---
 
-Cursor adalah code editor dan coding agent berbasis codebase VS Code. Ia menggabungkan editing biasa dengan autocomplete, perubahan berbasis instruksi, pencarian repositori, terminal, dan agen lintas berkas.
+*Cursor* adalah code editor dan coding agent berbasis codebase VS Code. Ia menggabungkan editing biasa dengan autocomplete, perubahan berbasis instruksi, pencarian repositori, terminal, dan agen lintas berkas.
 
 Tujuannya adalah mengurangi pekerjaan repetitif dan mempercepat eksplorasi. Hasil AI tetap berupa usulan yang perlu dibatasi, ditinjau, diuji, dan dipertanggungjawabkan oleh pengembang.
 
