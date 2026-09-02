@@ -10,10 +10,10 @@ I use this space to explore technical ideas, record what works, and keep lessons
 
 Everything here is meant to be useful twice: once while I am learning it, and again when I need it later.
 ## Recent
-- [[craft\|craft]]
+- [[Sifarma\|Sifarma]]
+- [[Craft\|Craft]]
 - [[References/Cursor\|Cursor]]
 - [[LeetCode 2 Add Two Numbers\|LeetCode 2 Add Two Numbers]]
 - [[References/Refactoring dengan AI\|Refactoring dengan AI]]
-- [[References/AI-Powered Code Review\|AI-Powered Code Review]]
 
 { .block-language-dataview}
