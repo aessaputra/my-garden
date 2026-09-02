@@ -1,175 +1,170 @@
 ---
-{"dg-publish":true,"dg-path":"Generative AI for Frontend Development.md","permalink":"/generative-ai-for-frontend-development/","title":"AI dalam Pengembangan Frontend","hideInFiletree":true,"tags":["programming","ui","coding","gpt","react","testing","security","performance","research"],"dg-note-properties":{"title":"AI dalam Pengembangan Frontend","category":"references","tags":["programming","ui","coding","gpt","react","testing","security","performance","research"],"sources":["_raw/articles/ai-frontend-development-research-packet.md","_raw/articles/ai-frontend-development-research-packet-correction-2026-09-02.md"],"created":"2026-08-25","updated":"2026-09-02","confidence":"medium"}}
+{"dg-publish":true,"dg-path":"Generative AI for Frontend Development.md","permalink":"/generative-ai-for-frontend-development/","title":"AI dalam Pengembangan Frontend","hideInFiletree":true,"tags":["programming","ui","coding","gpt","react","testing","security","performance","research"],"dg-note-properties":{"title":"AI dalam Pengembangan Frontend","category":"references","tags":["programming","ui","coding","gpt","react","testing","security","performance","research"],"sources":["_raw/articles/ai-frontend-development-research-packet.md","_raw/articles/ai-frontend-development-research-packet-correction-2026-09-02.md","_raw/articles/implementing-ai-frontend-addendum-2026-09-03.md"],"created":"2026-08-25","updated":"2026-09-03","confidence":"medium"}}
 ---
 
-AI dalam pengembangan frontend mencakup dua lapisan. AI dapat membantu proses desain, implementasi, pengujian, dan review. AI juga dapat menjadi fitur aplikasi yang berinteraksi langsung dengan pengguna.
+AI dalam pengembangan frontend mencakup dua lapisan. AI dapat membantu proses desain, implementasi, testing, dan review. AI juga dapat menjadi fitur aplikasi yang berinteraksi langsung dengan pengguna.
 
-Perbedaan ini penting. Code assistant bekerja pada proses pembuatan produk, sedangkan runtime AI menjadi bagian dari arsitektur, data, performa, keamanan, dan pengalaman pengguna produk tersebut.
+Perbedaan ini menentukan arsitektur. Code assistant bekerja pada proses pembuatan produk, sedangkan runtime AI memengaruhi data, latency, biaya, keamanan, dan pengalaman pengguna.
 
-## Posisi dalam alur pengembangan
+## Use case
+Pada workflow developer, AI dapat menyusun user story, wireframe, copy, komponen, test awal, dokumentasi, refactor, dan analisis error.
 
-Pada tahap kebutuhan, AI dapat membantu menyusun user story, acceptance criteria, variasi alur, dan pertanyaan yang belum terjawab. Hasilnya tetap perlu diselaraskan dengan kebutuhan pengguna dan keputusan produk.
+Prompt teks atau desain dapat diubah menjadi [[References/HTML\|HTML]], [[References/CSS\|CSS]], dan komponen [[References/React\|React]]. Hasil awal cocok untuk prototipe, tetapi belum otomatis memenuhi design system, aksesibilitas, performa, atau struktur proyek.
 
-Pada tahap desain, model generatif dapat membuat wireframe, mockup, komponen, teks antarmuka, dan alternatif visual. Ia mempercepat eksplorasi, tetapi tidak otomatis memahami design system atau konteks merek.
+Pada runtime, AI dapat mendukung chatbot, pencarian semantik, peringkasan, penerjemahan, klasifikasi, pengolahan media, rekomendasi, dan bantuan kontekstual.
 
-Pada implementasi, asisten dapat menghasilkan boilerplate, saran inline, tipe, dokumentasi, refactor, dan test awal. [GitHub](https://docs.github.com/en/copilot/responsible-use/copilot-code-completion) mendokumentasikan kemampuan ini.
+Personalisasi dapat mengubah urutan konten, bahasa, atau tingkat detail. Ia memerlukan tujuan terukur, data minimum, kontrol pengguna, dan cara memulihkan keadaan.
 
-Pada pengujian, AI dapat membantu menyusun skenario, menghasilkan test, menjalankan suite, dan mengusulkan perbaikan. Otomatisasi tersebut memperluas kandidat cakupan, bukan membuktikan bahwa assertion sudah benar.
+AI bukan syarat untuk layout adaptif. Media query, container query, dan preferensi sistem memberi perilaku deterministik yang lebih mudah diprediksi.
 
-Setelah rilis, AI dapat membantu analisis error, observability, klasifikasi feedback, dan eksperimen UI. Keputusan produksi tetap memerlukan metrik yang dapat diaudit serta prosedur rollback.
+## Validasi form
+Banyak validasi form tidak memerlukan AI. Required field, format, panjang, rentang, enum, dan relasi sederhana lebih tepat ditangani oleh HTML, schema, dan aturan deterministik.
 
-## Pembuatan UI dan kode
+[MDN](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation) membedakan validasi client dan server. Validasi client membantu UX, tetapi mudah dilewati dan bukan kontrol keamanan.
 
-Prompt teks, screenshot, atau desain dapat diubah menjadi struktur [[References/HTML\|HTML]], styling [[References/CSS\|CSS]], dan komponen [[References/React\|React]]. Hasil awal cocok untuk prototipe dan scaffolding, tetapi belum otomatis layak produksi.
+AI dapat membantu menjelaskan error, mengekstrak data bebas, atau menilai input semantik. Hasilnya harus menjadi sinyal, bukan otoritas tunggal untuk transaksi, izin, eligibility, atau keputusan berisiko.
 
-AI paling berguna pada pekerjaan yang jelas, berulang, dan mudah diverifikasi. Contohnya adalah komponen dasar, migrasi pola, dokumentasi, variasi copy, data tiruan, serta test untuk perilaku yang sudah ditentukan.
+Server tetap memvalidasi constraint bisnis dan keamanan. Pengguna perlu menerima pesan yang spesifik, dapat diperbaiki, dan tidak membocorkan informasi sensitif.
 
-Hasil perlu dinilai terhadap requirement, design token, state, aksesibilitas, responsivitas, performa, keamanan, dan struktur proyek. UI yang tampak rapi dapat tetap salah secara perilaku atau sulit dipelihara.
+## Arsitektur default
+Frontend mengirim permintaan ke backend aplikasi. Backend mengautentikasi pengguna, memeriksa izin, membatasi konsumsi, mengambil konteks, memanggil provider, dan mengirim hasil ke UI.
 
-AI tidak menghapus kebutuhan pemahaman framework. Developer tetap perlu mengetahui lifecycle, rendering, state management, event, browser API, jaringan, dan batas platform untuk menilai solusi.
+Backend bukan sekadar proxy key. Ia menjadi policy enforcement point untuk authorization, quota, moderasi, tool access, logging, cache, fallback, dan normalisasi provider.
 
-## Pengujian dan quality assurance
+[OpenAI](https://help.openai.com/en/articles/5112595-best-practices-for-api-key-safety) melarang API key ditempatkan pada browser atau aplikasi mobile. Request perlu melewati backend yang menjaga key.
 
-[Playwright Test Agents](https://playwright.dev/docs/test-agents) menyediakan planner, generator, dan healer. Ketiganya dapat menyusun rencana, menghasilkan test, menjalankan suite, dan memperbaiki test yang gagal.
+[Google AI Studio](https://ai.google.dev/gemini-api/docs/aistudio-fullstack) memakai server-side runtime dan secret management agar Gemini API key tidak terekspos pada browser.
 
-[Playwright Codegen](https://playwright.dev/docs/codegen-intro) merekam interaksi dan menyarankan locator. Ia memprioritaskan role, text, dan test ID untuk menghasilkan locator yang lebih tahan perubahan.
+Jangan menaruh credential jangka panjang dalam environment variable frontend. Nilainya tetap masuk ke bundle atau dapat dibaca dari request pengguna.
 
-Test yang dihasilkan tetap harus diperiksa. Assertion yang mengulang implementasi, healer yang mengubah ekspektasi, atau data uji yang terlalu bersih dapat memberi status hijau tanpa melindungi perilaku pengguna.
+### Akses langsung dari browser
+Direct client access hanya prudent bila provider menyediakan credential singkat dan terbatas untuk tujuan tersebut.
 
-Verifikasi frontend perlu mencakup unit test, integration test, end-to-end test, visual regression, lint, type check, serta uji manual pada browser, viewport, input, jaringan, dan teknologi bantu yang relevan.
+[Gemini Live](https://ai.google.dev/gemini-api/docs/live-api/ephemeral-tokens) memakai ephemeral token. Client mengautentikasi ke backend, lalu backend menyediakan token terbatas yang cepat kedaluwarsa.
 
-## AI sebagai fitur frontend
+Token singkat mengurangi risiko, bukan menghapusnya. Client tetap dapat disalahgunakan, sehingga scope, expiry, quota, origin, session, dan telemetry perlu dibatasi.
 
-AI runtime dapat menjalankan tugas seperti penerjemahan, peringkasan, klasifikasi, pencarian semantik, pengolahan media, rekomendasi, dan bantuan percakapan.
+## Integrasi provider
+OpenAI, Anthropic, dan Google menyediakan API model, tetapi bukan komponen frontend yang setara. Masing-masing memiliki model, schema, streaming event, tool call, safety, limit, harga, dan lifecycle berbeda.
 
-Frontend dapat memanggil model pada server, memakai model bawaan browser, atau menjalankan model sendiri di perangkat. Pemilihan lokasi inferensi menentukan kemampuan, biaya, latensi, privasi, dan kompatibilitas.
+[OpenAI](https://platform.openai.com/docs/guides/streaming-responses) mendokumentasikan streaming melalui Responses API. Secret jangka panjang tetap berada pada server.
 
-### Inferensi pada server
+[Anthropic](https://platform.claude.com/docs/en/api/messages) menyediakan Messages API. [TypeScript SDK](https://github.com/anthropics/anthropic-sdk-typescript) mendukung request dan streaming untuk aplikasi server.
 
-Server dapat memakai model lebih besar dan memberi hasil yang konsisten lintasperangkat. Ia juga mempermudah pembaruan model, kontrol akses, moderasi terpusat, observability, dan integrasi dengan data aplikasi.
+[Google](https://ai.google.dev/gemini-api/docs/text-generation) menyediakan Gemini API untuk generasi teks, termasuk SDK JavaScript dan pola streaming.
 
-Trade-off-nya adalah latensi jaringan, biaya inferensi, kebutuhan konektivitas, dan pengiriman data keluar perangkat. Streaming serta caching dapat membantu, tetapi tidak menghapus kewajiban privasi dan keamanan.
+[Vercel AI SDK](https://vercel.com/docs/ai-sdk) menyediakan API terpadu untuk provider, structured output, tool call, serta streaming teks, object, dan UI pada beberapa framework.
 
-### Inferensi pada perangkat
+Abstraksi mengurangi boilerplate, tetapi tidak menjamin perilaku identik. Adapter aplikasi tetap perlu menangani capability, error, usage, finish reason, citation, dan safety response setiap provider.
 
-[web.dev](https://web.dev/learn/ai/client-side) membedakan API AI bawaan browser dari library yang menjalankan model kustom. Keduanya memungkinkan inferensi tanpa server pada perangkat pengguna.
+Pemilihan provider perlu memakai workload nyata. Ukur kualitas tugas, latency, biaya, region, data policy, rate limit, model lifecycle, observability, dan kemudahan fallback.
 
-[Chrome](https://developer.chrome.com/docs/ai/built-in/overview) menyebut pemrosesan lokal dapat mengurangi round trip, menjaga sebagian data sensitif tetap lokal, dan membantu penggunaan saat koneksi buruk.
+## Streaming dan state UI
+Streaming mempercepat waktu sampai keluaran pertama dan membuat proses terasa responsif. Ia tidak otomatis mengurangi total compute atau biaya.
 
-Manfaat tersebut tidak universal. Model mungkin perlu diunduh, hardware dapat tidak memenuhi syarat, dan dukungan browser belum merata. Aplikasi perlu feature detection, batas resource, dan fallback yang jelas.
+UI perlu membedakan idle, submitting, streaming, completed, cancelled, dan failed. Sediakan cancel, retry, timeout, serta pemulihan dari koneksi terputus.
 
-[TensorFlow.js](https://www.tensorflow.org/js) dapat menjalankan model yang ada, mengonversi model Python, serta membangun atau melatih model dengan JavaScript di browser maupun Node.js.
+Chunk dapat terpotong di tengah token atau object. Parser harus mengikuti framing protokol dan tidak menganggap setiap chunk sebagai dokumen lengkap.
 
-Model client-side memberi fleksibilitas, tetapi ukuran unduhan, memori, waktu inisialisasi, panas perangkat, baterai, dan backend akselerasi menjadi bagian dari anggaran performa frontend.
+Jangan merender Markdown atau HTML mentah selama streaming. Buffer dan validasi struktur, lalu encode output sesuai konteks sebelum memasukkannya ke DOM.
 
-### Arsitektur hybrid
+Simpan state percakapan secara eksplisit. Tentukan pesan yang dikirim ulang, batas riwayat, idempotency, deduplication, retry policy, dan perilaku ketika tab dibuka kembali.
 
-Arsitektur hybrid memilih lokasi inferensi menurut tugas dan kondisi. Tugas kecil atau sensitif dapat berjalan lokal, sedangkan model besar, retrieval, agent, dan workflow kompleks dapat tetap berada di server.
+## Structured output dan tool
+Structured output mempermudah parsing, tetapi schema validity tidak membuktikan nilai benar atau aman. Validasi domain tetap diperlukan setelah parsing.
 
-Fallback harus mempertahankan fungsi inti. Aplikasi tidak boleh menjadi tidak dapat dipakai hanya karena model belum tersedia, unduhan gagal, perangkat lemah, atau API browser tidak didukung.
+Tool call harus dipetakan ke fungsi server yang sempit dan bertipe. Model mengusulkan aksi, sedangkan kode memeriksa identitas, izin, argumen, precondition, serta audit trail.
 
-## Personalisasi dan antarmuka adaptif
+Tindakan yang mengubah data, mengirim pesan, membeli, menghapus, atau membuka akses memerlukan konfirmasi dan batas risiko. Jangan memberi model credential atau capability yang tidak diperlukan.
 
-AI dapat memilih urutan konten, rekomendasi, tingkat detail, bahasa, atau bantuan berdasarkan konteks. Personalisasi demikian perlu tujuan yang terukur, data minimum, kontrol pengguna, dan cara untuk memulihkan keadaan.
+## Keamanan
+Prompt, hasil retrieval, output model, dan hasil tool merupakan input tidak tepercaya. Instruksi sistem bukan security boundary deterministik.
 
-AI bukan prasyarat bagi layout responsif atau adaptif. CSS, media query, container query, dan preferensi sistem dapat menyesuaikan antarmuka secara deterministik dengan hasil yang lebih mudah diprediksi.
+[OWASP Prompt Injection](https://genai.owasp.org/llmrisk/llm01-prompt-injection) menyarankan least privilege, pemisahan konten eksternal, human approval, dan adversarial testing.
 
-[MDN](https://developer.mozilla.org/en-US/docs/Web/Accessibility/Guides/Browsing_safely) mencontohkan `prefers-reduced-motion`, yang meneruskan preferensi pengguna dari sistem operasi ke browser dan CSS.
+[OWASP Improper Output Handling](https://genai.owasp.org/llmrisk/llm05-supply-chain-vulnerabilities) mencatat risiko XSS ketika JavaScript atau Markdown buatan model langsung diinterpretasikan browser.
 
-Antarmuka yang berubah tanpa penjelasan dapat mengganggu orientasi, konsistensi, dan pembelajaran pengguna. Personalisasi sebaiknya dapat dipahami, dibatalkan, serta tidak menyembunyikan fungsi penting.
+Encode output menurut sink. HTML, URL, CSS, SQL, shell, dan Markdown memiliki aturan berbeda. Hindari `innerHTML`, `eval`, command shell, dan query yang dibentuk langsung dari keluaran model.
 
-## Aksesibilitas
+Terapkan Content Security Policy, dependency control, secret scanning, server-side authorization, dan audit log. Moderasi tidak menggantikan semua kontrol tersebut.
 
-AI dapat membantu menghasilkan alternatif teks, caption, transkripsi, simplifikasi bahasa, deteksi masalah, dan transformasi konten. Hasilnya harus diuji dengan pengguna dan teknologi bantu, bukan hanya dinilai oleh model.
+[OWASP Unbounded Consumption](https://genai.owasp.org/llmrisk/llm102025-unbounded-consumption) menghubungkan inferensi tanpa batas dengan denial of service, kerugian biaya, dan degradasi layanan.
 
-[W3C](https://www.w3.org/WAI/fundamentals/accessibility-principles) menempatkan aksesibilitas pada empat prinsip: perceivable, operable, understandable, dan robust. AI tidak menggantikan persyaratan tersebut.
+Batasi ukuran input, output, riwayat, attachment, concurrency, request rate, tool step, dan waktu eksekusi. Tetapkan quota per pengguna serta circuit breaker untuk lonjakan penggunaan.
 
-Simposium [W3C tentang AI dan aksesibilitas](https://www.w3.org/WAI/research/ai2023) mencatat peluang sekaligus risiko, termasuk bias, representasi data, privasi, transparansi, dan dampak pada pengguna disabilitas.
+## Privasi dan aksesibilitas
+Kirim data minimum. Jelaskan tujuan, retensi, provider, lokasi pemrosesan, serta cara pengguna melihat atau menghapus data yang relevan.
 
-Evaluasi otomatis tidak membuktikan kepatuhan. Keyboard, screen reader, zoom, kontras, reduced motion, cognitive load, error recovery, dan prediktabilitas interaksi tetap memerlukan pemeriksaan nyata.
+Pemrosesan lokal dapat mengurangi pengiriman data, tetapi telemetry, cache, extension, model download, dan layanan pihak ketiga tetap perlu diaudit.
 
-## Performa dan pengalaman pengguna
+AI dapat membantu alt text, caption, transkripsi, dan simplifikasi bahasa. Hasil perlu diuji dengan pengguna dan teknologi bantu, bukan hanya dinilai oleh model.
 
-Nilai AI harus diukur dari pengalaman akhir, bukan kecanggihan model. Waktu respons, kestabilan layout, penggunaan memori, konsumsi data, baterai, serta kegagalan parsial memengaruhi apakah fitur benar-benar membantu.
+[W3C](https://www.w3.org/WAI/fundamentals/accessibility-principles) menetapkan prinsip perceivable, operable, understandable, dan robust. Fitur AI tetap tunduk pada prinsip tersebut.
 
-Tampilkan status saat model memuat atau bekerja. Sediakan cancel, retry, timeout, fallback, dan penjelasan error. Jangan membuat pengguna menunggu tanpa mengetahui apakah proses masih berjalan.
+Tampilkan status proses melalui semantics yang dapat dibaca screen reader. Fokus, keyboard, reduced motion, error recovery, dan perubahan konten dinamis perlu diuji.
 
-Pisahkan konten deterministik dari keluaran probabilistik. Harga, izin, transaksi, status akun, dan instruksi keselamatan tidak boleh berubah hanya karena generasi model yang tidak tervalidasi.
+## Performa dan fallback
+Inferensi server memberi model besar, kontrol terpusat, dan konsistensi lintasperangkat. Trade-off-nya adalah jaringan, biaya, konektivitas, dan pengiriman data.
 
-## Keamanan, privasi, dan kepercayaan
+Inferensi client dapat mengurangi round trip dan menjaga data tertentu tetap lokal. Ukuran model, download, memori, panas, baterai, hardware, dan dukungan browser menjadi bagian anggaran frontend.
 
-Prompt, output model, dokumen retrieval, dan hasil tool harus diperlakukan sebagai input tidak tepercaya. Escape output, validasi struktur, batasi izin, dan jangan mengeksekusi kode atau markup hasil model secara langsung.
+[TensorFlow.js](https://www.tensorflow.org/js) dapat menjalankan model di browser atau Node.js. [Chrome](https://developer.chrome.com/docs/ai/built-in/overview) juga menyediakan API AI lokal dengan syarat perangkat tertentu.
 
-[OWASP GenAI](https://genai.owasp.org/llm-top-10/) mencantumkan prompt injection dan kelas risiko lain untuk sistem LLM. Frontend perlu menghindari kebocoran system prompt, token, data pengguna, dan konteks internal.
+Arsitektur hybrid memilih lokasi per tugas. Aplikasi perlu feature detection dan fallback ketika model belum tersedia, perangkat lemah, unduhan gagal, atau provider bermasalah.
 
-Pemrosesan lokal dapat mengurangi pengiriman data, tetapi tidak otomatis membuat aplikasi privat. Telemetry, sinkronisasi, model download, browser extension, cache, dan layanan pihak ketiga masih perlu diaudit.
+Fungsi inti tidak boleh hilang hanya karena AI gagal. Form tetap dapat diisi, pencarian dasar tetap bekerja, dan support manusia tetap dapat dijangkau.
 
-Personalisasi memerlukan dasar data yang jelas. Kumpulkan sesedikit mungkin, jelaskan tujuannya, batasi retensi, dan sediakan kontrol untuk melihat, mengubah, atau menghapus preferensi.
+## Workflow implementasi
+1. Nyatakan masalah pengguna, outcome, data, risiko, browser target, latency budget, biaya, aksesibilitas, dan fallback non-AI.
+2. Pilih validasi deterministik terlebih dahulu. Pakai AI hanya ketika tugas memerlukan interpretasi atau generasi.
+3. Tentukan boundary client dan server. Simpan secret di server serta berikan capability minimum.
+4. Buat adapter provider, schema input dan output, timeout, cancellation, retry, rate limit, serta observability.
+5. Bangun state UI untuk loading, streaming, error, cancel, retry, citation, feedback, dan recovery.
+6. Validasi serta encode output. Uji prompt injection, XSS, abuse, kebocoran data, dan konsumsi tanpa batas.
+7. Uji pada data ekstrem, jaringan lambat, browser berbeda, keyboard, screen reader, perangkat lemah, dan provider gagal.
+8. Rilis bertahap. Pantau task completion, latency, error, fallback, biaya, opt-out, feedback, dan dampak per kelompok pengguna.
 
-Keluaran yang memengaruhi pengguna perlu menunjukkan batas kemampuan. Untuk keputusan penting, sediakan sumber, konfirmasi manusia, jalur banding, dan alternatif non-AI.
+## Evaluasi
+Nilai fitur dari keberhasilan pengguna, bukan kefasihan model. Ukur task completion, correction rate, groundedness, latency, cancellation, fallback, biaya, dan insiden keamanan.
 
-## Bukti dan cara mengevaluasi
+Untuk rekomendasi, ukur relevansi, diversity, coverage, cold start, serta dampak jangka panjang. Jangan hanya mengejar click-through jika hasilnya merusak kontrol atau kesejahteraan pengguna.
 
-Riset [GitHub](https://github.blog/news-insights/research/research-quantifying-github-copilots-impact-on-code-quality) melaporkan review 15 persen lebih cepat dan persepsi mutu lebih tinggi pada eksperimen Copilot Chat.
+Bandingkan dengan baseline non-AI. Banyak masalah selesai lebih murah dan dapat diprediksi melalui search, rules, templates, atau UI yang lebih jelas.
 
-Temuan itu berasal dari vendor dan kondisi tertentu. Ia tidak membuktikan percepatan universal untuk semua framework, repositori, tingkat pengalaman, atau standar produksi.
-
-Evaluasi alat dengan tugas frontend nyata. Ukur waktu total, fidelity terhadap desain, defect, rework, review time, accessibility issue, performa, keamanan, biaya, dan keberhasilan pengguna.
-
-Bandingkan dengan baseline tanpa AI. Hitung waktu prompt, menunggu, audit, koreksi, pengujian, dan integrasi. Kecepatan generasi saja dapat menyembunyikan verification tax.
-
-Untuk fitur runtime, lakukan eksperimen terkontrol. Ukur task completion, error, latency, fallback rate, opt-out, kepuasan, serta dampak berbeda pada perangkat, bahasa, dan kelompok pengguna.
-
-## Alur kerja yang aman
-
-1. Tetapkan masalah pengguna, kriteria penerimaan, framework, browser target, design system, batas data, aksesibilitas, performa, dan keamanan.
-2. Pilih apakah AI hanya membantu developer atau menjadi fitur produk. Lapisan kedua memerlukan desain arsitektur dan threat model yang lebih luas.
-3. Batasi perubahan. Minta diff kecil dan inspectable, lalu periksa sebelum memperluas tugas.
-4. Jalankan lint, type check, test, visual regression, security check, dan uji aksesibilitas yang relevan.
-5. Uji hasil pada data ekstrem, browser berbeda, keyboard, screen reader, koneksi lambat, perangkat lemah, timeout, dan model yang tidak tersedia.
-6. Untuk runtime AI, validasi input dan output, batasi resource, sediakan fallback, dan catat telemetry tanpa mengumpulkan isi sensitif secara berlebihan.
-7. Dokumentasikan keputusan, model, prompt atau konfigurasi, dataset evaluasi, batas kemampuan, serta prosedur rollback.
-
-## Peran frontend developer
-
-AI memindahkan sebagian waktu dari pengetikan menuju perumusan masalah, pemberian konteks, evaluasi, dan integrasi. Tanggung jawab atas kode dan pengalaman pengguna tidak berpindah kepada model.
-
-Frontend developer tetap menentukan arsitektur komponen, state, aksesibilitas, performa, keamanan, konsistensi visual, observability, dan kesesuaian produk dengan kebutuhan pengguna.
-
-Kemampuan terpenting adalah membedakan kandidat yang cepat dari solusi yang benar. Developer perlu memahami hasil, menguji perilakunya, dan mampu memeliharanya ketika alat atau model asal tidak tersedia.
+Untuk alat developer, hitung waktu total sampai perubahan terverifikasi, termasuk prompt, menunggu, review, rework, testing, dan integrasi.
 
 ## Batas kesimpulan
+Confidence halaman ini medium. Capability dan kelas risiko didukung sumber primer, tetapi dampak terhadap UX, produktivitas, dan biaya bergantung pada workload serta desain sistem.
 
-Confidence halaman ini medium. Kemampuan teknis dan kelas risiko didukung sumber primer, tetapi manfaat produktivitas, personalisasi, dan pengalaman pengguna bergantung pada tugas serta konteks implementasi.
+Belum ada benchmark independen yang membandingkan OpenAI, Anthropic, dan Google pada workload frontend identik dengan ukuran latency, biaya, safety, dan keberhasilan pengguna.
 
-API AI browser berubah cepat. Status dukungan, persyaratan hardware, dan versi stabil harus diperiksa kembali sebelum implementasi.
-
-Belum ada benchmark independen yang mencakup seluruh workflow frontend sambil mengisolasi code generation, design-to-code, testing, runtime AI, review, dan rework.
+Model, harga, limit, region, data policy, dan SDK berubah cepat. Semuanya perlu diverifikasi kembali saat implementasi dan setelah upgrade besar.
 
 ## Lihat juga
-
 - [[References/AI-Assisted Coding\|AI-Assisted Coding]]
 - [[References/Cara Kerja LLM\|Cara Kerja LLM]]
-- [[References/AI dan Pengembangan Perangkat Lunak Tradisional\|AI dan Pengembangan Perangkat Lunak Tradisional]]
 - [[References/Prompt Engineering\|Prompt Engineering]]
+- [[References/AI Agents\|AI Agents]]
+- [[References/Model Context Protocol\|Model Context Protocol]]
 - [[References/Aksesibilitas\|Aksesibilitas]]
-- [[References/Chrome DevTools\|Chrome DevTools]]
-- [[References/Playwright\|Playwright]]
+- [[References/Content Security Policy\|Content Security Policy]]
+- [[References/Streamed Responses\|Streamed Responses]]
 - [[References/React\|React]]
-- [[References/CSS\|CSS]]
 - [[References/JavaScript\|JavaScript]]
 
 ## Sumber
-
-- [GitHub Docs: Copilot inline suggestions](https://docs.github.com/en/copilot/responsible-use/copilot-code-completion), kemampuan code generation, test, keterbatasan, dan review manusia.
-- [GitHub Research: Copilot dan code quality](https://github.blog/news-insights/research/research-quantifying-github-copilots-impact-on-code-quality), eksperimen vendor tentang mutu dan review.
-- [Playwright: Test Agents](https://playwright.dev/docs/test-agents), planner, generator, dan healer untuk pengujian web.
-- [Playwright: Codegen](https://playwright.dev/docs/codegen-intro), perekaman interaksi dan pembuatan locator.
-- [web.dev: Client-side AI stack](https://web.dev/learn/ai/client-side), API bawaan browser dan library model client-side.
-- [Chrome for Developers: Built-in AI](https://developer.chrome.com/docs/ai/built-in/overview), manfaat, batas perangkat, dan fallback.
-- [Chrome for Developers: Built-in AI APIs](https://developer.chrome.com/docs/ai/built-in-apis), status dan use case API AI browser.
-- [TensorFlow.js](https://www.tensorflow.org/js), inferensi, konversi, dan pelatihan model dalam JavaScript.
-- [W3C: AI and Accessibility Research Symposium](https://www.w3.org/WAI/research/ai2023), peluang dan risiko AI bagi aksesibilitas digital.
-- [W3C: Accessibility Principles](https://www.w3.org/WAI/fundamentals/accessibility-principles), prinsip antarmuka yang accessible.
-- [MDN: Personalization for safer browsing](https://developer.mozilla.org/en-US/docs/Web/Accessibility/Guides/Browsing_safely), preferensi aksesibilitas dan `prefers-reduced-motion`.
-- [OWASP GenAI: LLM Risks](https://genai.owasp.org/llm-top-10/), kelas risiko keamanan aplikasi LLM.
+- [OpenAI: API Key Safety](https://help.openai.com/en/articles/5112595-best-practices-for-api-key-safety), larangan key pada browser dan penggunaan backend.
+- [OpenAI: Streaming Responses](https://platform.openai.com/docs/guides/streaming-responses), event streaming Responses API.
+- [Anthropic: Messages API](https://platform.claude.com/docs/en/api/messages), kontrak request, response, dan streaming Claude.
+- [Anthropic TypeScript SDK](https://github.com/anthropics/anthropic-sdk-typescript), integrasi TypeScript dan streaming.
+- [Google: Gemini Text Generation](https://ai.google.dev/gemini-api/docs/text-generation), generasi teks dan SDK JavaScript.
+- [Google AI Studio Full-stack](https://ai.google.dev/gemini-api/docs/aistudio-fullstack), server runtime dan secret management.
+- [Gemini Live Ephemeral Tokens](https://ai.google.dev/gemini-api/docs/live-api/ephemeral-tokens), token client yang singkat dan terbatas.
+- [Vercel AI SDK](https://vercel.com/docs/ai-sdk), abstraksi provider, structured output, tool, dan streaming.
+- [MDN: Form Validation](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation), validasi client dan server.
+- [OWASP: Prompt Injection](https://genai.owasp.org/llmrisk/llm01-prompt-injection), trust boundary dan least privilege.
+- [OWASP: Improper Output Handling](https://genai.owasp.org/llmrisk/llm05-supply-chain-vulnerabilities), validasi dan encoding output.
+- [OWASP: Unbounded Consumption](https://genai.owasp.org/llmrisk/llm102025-unbounded-consumption), quota, timeout, dan resource control.
+- [W3C: Accessibility Principles](https://www.w3.org/WAI/fundamentals/accessibility-principles), prinsip aksesibilitas antarmuka.
+- [TensorFlow.js](https://www.tensorflow.org/js), inferensi model dalam JavaScript.
+- [Chrome Built-in AI](https://developer.chrome.com/docs/ai/built-in/overview), inferensi lokal dan syarat perangkat.

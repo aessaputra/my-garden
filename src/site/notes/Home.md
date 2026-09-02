@@ -10,10 +10,10 @@ I use this space to explore technical ideas, record what works, and keep lessons
 
 Everything here is meant to be useful twice: once while I am learning it, and again when I need it later.
 ## Recent
+- [[References/Generative AI for Frontend Development\|Generative AI for Frontend Development]]
+- [[References/Documentation Generation with AI\|Documentation Generation with AI]]
+- [[References/GitHub Copilot\|GitHub Copilot]]
 - [[Craft\|Craft]]
 - [[SiFarma\|SiFarma]]
-- [[References/Cursor\|Cursor]]
-- [[LeetCode 2 Add Two Numbers\|LeetCode 2 Add Two Numbers]]
-- [[References/Refactoring dengan AI\|Refactoring dengan AI]]
 
 { .block-language-dataview}
