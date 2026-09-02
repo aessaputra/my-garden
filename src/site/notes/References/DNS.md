@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"DNS.md","permalink":"/dns/","title":"DNS","hideInFiletree":true,"tags":["network","dns","guide"],"noteIcon":"","dg-note-properties":{"title":"DNS","category":"references","tags":["network","dns","guide"],"sources":["_raw/articles/dns-howdns-works.md","_raw/articles/dns-cloudflare.md"],"created":"2026-08-21","updated":"2026-08-21","confidence":"medium"}}
+{"dg-publish":true,"dg-path":"DNS.md","permalink":"/dns/","title":"DNS","hideInFiletree":true,"tags":["network","dns","guide"],"dg-note-properties":{"title":"DNS","category":"references","tags":["network","dns","guide"],"sources":["_raw/articles/dns-howdns-works.md","_raw/articles/dns-cloudflare.md"],"created":"2026-08-21","updated":"2026-08-21","confidence":"medium"}}
 ---
 
 DNS (Domain Name System) adalah phonebook Internet: sistem yang menerjemahkan domain names menjadi IP addresses sehingga browser bisa memuat website. Halaman ini menyintesis komik howdns.works (perjalanan resolver) dan penjelasan teknis Cloudflare.

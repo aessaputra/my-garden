@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"AI-Assisted Coding.md","permalink":"/ai-assisted-coding/","title":"AI-Assisted Coding","hideInFiletree":true,"tags":["programming","coding","gpt","research","testing","security","workflow"],"noteIcon":"","dg-note-properties":{"title":"AI-Assisted Coding","category":"references","tags":["programming","coding","gpt","research","testing","security","workflow"],"sources":["_raw/articles/ai-assisted-coding-research-packet.md"],"created":"2026-09-01","updated":"2026-09-02","confidence":"medium"}}
+{"dg-publish":true,"dg-path":"AI-Assisted Coding.md","permalink":"/ai-assisted-coding/","title":"AI-Assisted Coding","hideInFiletree":true,"tags":["programming","coding","gpt","research","testing","security","workflow"],"dg-note-properties":{"title":"AI-Assisted Coding","category":"references","tags":["programming","coding","gpt","research","testing","security","workflow"],"sources":["_raw/articles/ai-assisted-coding-research-packet.md"],"created":"2026-09-01","updated":"2026-09-02","confidence":"medium"}}
 ---
 
 AI-assisted coding memakai model AI untuk membantu pengembang memahami, menulis, mengubah, menguji, dan meninjau kode.

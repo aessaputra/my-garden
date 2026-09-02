@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Model Context Protocol.md","permalink":"/model-context-protocol/","title":"Model Context Protocol","hideInFiletree":true,"tags":["references","gpt","research","security","architecture","ai-agents"],"noteIcon":"","dg-note-properties":{"title":"Model Context Protocol","category":"references","tags":["references","gpt","research","security","architecture","ai-agents"],"sources":["_raw/articles/model-context-protocol-research-packet.md"],"created":"2026-09-02","updated":"2026-09-02","confidence":"high"}}
+{"dg-publish":true,"dg-path":"Model Context Protocol.md","permalink":"/model-context-protocol/","title":"Model Context Protocol","hideInFiletree":true,"tags":["references","gpt","research","security","architecture","ai-agents"],"dg-note-properties":{"title":"Model Context Protocol","category":"references","tags":["references","gpt","research","security","architecture","ai-agents"],"sources":["_raw/articles/model-context-protocol-research-packet.md"],"created":"2026-09-02","updated":"2026-09-02","confidence":"high"}}
 ---
 
 Model Context Protocol (MCP) adalah protokol terbuka untuk menghubungkan aplikasi LLM dengan sumber data, tool, dan layanan eksternal melalui antarmuka standar.

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"AI-Powered Code Review.md","permalink":"/ai-powered-code-review/","title":"AI-Powered Code Review","hideInFiletree":true,"tags":["programming","coding","gpt","ai-agents","testing","security","workflow","research"],"noteIcon":"","dg-note-properties":{"title":"AI-Powered Code Review","category":"references","tags":["programming","coding","gpt","ai-agents","testing","security","workflow","research"],"sources":["_raw/articles/ai-powered-code-review-research-packet.md"],"created":"2026-09-02","updated":"2026-09-02","confidence":"medium"}}
+{"dg-publish":true,"dg-path":"AI-Powered Code Review.md","permalink":"/ai-powered-code-review/","title":"AI-Powered Code Review","hideInFiletree":true,"tags":["programming","coding","gpt","ai-agents","testing","security","workflow","research"],"dg-note-properties":{"title":"AI-Powered Code Review","category":"references","tags":["programming","coding","gpt","ai-agents","testing","security","workflow","research"],"sources":["_raw/articles/ai-powered-code-review-research-packet.md"],"created":"2026-09-02","updated":"2026-09-02","confidence":"medium"}}
 ---
 
 AI-powered code review memakai model AI untuk menganalisis perubahan kode dan menghasilkan komentar, prioritas risiko, atau suggested change sebelum perubahan digabungkan.

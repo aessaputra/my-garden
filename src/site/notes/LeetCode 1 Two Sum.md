@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/leet-code-1-two-sum/","title":"LeetCode 1 Two Sum","hideInFiletree":true,"tags":["programming"],"noteIcon":"","dg-note-properties":{"title":"LeetCode 1 Two Sum","tags":["programming"],"created":"2026-09-01","updated":"2026-09-01"}}
+{"dg-publish":true,"permalink":"/leet-code-1-two-sum/","title":"LeetCode 1 Two Sum","hideInFiletree":true,"tags":["programming"],"dg-note-properties":{"title":"LeetCode 1 Two Sum","tags":["programming"],"created":"2026-09-01","updated":"2026-09-01"}}
 ---
 
 ## Masalah

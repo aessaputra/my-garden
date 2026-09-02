@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"AI Agents.md","permalink":"/ai-agents/","title":"AI Agents","hideInFiletree":true,"tags":["references","gpt","ai-agents","research","security","workflow"],"noteIcon":"","dg-note-properties":{"title":"AI Agents","category":"references","tags":["references","gpt","ai-agents","research","security","workflow"],"sources":["_raw/articles/ai-agents-research-packet.md"],"created":"2026-09-02","updated":"2026-09-02","confidence":"high"}}
+{"dg-publish":true,"dg-path":"AI Agents.md","permalink":"/ai-agents/","title":"AI Agents","hideInFiletree":true,"tags":["references","gpt","ai-agents","research","security","workflow"],"dg-note-properties":{"title":"AI Agents","category":"references","tags":["references","gpt","ai-agents","research","security","workflow"],"sources":["_raw/articles/ai-agents-research-packet.md"],"created":"2026-09-02","updated":"2026-09-02","confidence":"high"}}
 ---
 
 AI agent adalah sistem AI yang mengarahkan proses dan memakai tool secara dinamis untuk mencapai tujuan atas nama pengguna.

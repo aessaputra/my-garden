@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"HTTP.md","permalink":"/http/","title":"HTTP","hideInFiletree":true,"tags":["network","http","ssl","security","guide"],"noteIcon":"","dg-note-properties":{"title":"HTTP","category":"references","tags":["network","http","ssl","security","guide"],"sources":["_raw/articles/http-in-depth-cs-fyi.md","_raw/articles/http-cloudflare.md","_raw/articles/http3-thenewstack.md"],"created":"2026-08-21","updated":"2026-08-21","confidence":"medium"}}
+{"dg-publish":true,"dg-path":"HTTP.md","permalink":"/http/","title":"HTTP","hideInFiletree":true,"tags":["network","http","ssl","security","guide"],"dg-note-properties":{"title":"HTTP","category":"references","tags":["network","http","ssl","security","guide"],"sources":["_raw/articles/http-in-depth-cs-fyi.md","_raw/articles/http-cloudflare.md","_raw/articles/http3-thenewstack.md"],"created":"2026-08-21","updated":"2026-08-21","confidence":"medium"}}
 ---
 
 HTTP (Hypertext Transfer Protocol) adalah protokol aplikasi berbasis TCP/IP yang menstandarkan komunikasi client-server di web. Halaman ini menyintesis 3 sumber: sejarah lengkap dari cs.fyi, anatomi request/response dari Cloudflare, dan HTTP/3 dari The New Stack.

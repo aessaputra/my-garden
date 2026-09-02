@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Jest.md","permalink":"/jest/","title":"Jest","hideInFiletree":true,"tags":["references","programming","javascript","testing"],"noteIcon":"","dg-note-properties":{"title":"Jest","category":"references","tags":["references","programming","javascript","testing"],"sources":["_raw/articles/jest-expanded.md"],"created":"2026-08-31","updated":"2026-08-31","confidence":"high"}}
+{"dg-publish":true,"dg-path":"Jest.md","permalink":"/jest/","title":"Jest","hideInFiletree":true,"tags":["references","programming","javascript","testing"],"dg-note-properties":{"title":"Jest","category":"references","tags":["references","programming","javascript","testing"],"sources":["_raw/articles/jest-expanded.md"],"created":"2026-08-31","updated":"2026-08-31","confidence":"high"}}
 ---
 
 Jest adalah framework pengujian [[References/JavaScript\|JavaScript]] open source yang menyediakan test runner, assertion API, mocking, snapshot testing, code coverage, dan watch mode dalam satu perangkat. Jest awalnya dikembangkan di Facebook, lalu Meta memindahkan kepemilikannya kepada OpenJS Foundation pada 2022.

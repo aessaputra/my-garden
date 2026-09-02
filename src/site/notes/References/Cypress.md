@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Cypress.md","permalink":"/cypress/","title":"Cypress","hideInFiletree":true,"tags":["references","programming","javascript","typescript","testing"],"noteIcon":"","dg-note-properties":{"title":"Cypress","category":"references","tags":["references","programming","javascript","typescript","testing"],"sources":["_raw/articles/cypress-expanded.md"],"created":"2026-09-01","updated":"2026-09-01","confidence":"high"}}
+{"dg-publish":true,"dg-path":"Cypress.md","permalink":"/cypress/","title":"Cypress","hideInFiletree":true,"tags":["references","programming","javascript","typescript","testing"],"dg-note-properties":{"title":"Cypress","category":"references","tags":["references","programming","javascript","typescript","testing"],"sources":["_raw/articles/cypress-expanded.md"],"created":"2026-09-01","updated":"2026-09-01","confidence":"high"}}
 ---
 
 Cypress adalah framework pengujian aplikasi web berbasis [[References/JavaScript\|JavaScript]]. Kode test berjalan di browser bersama aplikasi, sementara proses Node dan proxy Cypress menangani tugas sistem serta jaringan.

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Bun.md","permalink":"/bun/","title":"Bun","hideInFiletree":true,"tags":["references","javascript","programming","npm","package-manager","development","security"],"noteIcon":"","dg-note-properties":{"title":"Bun","category":"references","tags":["references","javascript","programming","npm","package-manager","development","security"],"sources":["_raw/articles/bun-expanded.md"],"created":"2026-08-30","updated":"2026-08-30","confidence":"high"}}
+{"dg-publish":true,"dg-path":"Bun.md","permalink":"/bun/","title":"Bun","hideInFiletree":true,"tags":["references","javascript","programming","npm","package-manager","development","security"],"dg-note-properties":{"title":"Bun","category":"references","tags":["references","javascript","programming","npm","package-manager","development","security"],"sources":["_raw/articles/bun-expanded.md"],"created":"2026-08-30","updated":"2026-08-30","confidence":"high"}}
 ---
 
 Bun adalah perangkat terpadu untuk mengembangkan aplikasi JavaScript dan TypeScript. Satu executable `bun` menyediakan runtime, pengelola paket, test runner, bundler, transpiler, dan script runner. Pendekatan ini mengurangi kebutuhan untuk merangkai beberapa alat terpisah, tetapi tidak berarti setiap alat dalam ekosistem Node.js dapat diganti tanpa pengujian kompatibilitas.

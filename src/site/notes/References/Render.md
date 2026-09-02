@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Render.md","permalink":"/render/","title":"Render","hideInFiletree":true,"tags":["references","deployment","devops","performance"],"noteIcon":"","dg-note-properties":{"title":"Render","category":"references","tags":["references","deployment","devops","performance"],"sources":["_raw/articles/render-research-packet.md"],"created":"2026-09-02","updated":"2026-09-02","confidence":"high"}}
+{"dg-publish":true,"dg-path":"Render.md","permalink":"/render/","title":"Render","hideInFiletree":true,"tags":["references","deployment","devops","performance"],"dg-note-properties":{"title":"Render","category":"references","tags":["references","deployment","devops","performance"],"sources":["_raw/articles/render-research-packet.md"],"created":"2026-09-02","updated":"2026-09-02","confidence":"high"}}
 ---
 
 Render adalah platform cloud terkelola untuk menjalankan situs statis, aplikasi web, service privat, worker, cron job, workflow, dan datastore.

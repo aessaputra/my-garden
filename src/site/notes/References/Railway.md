@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Railway.md","permalink":"/railway/","title":"Railway","hideInFiletree":true,"tags":["references","deployment","devops","performance"],"noteIcon":"","dg-note-properties":{"title":"Railway","category":"references","tags":["references","deployment","devops","performance"],"sources":["_raw/articles/railway-research-packet.md"],"created":"2026-09-02","updated":"2026-09-02","confidence":"high"}}
+{"dg-publish":true,"dg-path":"Railway.md","permalink":"/railway/","title":"Railway","hideInFiletree":true,"tags":["references","deployment","devops","performance"],"dg-note-properties":{"title":"Railway","category":"references","tags":["references","deployment","devops","performance"],"sources":["_raw/articles/railway-research-packet.md"],"created":"2026-09-02","updated":"2026-09-02","confidence":"high"}}
 ---
 
 Railway adalah platform cloud terkelola untuk membangun dan menjalankan aplikasi, worker, scheduled job, database, serta service pendukung.

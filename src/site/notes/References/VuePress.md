@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"VuePress.md","permalink":"/vue-press/","title":"VuePress","hideInFiletree":true,"tags":["references","programming","javascript","vue","frameworks","deployment","performance"],"noteIcon":"","dg-note-properties":{"title":"VuePress","category":"references","tags":["references","programming","javascript","vue","frameworks","deployment","performance"],"sources":["_raw/articles/vuepress-expanded.md"],"created":"2026-08-31","updated":"2026-08-31","confidence":"high"}}
+{"dg-publish":true,"dg-path":"VuePress.md","permalink":"/vue-press/","title":"VuePress","hideInFiletree":true,"tags":["references","programming","javascript","vue","frameworks","deployment","performance"],"dg-note-properties":{"title":"VuePress","category":"references","tags":["references","programming","javascript","vue","frameworks","deployment","performance"],"sources":["_raw/articles/vuepress-expanded.md"],"created":"2026-08-31","updated":"2026-08-31","confidence":"high"}}
 ---
 
 VuePress adalah static site generator yang berpusat pada Markdown dan menggunakan [[References/Vue.js\|Vue.js]] untuk membangun dokumentasi, blog, serta situs konten statis. Setiap berkas Markdown menjadi halaman. Pada proses build, VuePress memprerender setiap rute menjadi HTML statis; setelah dimuat di browser, situs berjalan sebagai single-page application berbasis Vue dan Vue Router.

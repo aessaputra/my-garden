@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Vite.md","permalink":"/vite/","title":"Vite","hideInFiletree":true,"tags":["references","programming","javascript","typescript","performance"],"noteIcon":"","dg-note-properties":{"title":"Vite","category":"references","tags":["references","programming","javascript","typescript","performance"],"sources":["_raw/articles/vite-expanded.md"],"created":"2026-08-26","updated":"2026-08-26","confidence":"medium"}}
+{"dg-publish":true,"dg-path":"Vite.md","permalink":"/vite/","title":"Vite","hideInFiletree":true,"tags":["references","programming","javascript","typescript","performance"],"dg-note-properties":{"title":"Vite","category":"references","tags":["references","programming","javascript","typescript","performance"],"sources":["_raw/articles/vite-expanded.md"],"created":"2026-08-26","updated":"2026-08-26","confidence":"medium"}}
 ---
 
 Vite adalah alat pengembangan dan *build* untuk proyek web modern. Namanya berasal dari kata bahasa Prancis yang berarti "cepat" dan dilafalkan `/viːt/`. Vite memisahkan kebutuhan pengembangan dari pembuatan aset produksi: *development server* menyajikan modul sesuai permintaan melalui ES Modules (ESM), sedangkan perintah `vite build` menghasilkan aset statis yang telah dioptimalkan. ^[_raw/articles/vite-expanded.md]

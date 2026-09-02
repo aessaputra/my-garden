@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Prompt Engineering.md","permalink":"/prompt-engineering/","title":"Prompt Engineering","hideInFiletree":true,"tags":["references","gpt","prompt","research","testing","security"],"noteIcon":"","dg-note-properties":{"title":"Prompt Engineering","category":"references","tags":["references","gpt","prompt","research","testing","security"],"sources":["_raw/articles/prompt-engineering-research-packet.md"],"created":"2026-09-02","updated":"2026-09-02","confidence":"high"}}
+{"dg-publish":true,"dg-path":"Prompt Engineering.md","permalink":"/prompt-engineering/","title":"Prompt Engineering","hideInFiletree":true,"tags":["references","gpt","prompt","research","testing","security"],"dg-note-properties":{"title":"Prompt Engineering","category":"references","tags":["references","gpt","prompt","research","testing","security"],"sources":["_raw/articles/prompt-engineering-research-packet.md"],"created":"2026-09-02","updated":"2026-09-02","confidence":"high"}}
 ---
 
 Prompt engineering adalah proses merancang, menguji, dan memperbaiki instruksi serta konteks agar model menghasilkan keluaran yang memenuhi tujuan terukur.

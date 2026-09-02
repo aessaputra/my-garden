@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Google Antigravity.md","permalink":"/google-antigravity/","title":"Google Antigravity","hideInFiletree":true,"tags":["programming","coding","gpt","research","security","workflow"],"noteIcon":"","dg-note-properties":{"title":"Google Antigravity","category":"references","tags":["programming","coding","gpt","research","security","workflow"],"sources":["_raw/articles/google-antigravity-research-packet.md"],"created":"2026-09-02","updated":"2026-09-02","confidence":"high"}}
+{"dg-publish":true,"dg-path":"Google Antigravity.md","permalink":"/google-antigravity/","title":"Google Antigravity","hideInFiletree":true,"tags":["programming","coding","gpt","research","security","workflow"],"dg-note-properties":{"title":"Google Antigravity","category":"references","tags":["programming","coding","gpt","research","security","workflow"],"sources":["_raw/articles/google-antigravity-research-packet.md"],"created":"2026-09-02","updated":"2026-09-02","confidence":"high"}}
 ---
 
 Google Antigravity adalah platform pengembangan agentik untuk merencanakan, menjalankan, dan memverifikasi pekerjaan perangkat lunak melalui agent AI.

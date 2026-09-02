@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Web Browser.md","permalink":"/web-browser/","title":"Web Browser","hideInFiletree":true,"tags":["network","web","guide"],"noteIcon":"","dg-note-properties":{"title":"Web Browser","category":"references","tags":["network","web","guide"],"sources":["_raw/articles/web-browser-ramotion.md","_raw/articles/how-browsers-work-mdn.md"],"created":"2026-08-21","updated":"2026-08-21","confidence":"medium"}}
+{"dg-publish":true,"dg-path":"Web Browser.md","permalink":"/web-browser/","title":"Web Browser","hideInFiletree":true,"tags":["network","web","guide"],"dg-note-properties":{"title":"Web Browser","category":"references","tags":["network","web","guide"],"sources":["_raw/articles/web-browser-ramotion.md","_raw/articles/how-browsers-work-mdn.md"],"created":"2026-08-21","updated":"2026-08-21","confidence":"medium"}}
 ---
 
 Web browser adalah aplikasi yang mengakses dan menampilkan website di Internet: bertindak seperti penerjemah, mengambil informasi dari web server dan menampilkannya sebagai web page. Halaman ini menyintesis gambaran umum dari Ramotion dan detail teknis rendering dari MDN.

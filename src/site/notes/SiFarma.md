@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"craft/sifarma","permalink":"/craft/sifarma/","title":"SiFarma","hideInFiletree":true,"tags":["craft"],"noteIcon":"","dg-note-properties":{"title":"SiFarma","tags":["craft"],"created":"2026-09-02","updated":"2026-09-02"}}
+{"dg-publish":true,"dg-permalink":"craft/sifarma","permalink":"/craft/sifarma/","title":"SiFarma","hideInFiletree":true,"tags":["craft"],"dg-note-properties":{"title":"SiFarma","tags":["craft"],"created":"2026-09-02","updated":"2026-09-02"}}
 ---
 
 SiFarma adalah aplikasi e-commerce apotek multiplatform untuk iOS, Android, dan web. Aplikasi ini dibangun dengan React Native dan Expo untuk membantu pengguna mencari produk, mengelola keranjang, alamat, serta pesanan.

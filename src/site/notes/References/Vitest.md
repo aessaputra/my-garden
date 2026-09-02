@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Vitest.md","permalink":"/vitest/","title":"Vitest","hideInFiletree":true,"tags":["references","programming","javascript","typescript","testing"],"noteIcon":"","dg-note-properties":{"title":"Vitest","category":"references","tags":["references","programming","javascript","typescript","testing"],"sources":["_raw/articles/vitest-expanded.md"],"created":"2026-08-29","updated":"2026-08-29","confidence":"high"}}
+{"dg-publish":true,"dg-path":"Vitest.md","permalink":"/vitest/","title":"Vitest","hideInFiletree":true,"tags":["references","programming","javascript","typescript","testing"],"dg-note-properties":{"title":"Vitest","category":"references","tags":["references","programming","javascript","typescript","testing"],"sources":["_raw/articles/vitest-expanded.md"],"created":"2026-08-29","updated":"2026-08-29","confidence":"high"}}
 ---
 
 Vitest adalah framework pengujian JavaScript dan TypeScript yang ditenagai [[References/Vite\|Vite]]. Ia memakai konfigurasi, transformer, resolver, dan plugin Vite sehingga jalur transformasi untuk pengembangan, *build*, dan pengujian dapat berbagi konfigurasi yang sama. Walaupun dirancang sebagai *test runner* native untuk proyek Vite, Vitest juga dapat dipakai pada proyek lain dan untuk kode backend.

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"HTML.md","permalink":"/html/","title":"HTML","hideInFiletree":true,"tags":["network","web","html","guide"],"noteIcon":"","dg-note-properties":{"title":"HTML","category":"references","tags":["network","web","html","guide"],"sources":["_raw/articles/html-mdn.md","_raw/articles/html-wikipedia.md"],"created":"2026-08-21","updated":"2026-08-21","confidence":"medium"}}
+{"dg-publish":true,"dg-path":"HTML.md","permalink":"/html/","title":"HTML","hideInFiletree":true,"tags":["network","web","html","guide"],"dg-note-properties":{"title":"HTML","category":"references","tags":["network","web","html","guide"],"sources":["_raw/articles/html-mdn.md","_raw/articles/html-wikipedia.md"],"created":"2026-08-21","updated":"2026-08-21","confidence":"medium"}}
 ---
 
 HTML (HyperText Markup Language) adalah standard markup language dan building block paling dasar dari Web: mendefinisikan makna dan struktur konten web. Halaman ini menyintesis definisi dan panduan dari MDN plus sejarah dan markup detail dari Wikipedia.

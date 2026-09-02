@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"SWC.md","permalink":"/swc/","title":"SWC (Speedy Web Compiler)","hideInFiletree":true,"tags":["references","programming","javascript","typescript","architecture","performance"],"noteIcon":"","dg-note-properties":{"title":"SWC (Speedy Web Compiler)","category":"references","tags":["references","programming","javascript","typescript","architecture","performance"],"sources":["_raw/articles/swc-expanded.md"],"created":"2026-08-31","updated":"2026-08-31","confidence":"high"}}
+{"dg-publish":true,"dg-path":"SWC.md","permalink":"/swc/","title":"SWC (Speedy Web Compiler)","hideInFiletree":true,"tags":["references","programming","javascript","typescript","architecture","performance"],"dg-note-properties":{"title":"SWC (Speedy Web Compiler)","category":"references","tags":["references","programming","javascript","typescript","architecture","performance"],"sources":["_raw/articles/swc-expanded.md"],"created":"2026-08-31","updated":"2026-08-31","confidence":"high"}}
 ---
 
 SWC, singkatan dari Speedy Web Compiler, adalah platform berbasis Rust untuk memproses [[References/JavaScript\|JavaScript]] dan [[typescript\|TypeScript]]. Komponen utamanya dapat mengurai, mentransformasi, dan menghasilkan kode, sedangkan perangkat terkait menyediakan minifikasi, bundling, integrasi dengan *build tool*, serta sistem plugin.
