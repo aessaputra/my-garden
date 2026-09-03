@@ -10,10 +10,10 @@ I use this space to explore technical ideas, record what works, and keep lessons
 
 Everything here is meant to be useful twice: once while I am learning it, and again when I need it later.
 ## Recent
-- [[Rolldown menyatukan kecepatan Rust dengan kompatibilitas API Rollup\|Rolldown menyatukan kecepatan Rust dengan kompatibilitas API Rollup]]
-- [[References/Rolldown\|Rolldown]]
-- [[SiFarma\|SiFarma]]
-- [[SSO adalah hasil federation, bukan satu protokol\|SSO adalah hasil federation, bukan satu protokol]]
-- [[Passkey tahan phishing karena terikat origin\|Passkey tahan phishing karena terikat origin]]
+- [[References/Testing Your Apps\|Testing Your Apps]]
+- [[CI gates every change early\|CI gates every change early]]
+- [[TDD starts from a failing test\|TDD starts from a failing test]]
+- [[BDD agrees on examples before code\|BDD agrees on examples before code]]
+- [[Small unit tests give fast feedback\|Small unit tests give fast feedback]]
 
 { .block-language-dataview}
