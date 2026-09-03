@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Biome.md","permalink":"/biome/","title":"Biome","hideInFiletree":true,"tags":["references","programming","javascript","typescript","performance"],"noteIcon":"","dg-note-properties":{"title":"Biome","category":"references","tags":["references","programming","javascript","typescript","performance"],"sources":["_raw/articles/biome-expanded.md"],"created":"2026-08-26","updated":"2026-08-26","confidence":"medium"}}
+{"dg-publish":true,"dg-path":"Biome.md","permalink":"/biome/","title":"Biome","hideInFiletree":true,"tags":["references","programming","javascript","typescript","performance"],"noteIcon":"","dg-note-properties":{"title":"Biome","category":"references","tags":["references","programming","javascript","typescript","performance"],"sources":["_raw/articles/biome-expanded.md"],"created":"2026-08-26","updated":"2026-09-03","confidence":"medium"}}
 ---
 
 Biome adalah perangkat kerja berperforma tinggi untuk proyek web yang menyatukan pemformatan, linting, dan pengorganisasian impor dalam satu alat. Implementasinya ditulis dalam Rust dan dirancang untuk mengurangi kebutuhan akan beberapa konfigurasi terpisah seperti Prettier dan ESLint.
@@ -61,6 +61,7 @@ Tim perlu mempertahankan ESLint, Prettier, atau alat lain jika bergantung pada p
 ## Lihat juga
 
 - [[References/JavaScript\|JavaScript]]
+- [[References/Linters dan Formatters\|Linters dan Formatters]]
 - [[References/Vite\|Vite]]
 - [[References/esbuild\|esbuild]]
 - [[References/Package Managers\|Package Managers]]

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"ESLint.md","permalink":"/es-lint/","title":"ESLint","hideInFiletree":true,"tags":["references","programming","javascript","typescript"],"noteIcon":"","dg-note-properties":{"title":"ESLint","category":"references","tags":["references","programming","javascript","typescript"],"sources":["_raw/articles/eslint-expanded.md"],"created":"2026-08-29","updated":"2026-08-29","confidence":"high"}}
+{"dg-publish":true,"dg-path":"ESLint.md","permalink":"/es-lint/","title":"ESLint","hideInFiletree":true,"tags":["references","programming","javascript","typescript"],"noteIcon":"","dg-note-properties":{"title":"ESLint","category":"references","tags":["references","programming","javascript","typescript"],"sources":["_raw/articles/eslint-expanded.md"],"created":"2026-08-29","updated":"2026-09-03","confidence":"high"}}
 ---
 
 ESLint adalah *linter* JavaScript yang dapat dikonfigurasi untuk menemukan dan memperbaiki masalah pada kode. Pemeriksaannya mencakup potensi galat saat program berjalan, pelanggaran praktik pengembangan, dan ketidakkonsistenan gaya penulisan. Dengan pemeriksaan otomatis, tim dapat menerapkan standar yang sama sebelum perubahan kode masuk ke tahap peninjauan atau integrasi.
@@ -60,6 +60,7 @@ Dengan konfigurasi yang terukur, ESLint membantu menemukan masalah lebih awal da
 ## Lihat juga
 
 - [[References/JavaScript\|JavaScript]]
+- [[References/Linters dan Formatters\|Linters dan Formatters]]
 - [[References/Prettier\|Prettier]]
 - [[References/Biome\|Biome]]
 - [[References/Pengujian di React Native\|Pengujian di React Native]]

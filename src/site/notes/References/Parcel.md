@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Parcel.md","permalink":"/parcel/","title":"Parcel","hideInFiletree":true,"tags":["references","programming","javascript","architecture","performance"],"noteIcon":"","dg-note-properties":{"title":"Parcel","category":"references","tags":["references","programming","javascript","architecture","performance"],"sources":["_raw/articles/parcel-expanded.md"],"created":"2026-08-31","updated":"2026-08-31","confidence":"high"}}
+{"dg-publish":true,"dg-path":"Parcel.md","permalink":"/parcel/","title":"Parcel","hideInFiletree":true,"tags":["references","programming","javascript","architecture","performance"],"noteIcon":"","dg-note-properties":{"title":"Parcel","category":"references","tags":["references","programming","javascript","architecture","performance"],"sources":["_raw/articles/parcel-expanded.md"],"created":"2026-08-31","updated":"2026-09-03","confidence":"high"}}
 ---
 
 Parcel adalah *build tool* untuk web yang menggabungkan pemrosesan dependensi, transformasi kode, bundling, server pengembangan, dan optimasi produksi. Proyek dapat dimulai dari berkas HTML tanpa menulis konfigurasi bundler terlebih dahulu. Parcel mengikuti referensi [[References/JavaScript\|JavaScript]], CSS, gambar, font, dan aset lain untuk membangun grafik dependensi serta keluaran yang diperlukan.
@@ -77,6 +77,7 @@ Keputusan memilih Parcel sebaiknya mempertimbangkan kebutuhan integrasi framewor
 ## Lihat juga
 
 - [[References/JavaScript\|JavaScript]]
+- [[References/Module Bundlers\|Module Bundlers]]
 - [[References/Vite\|Vite]]
 - [[References/Rollup\|Rollup]]
 - [[References/esbuild\|esbuild]]

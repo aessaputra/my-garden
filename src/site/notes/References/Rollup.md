@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rollup.md","permalink":"/rollup/","title":"Rollup","hideInFiletree":true,"tags":["references","programming","javascript","architecture","performance"],"noteIcon":"","dg-note-properties":{"title":"Rollup","category":"references","tags":["references","programming","javascript","architecture","performance"],"sources":["_raw/articles/rollup-expanded.md"],"created":"2026-08-31","updated":"2026-08-31","confidence":"high"}}
+{"dg-publish":true,"dg-path":"Rollup.md","permalink":"/rollup/","title":"Rollup","hideInFiletree":true,"tags":["references","programming","javascript","architecture","performance"],"noteIcon":"","dg-note-properties":{"title":"Rollup","category":"references","tags":["references","programming","javascript","architecture","performance"],"sources":["_raw/articles/rollup-expanded.md"],"created":"2026-08-31","updated":"2026-09-03","confidence":"high"}}
 ---
 
 Rollup adalah *module bundler* untuk [[References/JavaScript\|JavaScript]]. Alat ini membaca modul beserta hubungan `import` dan `export`, membangun grafik modul, lalu menghasilkan satu atau beberapa berkas untuk pustaka maupun aplikasi. Rollup dirancang di sekitar ES modules, yang struktur statisnya memungkinkan analisis dan optimasi sebelum kode dijalankan.
@@ -83,6 +83,7 @@ Rollup tepat digunakan ketika proyek memerlukan kendali rinci atas grafik modul 
 ## Lihat juga
 
 - [[References/JavaScript\|JavaScript]]
+- [[References/Module Bundlers\|Module Bundlers]]
 - TypeScript
 - [[References/Vite\|Vite]]
 - [[References/esbuild\|esbuild]]

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Generative AI for Frontend Development.md","permalink":"/generative-ai-for-frontend-development/","title":"AI dalam Pengembangan Frontend","hideInFiletree":true,"tags":["programming","ui","coding","gpt","react","testing","security","performance","research"],"noteIcon":"","dg-note-properties":{"title":"AI dalam Pengembangan Frontend","category":"references","tags":["programming","ui","coding","gpt","react","testing","security","performance","research"],"sources":["_raw/articles/ai-frontend-development-research-packet.md","_raw/articles/ai-frontend-development-research-packet-correction-2026-09-02.md","_raw/articles/implementing-ai-frontend-addendum-2026-09-03.md"],"created":"2026-08-25","updated":"2026-09-03","confidence":"medium"}}
+{"dg-publish":true,"dg-path":"Generative AI for Frontend Development.md","permalink":"/generative-ai-for-frontend-development/","title":"AI dalam Pengembangan Frontend","hideInFiletree":true,"tags":["programming","ui","coding","gpt","react","testing","security","performance","research"],"noteIcon":"","dg-note-properties":{"title":"AI dalam Pengembangan Frontend","category":"references","tags":["programming","ui","coding","gpt","react","testing","security","performance","research"],"sources":["_raw/articles/ai-frontend-development-research-packet.md","_raw/articles/ai-frontend-development-research-packet-correction-2026-09-02.md","_raw/articles/implementing-ai-frontend-addendum-2026-09-03.md"],"created":"2026-08-25","updated":"2026-09-04","confidence":"medium"}}
 ---
 
 AI dalam pengembangan frontend mencakup dua lapisan. AI dapat membantu proses desain, implementasi, testing, dan review. AI juga dapat menjadi fitur aplikasi yang berinteraksi langsung dengan pengguna.
@@ -142,6 +142,8 @@ Model, harga, limit, region, data policy, dan SDK berubah cepat. Semuanya perlu 
 
 ## Lihat juga
 - [[References/Gemini\|Gemini]]
+- [[References/OpenAI\|OpenAI]]
+- [[References/Anthropic\|Anthropic]]
 - [[References/AI-Assisted Coding\|AI-Assisted Coding]]
 - [[References/Cara Kerja LLM\|Cara Kerja LLM]]
 - [[References/Prompt Engineering\|Prompt Engineering]]

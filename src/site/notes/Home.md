@@ -10,10 +10,10 @@ I use this space to explore technical ideas, record what works, and keep lessons
 
 Everything here is meant to be useful twice: once while I am learning it, and again when I need it later.
 ## Recent
-- [[Craft\|Craft]]
-- [[References/Generative AI for Frontend Development\|Generative AI for Frontend Development]]
-- [[References/Gemini\|Gemini]]
-- [[References/Documentation Generation with AI\|Documentation Generation with AI]]
-- [[References/GitHub Copilot\|GitHub Copilot]]
+- [[References/Authentication Strategies\|Authentication Strategies]]
+- [[References/esbuild\|esbuild]]
+- [[References/Vite\|Vite]]
+- [[References/Parcel\|Parcel]]
+- [[References/Rollup\|Rollup]]
 
 { .block-language-dataview}
