@@ -11,18 +11,15 @@ body {
 .filetree-sidebar h1 {
   margin: 10px;
   font-size: 1.2em;
-}
-
-.filetree-sidebar .search-button-wrap {
-  display: flex;
-  justify-content: center;
+  text-align: left !important;
 }
 
 .filetree-sidebar .search-button {
+  width: auto;
+  max-width: 300px;
+  box-sizing: border-box;
   margin: 10px;
   padding: 18px;
-  max-width: 300px;
-  flex: 1;
   justify-content: center;
   border-radius: 2px;
   border: 1px solid var(--background-modifier-border);
