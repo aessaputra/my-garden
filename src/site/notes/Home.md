@@ -10,10 +10,10 @@ I use this space to explore technical ideas, record what works, and keep lessons
 
 Everything here is meant to be useful twice: once while I am learning it, and again when I need it later.
 ## Recent
+- [[Rolldown menyatukan kecepatan Rust dengan kompatibilitas API Rollup\|Rolldown menyatukan kecepatan Rust dengan kompatibilitas API Rollup]]
+- [[References/Rolldown\|Rolldown]]
+- [[SiFarma\|SiFarma]]
 - [[SSO adalah hasil federation, bukan satu protokol\|SSO adalah hasil federation, bukan satu protokol]]
 - [[Passkey tahan phishing karena terikat origin\|Passkey tahan phishing karena terikat origin]]
-- [[References/Authentication Strategies\|Authentication Strategies]]
-- [[OAuth mendelegasikan akses, bukan membuktikan identitas\|OAuth mendelegasikan akses, bukan membuktikan identitas]]
-- [[JWT adalah format klaim, bukan strategi autentikasi\|JWT adalah format klaim, bukan strategi autentikasi]]
 
 { .block-language-dataview}
