@@ -11,6 +11,21 @@ body {
 .filetree-sidebar h1 {
   margin: 10px;
   text-align: left;
+  font-size: 1.2em;
+}
+
+.filetree-sidebar h1::after {
+  content: "";
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  bottom: 2px;
+  margin: 0 2px;
+  background-image: url("/favicon.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: middle;
 }
 
 .filetree-sidebar .search-button {
@@ -18,6 +33,13 @@ body {
   padding: 18px;
   max-width: 300px;
   justify-content: center;
+  border-radius: 2px;
+  border: 1px solid var(--background-modifier-border);
+  box-shadow: 1px 2px 0 var(--background-modifier-box-shadow);
+}
+
+.filetree-sidebar .search-button .search-icon {
+  width: 18px;
 }
 
 .filetree-sidebar .notelink {
@@ -29,6 +51,11 @@ body {
   text-overflow: ellipsis;
   white-space: nowrap;
   font-size: medium;
+}
+
+.filetree-sidebar .filename[data-note-icon]::before {
+  margin-right: 8px;
+  vertical-align: -0.125em;
 }
 
 body.filetree-note-icon .filename[data-note-icon="home"]::before {
