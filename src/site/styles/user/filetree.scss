@@ -1,8 +1,5 @@
 body {
-  --dg-filetree-width: 300px;
-  --dg-filetree-min-width: 300px;
   --dg-filetree-padding: 10px;
-  --dg-filetree-title-size: 1.2em;
   --dg-notelink-padding: 10px;
   --dg-notelink-size: medium;
   --dg-search-btn-radius: 2px;
@@ -11,7 +8,6 @@ body {
 
 .filetree-sidebar h1 {
   margin: 10px;
-  text-align: left !important;
 }
 
 .filetree-sidebar .search-button {
