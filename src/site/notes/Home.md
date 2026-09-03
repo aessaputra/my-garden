@@ -10,10 +10,10 @@ I use this space to explore technical ideas, record what works, and keep lessons
 
 Everything here is meant to be useful twice: once while I am learning it, and again when I need it later.
 ## Recent
-- [[References/Testing Your Apps\|Testing Your Apps]]
-- [[CI gates every change early\|CI gates every change early]]
-- [[TDD starts from a failing test\|TDD starts from a failing test]]
-- [[BDD agrees on examples before code\|BDD agrees on examples before code]]
-- [[Small unit tests give fast feedback\|Small unit tests give fast feedback]]
+- [[References/Web APIs\|Web APIs]]
+- [[History API restores back button behavior in SPAs\|History API restores back button behavior in SPAs]]
+- [[Hardware APIs demand permission and secure context\|Hardware APIs demand permission and secure context]]
+- [[Web APIs live in the runtime, not the language\|Web APIs live in the runtime, not the language]]
+- [[DOM turns documents into scriptable objects\|DOM turns documents into scriptable objects]]
 
 { .block-language-dataview}
