@@ -149,3 +149,8 @@ Standar dan rekomendasi keamanan berkembang. Default produk, grant yang didukung
 - [[References/Sessions di Supabase\|Sessions di Supabase]]
 - [[References/MFA di Supabase\|MFA di Supabase]]
 - [[References/Passkeys di Supabase\|Passkeys di Supabase]]
+- [[JWT adalah format klaim, bukan strategi autentikasi\|JWT adalah format klaim, bukan strategi autentikasi]]
+- [[OAuth mendelegasikan akses, bukan membuktikan identitas\|OAuth mendelegasikan akses, bukan membuktikan identitas]]
+- [[Session server memberi revocation cepat dengan biaya state\|Session server memberi revocation cepat dengan biaya state]]
+- [[Passkey tahan phishing karena terikat origin\|Passkey tahan phishing karena terikat origin]]
+- [[SSO adalah hasil federation, bukan satu protokol\|SSO adalah hasil federation, bukan satu protokol]]

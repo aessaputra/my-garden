@@ -6,5 +6,7 @@ SiFarma adalah aplikasi e-commerce apotek multiplatform untuk iOS, Android, dan 
 
 Teknologi utamanya meliputi Expo SDK 54, React Native, TypeScript, Expo Router, Redux Toolkit, dan Supabase. Proses build serta deployment menggunakan EAS dan GitHub Actions.
 
+![SIFARMA.webp\|198](/img/user/Attachments/SIFARMA.webp)
+
 - Frontend: [aessaputra/apotek-eccomerce](https://github.com/aessaputra/apotek-eccomerce)
 - Admin: [aessaputra/admin-apotek-eccomerce](https://github.com/aessaputra/admin-apotek-eccomerce)
