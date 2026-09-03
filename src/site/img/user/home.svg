@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100%" height="100%" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Greenhouse Home Icon">
+  <!-- Minimal 24x24 UI Icon for Navbars, Tabs & Favicons -->
+  <path d="M 3 11 L 12 4 L 21 11" stroke="#CECDC3" />
+  <path d="M 5 10.5 V 19 C 5 19.55 5.45 20 6 20 H 18 C 18.55 20 19 19.55 19 19 V 10.5" stroke="#6F6E69" />
+  <!-- Sprout -->
+  <path d="M 12 20 V 12" stroke="#879A39" stroke-width="2" />
+  <path d="M 12 16 C 9.5 16 8.5 13.5 9.5 11.5 C 11.5 11.5 12 13.5 12 16 Z" fill="#879A39" stroke="#879A39" stroke-width="0.75" />
+  <path d="M 12 14 C 14 14 15 12 14.2 10.5 C 12.8 10.5 12 12 12 14 Z" fill="#3AA99F" stroke="#3AA99F" stroke-width="0.75" />
+  <circle cx="12" cy="11" r="1" fill="#FFFCF0" stroke="#879A39" stroke-width="0.75" />
+</svg>

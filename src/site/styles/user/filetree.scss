@@ -1,5 +1,40 @@
 body {
   --dg-filetree-width: 300px;
   --dg-filetree-min-width: 300px;
-  --dg-notelink-size: 1rem;
+  --dg-filetree-padding: 10px;
+  --dg-filetree-title-size: 1.2em;
+  --dg-notelink-size: medium;
+  --dg-search-btn-radius: 2px;
+  --dg-search-btn-icon-size: 18px;
+}
+
+.filetree-sidebar h1 {
+  margin: 10px;
+  text-align: left;
+}
+
+.filetree-sidebar .search-button {
+  margin: 10px;
+  padding: 18px;
+  max-width: 300px;
+  justify-content: center;
+}
+
+.filetree-sidebar .notelink {
+  padding: 10px;
+}
+
+.filetree-sidebar .filename {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: medium;
+}
+
+body.filetree-note-icon .filename[data-note-icon="home"]::before {
+  background-image: url("/img/user/home.svg");
+}
+
+body.filetree-note-icon .filename[data-note-icon="craft"]::before {
+  background-image: url("/img/user/craft.svg");
 }
