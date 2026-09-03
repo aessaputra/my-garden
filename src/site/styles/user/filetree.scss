@@ -10,28 +10,19 @@ body {
 
 .filetree-sidebar h1 {
   margin: 10px;
-  text-align: left;
   font-size: 1.2em;
 }
 
-.filetree-sidebar h1::after {
-  content: "";
-  display: inline-block;
-  width: 24px;
-  height: 24px;
-  position: relative;
-  bottom: 2px;
-  margin: 0 2px;
-  background-image: url("/favicon.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  vertical-align: middle;
+.filetree-sidebar .search-button-wrap {
+  display: flex;
+  justify-content: center;
 }
 
 .filetree-sidebar .search-button {
   margin: 10px;
   padding: 18px;
   max-width: 300px;
+  flex: 1;
   justify-content: center;
   border-radius: 2px;
   border: 1px solid var(--background-modifier-border);
