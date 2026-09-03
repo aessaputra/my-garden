@@ -25,6 +25,11 @@ body {
   white-space: nowrap;
 }
 
+.filetree-sidebar .notelink.active-note {
+  background-color: var(--background-secondary);
+  font-weight: 600;
+}
+
 .filetree-sidebar .filename[data-note-icon]::before {
   margin-right: 8px;
   vertical-align: -0.125em;
