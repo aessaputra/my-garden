@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Vue.js.md","permalink":"/vue-js/","title":"Vue.js","hideInFiletree":true,"tags":["references","vue","javascript","ui","frameworks","architecture","performance","ssr"],"dg-note-properties":{"title":"Vue.js","category":"references","tags":["references","vue","javascript","ui","frameworks","architecture","performance","ssr"],"sources":["_raw/articles/vuejs-expanded.md"],"created":"2026-08-25","updated":"2026-08-25","confidence":"medium"}}
+{"dg-publish":true,"dg-path":"Vue.js.md","permalink":"/vue-js/","title":"Vue.js","hideInFiletree":true,"tags":["references","vue","javascript","ui","frameworks","architecture","performance","ssr"],"noteIcon":"","dg-note-properties":{"title":"Vue.js","category":"references","tags":["references","vue","javascript","ui","frameworks","architecture","performance","ssr"],"sources":["_raw/articles/vuejs-expanded.md"],"created":"2026-08-25","updated":"2026-08-25","confidence":"medium"}}
 ---
 
 Vue.js adalah framework [[References/JavaScript\|JavaScript]] untuk membangun antarmuka pengguna dengan HTML, CSS, dan JavaScript standar. Vue menyediakan model pemrograman deklaratif berbasis komponen, sehingga pengembang dapat mendeskripsikan tampilan berdasarkan *state* aplikasi dan membagi antarmuka menjadi bagian yang mandiri.

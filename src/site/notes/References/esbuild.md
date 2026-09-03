@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"esbuild.md","permalink":"/esbuild/","title":"esbuild","hideInFiletree":true,"tags":["references","programming","javascript","typescript","performance"],"dg-note-properties":{"title":"esbuild","category":"references","tags":["references","programming","javascript","typescript","performance"],"sources":["_raw/articles/esbuild-expanded.md"],"created":"2026-08-26","updated":"2026-08-26","confidence":"medium"}}
+{"dg-publish":true,"dg-path":"esbuild.md","permalink":"/esbuild/","title":"esbuild","hideInFiletree":true,"tags":["references","programming","javascript","typescript","performance"],"noteIcon":"","dg-note-properties":{"title":"esbuild","category":"references","tags":["references","programming","javascript","typescript","performance"],"sources":["_raw/articles/esbuild-expanded.md"],"created":"2026-08-26","updated":"2026-08-26","confidence":"medium"}}
 ---
 
 esbuild adalah *bundler* dan minifier JavaScript berperforma tinggi yang ditulis dalam Go. Alat ini menangani JavaScript, TypeScript, JSX, TSX, dan CSS secara bawaan, serta menyediakan antarmuka melalui CLI, JavaScript, dan Go. Kode sumbernya tersedia di [[GitHub\|GitHub]] dengan lisensi MIT.

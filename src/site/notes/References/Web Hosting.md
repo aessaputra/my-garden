@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Web Hosting.md","permalink":"/web-hosting/","title":"Web Hosting","hideInFiletree":true,"tags":["network","hosting","devops","guide"],"dg-note-properties":{"title":"Web Hosting","category":"references","tags":["network","hosting","devops","guide"],"sources":["_raw/articles/web-hosting-namecheap.md"],"created":"2026-08-21","updated":"2026-09-02"}}
+{"dg-publish":true,"dg-path":"Web Hosting.md","permalink":"/web-hosting/","title":"Web Hosting","hideInFiletree":true,"tags":["network","hosting","devops","guide"],"noteIcon":"","dg-note-properties":{"title":"Web Hosting","category":"references","tags":["network","hosting","devops","guide"],"sources":["_raw/articles/web-hosting-namecheap.md"],"created":"2026-08-21","updated":"2026-09-02"}}
 ---
 
 Web hosting adalah proses menyewa atau membeli ruang di server untuk menampung website di World Wide Web.

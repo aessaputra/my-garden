@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Documentation Generation with AI.md","permalink":"/documentation-generation-with-ai/","title":"Documentation Generation with AI","hideInFiletree":true,"tags":["programming","coding","gpt","research","workflow"],"dg-note-properties":{"title":"Documentation Generation with AI","category":"references","tags":["programming","coding","gpt","research","workflow"],"sources":["_raw/articles/documentation-generation-with-ai-research-packet.md"],"created":"2026-09-03","updated":"2026-09-03","confidence":"medium"}}
+{"dg-publish":true,"dg-path":"Documentation Generation with AI.md","permalink":"/documentation-generation-with-ai/","title":"Documentation Generation with AI","hideInFiletree":true,"tags":["programming","coding","gpt","research","workflow"],"noteIcon":"","dg-note-properties":{"title":"Documentation Generation with AI","category":"references","tags":["programming","coding","gpt","research","workflow"],"sources":["_raw/articles/documentation-generation-with-ai-research-packet.md"],"created":"2026-09-03","updated":"2026-09-03","confidence":"medium"}}
 ---
 
 Documentation generation with AI memakai model untuk membuat atau memperbarui dokumentasi perangkat lunak dari kode, komentar, spesifikasi, test, dan artefak proyek.

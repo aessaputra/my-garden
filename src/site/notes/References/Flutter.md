@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Flutter.md","permalink":"/flutter/","title":"Flutter","hideInFiletree":true,"tags":["references","flutter","frameworks","programming","ui","performance"],"dg-note-properties":{"title":"Flutter","category":"references","tags":["references","flutter","frameworks","programming","ui","performance"],"sources":["_raw/articles/flutter-research-packet.md"],"created":"2026-09-02","updated":"2026-09-02","confidence":"high"}}
+{"dg-publish":true,"dg-path":"Flutter.md","permalink":"/flutter/","title":"Flutter","hideInFiletree":true,"tags":["references","flutter","frameworks","programming","ui","performance"],"noteIcon":"","dg-note-properties":{"title":"Flutter","category":"references","tags":["references","flutter","frameworks","programming","ui","performance"],"sources":["_raw/articles/flutter-research-packet.md"],"created":"2026-09-02","updated":"2026-09-02","confidence":"high"}}
 ---
 
 Flutter adalah toolkit UI *open source* dari Google untuk membangun aplikasi dari basis kode Dart yang dapat digunakan kembali pada [[Android\|Android]], iOS, web, Windows, macOS, dan Linux.

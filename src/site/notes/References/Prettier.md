@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Prettier.md","permalink":"/prettier/","title":"Prettier","hideInFiletree":true,"tags":["references","programming","javascript","typescript"],"dg-note-properties":{"title":"Prettier","category":"references","tags":["references","programming","javascript","typescript"],"sources":["_raw/articles/prettier-expanded.md"],"created":"2026-08-26","updated":"2026-08-26","confidence":"high"}}
+{"dg-publish":true,"dg-path":"Prettier.md","permalink":"/prettier/","title":"Prettier","hideInFiletree":true,"tags":["references","programming","javascript","typescript"],"noteIcon":"","dg-note-properties":{"title":"Prettier","category":"references","tags":["references","programming","javascript","typescript"],"sources":["_raw/articles/prettier-expanded.md"],"created":"2026-08-26","updated":"2026-08-26","confidence":"high"}}
 ---
 
 Prettier adalah formatter kode berpendapat yang menerapkan tampilan konsisten pada banyak bahasa dan terintegrasi dengan sebagian besar editor. Tujuan utamanya adalah memindahkan keputusan format dari manusia ke alat otomatis, sehingga pembahasan gaya dalam tinjauan kode dapat dikurangi.

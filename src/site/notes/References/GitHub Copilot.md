@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"GitHub Copilot.md","permalink":"/git-hub-copilot/","title":"GitHub Copilot","hideInFiletree":true,"tags":["programming","coding","gpt","ai-agents","workflow","security","github"],"dg-note-properties":{"title":"GitHub Copilot","category":"references","tags":["programming","coding","gpt","ai-agents","workflow","security","github"],"sources":["_raw/articles/github-copilot-research-packet.md"],"created":"2026-09-01","updated":"2026-09-03","confidence":"high"}}
+{"dg-publish":true,"dg-path":"GitHub Copilot.md","permalink":"/git-hub-copilot/","title":"GitHub Copilot","hideInFiletree":true,"tags":["programming","coding","gpt","ai-agents","workflow","security","github"],"noteIcon":"","dg-note-properties":{"title":"GitHub Copilot","category":"references","tags":["programming","coding","gpt","ai-agents","workflow","security","github"],"sources":["_raw/articles/github-copilot-research-packet.md"],"created":"2026-09-01","updated":"2026-09-03","confidence":"high"}}
 ---
 
 GitHub Copilot adalah rangkaian alat pengembangan berbasis AI dari [[References/GitHub\|GitHub]]. Produk ini melampaui autocomplete dengan chat, mode agen, code review, CLI, dan agen cloud.

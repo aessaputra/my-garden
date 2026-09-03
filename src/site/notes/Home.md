@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/home/","title":"Home","contentClasses":"home","tags":["gardenEntry"],"dg-note-properties":{"title":"Home","tags":["gardenEntry"],"cssClasses":["home"]}}
+{"dg-publish":true,"permalink":"/home/","title":"Home","contentClasses":"home","tags":["gardenEntry"],"noteIcon":"1","dg-note-properties":{"title":"Home","tags":["gardenEntry"],"cssClasses":["home"]}}
 ---
 
 ![2026-08-30-digital-garden-logo-no-bg.png\|123](/img/user/Attachments/2026-08-30-digital-garden-logo-no-bg.png)
@@ -10,10 +10,10 @@ I use this space to explore technical ideas, record what works, and keep lessons
 
 Everything here is meant to be useful twice: once while I am learning it, and again when I need it later.
 ## Recent
+- [[Craft\|Craft]]
 - [[References/Generative AI for Frontend Development\|Generative AI for Frontend Development]]
+- [[References/Gemini\|Gemini]]
 - [[References/Documentation Generation with AI\|Documentation Generation with AI]]
 - [[References/GitHub Copilot\|GitHub Copilot]]
-- [[Craft\|Craft]]
-- [[SiFarma\|SiFarma]]
 
 { .block-language-dataview}

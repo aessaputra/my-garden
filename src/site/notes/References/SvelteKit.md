@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"SvelteKit.md","permalink":"/svelte-kit/","title":"SvelteKit","hideInFiletree":true,"tags":["references","programming","javascript","architecture","performance"],"dg-note-properties":{"title":"SvelteKit","category":"references","tags":["references","programming","javascript","architecture","performance"],"sources":["_raw/articles/sveltekit-expanded.md"],"created":"2026-08-31","updated":"2026-08-31","confidence":"high"}}
+{"dg-publish":true,"dg-path":"SvelteKit.md","permalink":"/svelte-kit/","title":"SvelteKit","hideInFiletree":true,"tags":["references","programming","javascript","architecture","performance"],"noteIcon":"","dg-note-properties":{"title":"SvelteKit","category":"references","tags":["references","programming","javascript","architecture","performance"],"sources":["_raw/articles/sveltekit-expanded.md"],"created":"2026-08-31","updated":"2026-08-31","confidence":"high"}}
 ---
 
 SvelteKit adalah framework aplikasi web untuk [[References/Svelte\|Svelte]] yang menyediakan routing, pemuatan data, penanganan formulir, endpoint server, rendering, pembangunan, dan deployment dalam satu struktur proyek. Framework ini dapat digunakan untuk situs statis, aplikasi dengan server-side rendering, aplikasi satu halaman, maupun kombinasi beberapa strategi tersebut per rute.

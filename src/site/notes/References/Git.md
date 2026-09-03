@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Git.md","permalink":"/git/","title":"Git","hideInFiletree":true,"tags":["git","github","version-control","programming","tutorial","guide"],"dg-note-properties":{"title":"Git","category":"references","tags":["git","github","version-control","programming","tutorial","guide"],"sources":["_raw/articles/thenewstack-git-for-absolutely-everyone.md","_raw/articles/git-youtube-crash-course-transcript.md"],"created":"2026-08-21","updated":"2026-08-21"}}
+{"dg-publish":true,"dg-path":"Git.md","permalink":"/git/","title":"Git","hideInFiletree":true,"tags":["git","github","version-control","programming","tutorial","guide"],"noteIcon":"","dg-note-properties":{"title":"Git","category":"references","tags":["git","github","version-control","programming","tutorial","guide"],"sources":["_raw/articles/thenewstack-git-for-absolutely-everyone.md","_raw/articles/git-youtube-crash-course-transcript.md"],"created":"2026-08-21","updated":"2026-08-21"}}
 ---
 
 

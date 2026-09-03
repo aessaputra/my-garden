@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"CSS.md","permalink":"/css/","title":"CSS","hideInFiletree":true,"tags":["network","web","css","guide"],"dg-note-properties":{"title":"CSS","category":"references","tags":["network","web","css","guide"],"sources":["_raw/articles/css-what-is-mdn.md","_raw/articles/css-styling-basics-mdn.md"],"created":"2026-08-21","updated":"2026-08-21","confidence":"medium"}}
+{"dg-publish":true,"dg-path":"CSS.md","permalink":"/css/","title":"CSS","hideInFiletree":true,"tags":["network","web","css","guide"],"noteIcon":"","dg-note-properties":{"title":"CSS","category":"references","tags":["network","web","css","guide"],"sources":["_raw/articles/css-what-is-mdn.md","_raw/articles/css-styling-basics-mdn.md"],"created":"2026-08-21","updated":"2026-08-21","confidence":"medium"}}
 ---
 
 CSS (Cascading Style Sheets) adalah bahasa untuk style dan layout web pages: mengubah font, warna, ukuran, spacing konten, membagi kolom, menambah animasi. Halaman ini menyintesis "What is CSS?" dan module "Styling basics" dari MDN.

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Skills pada AI Coding Assistants.md","permalink":"/skills-pada-ai-coding-assistants/","title":"Skills pada AI Coding Assistants","hideInFiletree":true,"tags":["references","ai-agents","coding","programming","workflow","security"],"dg-note-properties":{"title":"Skills pada AI Coding Assistants","category":"references","tags":["references","ai-agents","coding","programming","workflow","security"],"sources":["_raw/articles/skills-ai-coding-assistants-research-packet.md"],"created":"2026-09-02","updated":"2026-09-02","confidence":"high"}}
+{"dg-publish":true,"dg-path":"Skills pada AI Coding Assistants.md","permalink":"/skills-pada-ai-coding-assistants/","title":"Skills pada AI Coding Assistants","hideInFiletree":true,"tags":["references","ai-agents","coding","programming","workflow","security"],"noteIcon":"","dg-note-properties":{"title":"Skills pada AI Coding Assistants","category":"references","tags":["references","ai-agents","coding","programming","workflow","security"],"sources":["_raw/articles/skills-ai-coding-assistants-research-packet.md"],"created":"2026-09-02","updated":"2026-09-02","confidence":"high"}}
 ---
 
 
