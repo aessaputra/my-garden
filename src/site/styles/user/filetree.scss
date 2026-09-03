@@ -3,6 +3,7 @@ body {
   --dg-filetree-min-width: 300px;
   --dg-filetree-padding: 10px;
   --dg-filetree-title-size: 1.2em;
+  --dg-notelink-padding: 10px;
   --dg-notelink-size: medium;
   --dg-search-btn-radius: 2px;
   --dg-search-btn-icon-size: 18px;
@@ -10,35 +11,22 @@ body {
 
 .filetree-sidebar h1 {
   margin: 10px;
-  font-size: 1.2em;
   text-align: left !important;
 }
 
 .filetree-sidebar .search-button {
   width: auto;
-  max-width: 300px;
-  box-sizing: border-box;
   margin: 10px;
   padding: 18px;
   justify-content: center;
-  border-radius: 2px;
   border: 1px solid var(--background-modifier-border);
   box-shadow: 1px 2px 0 var(--background-modifier-box-shadow);
-}
-
-.filetree-sidebar .search-button .search-icon {
-  width: 18px;
-}
-
-.filetree-sidebar .notelink {
-  padding: 10px;
 }
 
 .filetree-sidebar .filename {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  font-size: medium;
 }
 
 .filetree-sidebar .filename[data-note-icon]::before {
