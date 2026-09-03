@@ -10,10 +10,10 @@ I use this space to explore technical ideas, record what works, and keep lessons
 
 Everything here is meant to be useful twice: once while I am learning it, and again when I need it later.
 ## Recent
-- [[References/Web APIs\|Web APIs]]
-- [[History API restores back button behavior in SPAs\|History API restores back button behavior in SPAs]]
-- [[Hardware APIs demand permission and secure context\|Hardware APIs demand permission and secure context]]
-- [[Web APIs live in the runtime, not the language\|Web APIs live in the runtime, not the language]]
-- [[DOM turns documents into scriptable objects\|DOM turns documents into scriptable objects]]
+- [[References/Web Security Knowledge\|Web Security Knowledge]]
+- [[Parameterized queries separate data from commands\|Parameterized queries separate data from commands]]
+- [[Updates and logging close the loop attackers exploit\|Updates and logging close the loop attackers exploit]]
+- [[Secure cookies still need explicit CSRF defense\|Secure cookies still need explicit CSRF defense]]
+- [[HTTPS protects transit, not application logic\|HTTPS protects transit, not application logic]]
 
 { .block-language-dataview}
