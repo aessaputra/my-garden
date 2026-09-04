@@ -8,5 +8,5 @@ Teknologi utamanya meliputi Expo SDK 54, React Native, TypeScript, Expo Router, 
 
 ![SIFARMA-CUSTOMER.webp\|198](/img/user/Attachments/SIFARMA-CUSTOMER.webp)![SIFARMA-ADMIN.webp\|433](/img/user/Attachments/SIFARMA-ADMIN.webp)
 
-- Frontend: [aessaputra/apotek-eccomerce](https://github.com/aessaputra/apotek-eccomerce)
-- Admin: [aessaputra/admin-apotek-eccomerce](https://github.com/aessaputra/admin-apotek-eccomerce)
+## Tautan
+- [SiFarma](https://sinarfarma.biz.id/)
