@@ -10,10 +10,10 @@ I use this space to explore technical ideas, record what works, and keep lessons
 
 Everything here is meant to be useful twice: once while I am learning it, and again when I need it later.
 ## Recent
-- [[References/Ionic\|Ionic]]
-- [[Adaptive styling does not change the rendering model\|Adaptive styling does not change the rendering model]]
-- [[Ionic separates web interfaces from native integration\|Ionic separates web interfaces from native integration]]
-- [[Closed shadow roots are not security boundaries\|Closed shadow roots are not security boundaries]]
-- [[References/Web Components\|Web Components]]
+- [[Backend APIs should expose business contracts rather than database tables\|Backend APIs should expose business contracts rather than database tables]]
+- [[References/Backend Development\|Backend Development]]
+- [[Session tokens carry authentication authority beyond the login request\|Session tokens carry authentication authority beyond the login request]]
+- [[Database transactions keep dependent writes from becoming partial outcomes\|Database transactions keep dependent writes from becoming partial outcomes]]
+- [[Authentication does not replace authorization on each request\|Authentication does not replace authorization on each request]]
 
 { .block-language-dataview}
