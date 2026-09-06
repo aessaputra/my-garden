@@ -10,10 +10,10 @@ I use this space to explore technical ideas, record what works, and keep lessons
 
 Everything here is meant to be useful twice: once while I am learning it, and again when I need it later.
 ## Recent
-- [[References/Web Performance\|Web Performance]]
-- [[Field data should judge users while lab data diagnoses causes\|Field data should judge users while lab data diagnoses causes]]
-- [[Fast loading requires reducing both latency and main-thread work\|Fast loading requires reducing both latency and main-thread work]]
-- [[Visual stability protects user intent, not merely appearance\|Visual stability protects user intent, not merely appearance]]
-- [[Responsiveness must be measured across the entire visit\|Responsiveness must be measured across the entire visit]]
+- [[References/Web Components\|Web Components]]
+- [[Custom elements make HTML the portability boundary\|Custom elements make HTML the portability boundary]]
+- [[Public properties and events determine framework interoperability\|Public properties and events determine framework interoperability]]
+- [[Templates stay inert while slots preserve consumer ownership\|Templates stay inert while slots preserve consumer ownership]]
+- [[Shadow DOM reduces collisions without eliminating integration work\|Shadow DOM reduces collisions without eliminating integration work]]
 
 { .block-language-dataview}
