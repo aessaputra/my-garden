@@ -24,7 +24,3 @@ Sebutan interpreted tidak berarti tanpa kompilasi. CPython dapat menyimpan compi
 Paket tersebut bukan fitur bawaan bahasa. Untuk array numerik, [NumPy](https://numpy.org/doc/stable/user/whatisnumpy.html) menyediakan `ndarray` multidimensi dan operasi seperti linear algebra, statistik dasar, serta transformasi array. Banyak operasi berjalan di compiled code. [[NumPy vectorization moves loops into compiled operations\|NumPy vectorization moves loops into compiled operations]] menjelaskan mekanismenya tanpa menganggap semua kode Python otomatis cepat.
 
 Dalam web development, Python beserta framework-nya merupakan pilihan implementasi. Tanggung jawab kontrak layanan dan pengelolaan data tetap dibahas pada [[References/Backend Development\|Backend Development]], bukan ditentukan oleh nama bahasa.
-
-## Batas riset
-
-Empat sumber resmi diambil penuh melalui 9Router. Tidak dilakukan benchmark, pengujian interpreter, atau perbandingan framework. Tidak ada klaim bahwa Python selalu paling mudah, paling cepat, atau cocok untuk setiap target deployment. Snapshot, kutipan, dan hash tersedia dalam [[_raw/articles/python-research-packet\|paket riset Python]].

@@ -10,9 +10,9 @@ I use this space to explore technical ideas, record what works, and keep lessons
 
 Everything here is meant to be useful twice: once while I am learning it, and again when I need it later.
 ## Recent
+- [[References/Python\|Python]]
 - [[Python bytecode caches reduce loading work rather than execution work\|Python bytecode caches reduce loading work rather than execution work]]
 - [[NumPy vectorization moves loops into compiled operations\|NumPy vectorization moves loops into compiled operations]]
-- [[References/Python\|Python]]
 - [[References/Go\|Go]]
 - [[Goroutines need explicit exit paths even with garbage collection\|Goroutines need explicit exit paths even with garbage collection]]
 
