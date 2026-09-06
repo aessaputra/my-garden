@@ -26,7 +26,7 @@ Dalam contoh ini, perubahan `count` memperbarui teks angka tanpa menjalankan ula
 
 ## JSX yang familier, model eksekusi yang berbeda
 
-Solid mendukung JSX dan [[typescript\|TypeScript]], sehingga bentuk komponennya tampak familier bagi pengembang [[References/React\|React]]. Kemiripan tersebut terutama berada pada sintaks, bukan pada model eksekusinya. Di Solid, akses data reaktif dilakukan melalui fungsi seperti `count()`, sedangkan komponen tidak dijalankan ulang untuk setiap perubahan.
+Solid mendukung JSX dan [[References/TypeScript\|TypeScript]], sehingga bentuk komponennya tampak familier bagi pengembang [[References/React\|React]]. Kemiripan tersebut terutama berada pada sintaks, bukan pada model eksekusinya. Di Solid, akses data reaktif dilakukan melalui fungsi seperti `count()`, sedangkan komponen tidak dijalankan ulang untuk setiap perubahan.
 
 Perbedaan ini memengaruhi cara menulis kode. Membaca nilai reaktif di luar lingkup pelacakan membuat pembacaan tersebut tidak mengikuti perubahan berikutnya. Solid menyediakan primitif seperti `createEffect` dan `createMemo` untuk membuat lingkup pelacakan secara eksplisit.
 
@@ -41,7 +41,7 @@ SolidJS cocok bagi pengembang yang menginginkan JSX dan TypeScript dengan pembar
 ## Lihat juga
 
 - [[References/JavaScript\|JavaScript]]
-- [[typescript\|TypeScript]]
+- [[References/TypeScript\|TypeScript]]
 - [[References/React\|React]]
 - [[References/Svelte\|Svelte]]
 - [[References/Vue.js\|Vue.js]]

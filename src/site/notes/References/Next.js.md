@@ -60,7 +60,7 @@ Framework ini membawa biaya berupa model cache dan rendering yang perlu dipahami
 - [[References/Vercel\|Vercel]]
 - [[References/Vite\|Vite]]
 - [[References/JavaScript\|JavaScript]]
-- [[TypeScript\|TypeScript]]
+- [[References/TypeScript\|TypeScript]]
 - [[References/CSS\|CSS]]
 - [[References/Web Hosting\|Web Hosting]]
 

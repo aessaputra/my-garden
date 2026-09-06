@@ -36,7 +36,7 @@ Astro 7 menambahkan Advanced Routing melalui `src/fetch.ts`. Entry point ini dap
 
 ## Konten Markdown dan Content Collections
 
-Astro mendukung GitHub Flavored Markdown, frontmatter YAML atau TOML, dan MDX melalui integrasi. Berkas Markdown di `src/pages` dapat langsung menjadi halaman. Untuk kumpulan konten terstruktur, Content Collections memberi loader, schema, validasi, autocomplete, dan tipe [[TypeScript\|TypeScript]].
+Astro mendukung GitHub Flavored Markdown, frontmatter YAML atau TOML, dan MDX melalui integrasi. Berkas Markdown di `src/pages` dapat langsung menjadi halaman. Untuk kumpulan konten terstruktur, Content Collections memberi loader, schema, validasi, autocomplete, dan tipe [[References/TypeScript\|TypeScript]].
 
 Build-time collections cocok untuk konten yang relatif stabil dan dapat dioptimalkan saat build. Live content collections mengambil data saat permintaan masuk untuk CMS, API, database, stok, atau data pengguna yang sering berubah. Pilihan live menghindari rebuild, tetapi data diambil pada setiap request kecuali aplikasi menambahkan cache. Live collections juga tidak memiliki dukungan MDX dan image optimization yang sama dengan build-time collections.
 
@@ -60,7 +60,7 @@ Astro kurang cocok ketika hampir seluruh layar merupakan aplikasi interaktif den
 
 - [[References/HTML\|HTML]]
 - [[References/JavaScript\|JavaScript]]
-- [[TypeScript\|TypeScript]]
+- [[References/TypeScript\|TypeScript]]
 - [[References/React\|React]]
 - [[References/Vue.js\|Vue.js]]
 - [[References/Vite\|Vite]]

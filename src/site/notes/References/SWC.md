@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"SWC.md","permalink":"/swc/","title":"SWC (Speedy Web Compiler)","hideInFiletree":true,"tags":["references","programming","javascript","typescript","architecture","performance"],"noteIcon":"","dg-note-properties":{"title":"SWC (Speedy Web Compiler)","category":"references","tags":["references","programming","javascript","typescript","architecture","performance"],"sources":["_raw/articles/swc-expanded.md"],"created":"2026-08-31","updated":"2026-08-31","confidence":"high"}}
 ---
 
-SWC, singkatan dari Speedy Web Compiler, adalah platform berbasis Rust untuk memproses [[References/JavaScript\|JavaScript]] dan [[typescript\|TypeScript]]. Komponen utamanya dapat mengurai, mentransformasi, dan menghasilkan kode, sedangkan perangkat terkait menyediakan minifikasi, bundling, integrasi dengan *build tool*, serta sistem plugin.
+SWC, singkatan dari Speedy Web Compiler, adalah platform berbasis Rust untuk memproses [[References/JavaScript\|JavaScript]] dan [[References/TypeScript\|TypeScript]]. Komponen utamanya dapat mengurai, mentransformasi, dan menghasilkan kode, sedangkan perangkat terkait menyediakan minifikasi, bundling, integrasi dengan *build tool*, serta sistem plugin.
 
 SWC sering dibandingkan dengan Babel karena keduanya dapat mengubah sintaks JavaScript modern, JSX, TypeScript, dan TSX menjadi JavaScript yang sesuai dengan target eksekusi tertentu. Situs resmi SWC melaporkan kecepatan hingga 20 kali Babel pada satu *thread* dan 70 kali pada empat inti. Angka tersebut berasal dari tolok ukur proyek SWC, sehingga tidak dapat dianggap sebagai peningkatan tetap untuk setiap proyek. Waktu pembangunan nyata juga dipengaruhi konfigurasi, ukuran basis kode, transformasi yang digunakan, I/O, minifikasi, dan alat yang menjalankan SWC.
 
@@ -49,7 +49,7 @@ Pemilihan SWC paling masuk akal ketika waktu transformasi menjadi hambatan, proy
 ## Lihat juga
 
 - [[References/JavaScript\|JavaScript]]
-- [[typescript\|TypeScript]]
+- [[References/TypeScript\|TypeScript]]
 - [[References/Next.js\|Next.js]]
 - [[References/Vite\|Vite]]
 - [[References/esbuild\|esbuild]]

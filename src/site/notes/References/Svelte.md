@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"Svelte.md","permalink":"/svelte/","title":"Svelte","hideInFiletree":true,"tags":["references","frameworks","javascript","typescript","ui","architecture","performance","ssr"],"noteIcon":"","dg-note-properties":{"title":"Svelte","category":"references","tags":["references","frameworks","javascript","typescript","ui","architecture","performance","ssr"],"sources":["_raw/articles/svelte-expanded.md"],"created":"2026-08-30","updated":"2026-08-30","confidence":"high"}}
 ---
 
-Svelte adalah framework untuk membangun antarmuka pengguna web. Pengembang menulis komponen deklaratif dengan [[References/HTML\|HTML]], [[References/CSS\|CSS]], dan [[References/JavaScript\|JavaScript]] atau [[typescript\|TypeScript]], lalu compiler Svelte mengubahnya menjadi JavaScript yang teroptimasi. Svelte dapat digunakan untuk komponen mandiri maupun aplikasi web lengkap melalui SvelteKit.
+Svelte adalah framework untuk membangun antarmuka pengguna web. Pengembang menulis komponen deklaratif dengan [[References/HTML\|HTML]], [[References/CSS\|CSS]], dan [[References/JavaScript\|JavaScript]] atau [[References/TypeScript\|TypeScript]], lalu compiler Svelte mengubahnya menjadi JavaScript yang teroptimasi. Svelte dapat digunakan untuk komponen mandiri maupun aplikasi web lengkap melalui SvelteKit.
 
 ## Pendekatan berbasis compiler
 
@@ -43,7 +43,7 @@ Pendekatan compiler juga membawa konsekuensi. Tim perlu memahami sintaks khusus 
 ## Lihat juga
 
 - [[References/JavaScript\|JavaScript]]
-- [[typescript\|TypeScript]]
+- [[References/TypeScript\|TypeScript]]
 - [[References/HTML\|HTML]]
 - [[References/CSS\|CSS]]
 - [[References/React\|React]]

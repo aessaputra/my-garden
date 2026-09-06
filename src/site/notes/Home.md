@@ -10,10 +10,10 @@ I use this space to explore technical ideas, record what works, and keep lessons
 
 Everything here is meant to be useful twice: once while I am learning it, and again when I need it later.
 ## Recent
-- [[Static output broadens hosting choices\|Static output broadens hosting choices]]
-- [[Content stability should determine static generation\|Content stability should determine static generation]]
-- [[Static generation narrows runtime exposure without removing frontend risk\|Static generation narrows runtime exposure without removing frontend risk]]
-- [[Static generation moves rendering work to build time\|Static generation moves rendering work to build time]]
-- [[References/Static Site Generators\|Static Site Generators]]
+- [[References/TypeScript\|TypeScript]]
+- [[TypeScript extends JavaScript without changing runtime behavior\|TypeScript extends JavaScript without changing runtime behavior]]
+- [[Strict TypeScript settings turn annotations into stronger feedback\|Strict TypeScript settings turn annotations into stronger feedback]]
+- [[Structural typing matches JavaScript shapes without proving identity\|Structural typing matches JavaScript shapes without proving identity]]
+- [[References/Type Checkers\|Type Checkers]]
 
 { .block-language-dataview}

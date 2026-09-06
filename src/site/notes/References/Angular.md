@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"Angular.md","permalink":"/angular/","title":"Angular","hideInFiletree":true,"tags":["references","frameworks","typescript","javascript","ui","architecture","testing","ssr"],"noteIcon":"","dg-note-properties":{"title":"Angular","category":"references","tags":["references","frameworks","typescript","javascript","ui","architecture","testing","ssr"],"sources":["_raw/articles/angular-expanded.md"],"created":"2026-08-30","updated":"2026-08-30","confidence":"high"}}
 ---
 
-Angular adalah framework web berbasis [[typescript\|TypeScript]] yang dipelihara oleh tim Google. Framework ini menyediakan komponen, template, dependency injection, forms, routing, reaktivitas, build tooling, dan dukungan pengujian dalam satu platform. Angular sering digunakan untuk single-page application (SPA), tetapi cakupannya tidak terbatas pada SPA karena juga mendukung server-side rendering (SSR), static site generation (SSG), dan hydration.
+Angular adalah framework web berbasis [[References/TypeScript\|TypeScript]] yang dipelihara oleh tim Google. Framework ini menyediakan komponen, template, dependency injection, forms, routing, reaktivitas, build tooling, dan dukungan pengujian dalam satu platform. Angular sering digunakan untuk single-page application (SPA), tetapi cakupannya tidak terbatas pada SPA karena juga mendukung server-side rendering (SSR), static site generation (SSG), dan hydration.
 
 ## Arsitektur berbasis komponen
 
@@ -49,7 +49,7 @@ Meski demikian, Angular tidak otomatis menjadi pilihan terbaik untuk setiap apli
 ## Lihat juga
 
 - [[References/JavaScript\|JavaScript]]
-- [[typescript\|TypeScript]]
+- [[References/TypeScript\|TypeScript]]
 - [[References/React\|React]]
 - [[References/Vue.js\|Vue.js]]
 - [[References/Pick a Framework\|Pick a Framework]]

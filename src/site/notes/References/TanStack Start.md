@@ -8,7 +8,7 @@ Pada Agustus 2026, TanStack Start masih berstatus Release Candidate untuk v1. Do
 
 ## Router sebagai fondasi
 
-Routing TanStack Start sepenuhnya memakai TanStack Router. Berkas route berada di `src/routes`, sedangkan `src/router.tsx` mengatur router, preloading, cache staleness, dan perilaku global. Generator membuat `routeTree.gen.ts` agar struktur route dan tipe [[TypeScript\|TypeScript]] dapat diinferensikan tanpa menulis tipe URL secara manual.
+Routing TanStack Start sepenuhnya memakai TanStack Router. Berkas route berada di `src/routes`, sedangkan `src/router.tsx` mengatur router, preloading, cache staleness, dan perilaku global. Generator membuat `routeTree.gen.ts` agar struktur route dan tipe [[References/TypeScript\|TypeScript]] dapat diinferensikan tanpa menulis tipe URL secara manual.
 
 Konvensi file mendukung index route, segmen dinamis seperti `$postId`, wildcard, nested route, pathless layout, dan route group. Root route di `src/routes/__root.tsx` menyediakan document shell yang berisi elemen `html`, `head`, dan `body`. Komponen `Outlet` menampilkan child route, `HeadContent` mengisi metadata dokumen, sedangkan `Scripts` memuat JavaScript sisi klien.
 
@@ -63,7 +63,7 @@ React Server Components tersedia sebagai fitur eksperimental, bukan fondasi waji
 ## Lihat juga
 
 - [[References/React\|React]]
-- [[TypeScript\|TypeScript]]
+- [[References/TypeScript\|TypeScript]]
 - [[References/Vite\|Vite]]
 - [[References/Next.js\|Next.js]]
 - [[References/JavaScript\|JavaScript]]
