@@ -10,10 +10,10 @@ I use this space to explore technical ideas, record what works, and keep lessons
 
 Everything here is meant to be useful twice: once while I am learning it, and again when I need it later.
 ## Recent
-- [[References/TypeScript\|TypeScript]]
-- [[TypeScript extends JavaScript without changing runtime behavior\|TypeScript extends JavaScript without changing runtime behavior]]
-- [[Strict TypeScript settings turn annotations into stronger feedback\|Strict TypeScript settings turn annotations into stronger feedback]]
-- [[Structural typing matches JavaScript shapes without proving identity\|Structural typing matches JavaScript shapes without proving identity]]
-- [[References/Type Checkers\|Type Checkers]]
+- [[References/Design Systems\|Design Systems]]
+- [[Contribution criteria prevent design systems from becoming component dumps\|Contribution criteria prevent design systems from becoming component dumps]]
+- [[Documented component states turn reuse into testable behavior\|Documented component states turn reuse into testable behavior]]
+- [[A design system is a governed product, not merely a component library\|A design system is a governed product, not merely a component library]]
+- [[Semantic tokens preserve intent across themes and platforms\|Semantic tokens preserve intent across themes and platforms]]
 
 { .block-language-dataview}
