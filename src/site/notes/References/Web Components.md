@@ -8,7 +8,7 @@ Teknologi tersebut dapat digunakan bersama, tetapi tidak selalu wajib hadir seba
 
 ## Custom Elements
 
-Custom Elements API memungkinkan author mendaftarkan nama elemen dan class implementasinya melalui `CustomElementRegistry`. Nama autonomous custom element memakai tanda hubung untuk menghindari collision dengan elemen HTML masa depan.
+[[References/Custom Elements\|Custom Elements]] API memungkinkan author mendaftarkan nama elemen dan class implementasinya melalui `CustomElementRegistry`. Nama autonomous custom element memakai tanda hubung untuk menghindari collision dengan elemen HTML masa depan.
 
 [MDN membedakan](https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_custom_elements) autonomous custom elements yang mewarisi `HTMLElement` dan customized built-in elements yang memperluas elemen standar.
 
@@ -18,7 +18,7 @@ Constructor memiliki batas khusus. Setup yang bergantung pada children atau docu
 
 ## Shadow DOM
 
-Shadow DOM memasang shadow tree pada host dan membentuk boundary dari document tree biasa. Internal selector serta identifier lebih terlindung dari collision dengan style dan markup sekitar.
+[[References/Shadow DOM\|Shadow DOM]] memasang shadow tree pada host dan membentuk boundary dari document tree biasa. Internal selector serta identifier lebih terlindung dari collision dengan style dan markup sekitar.
 
 [Dokumentasi Shadow DOM](https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_shadow_DOM) menjelaskan host, root, tree, dan boundary. Root dapat dibuat secara imperative atau melalui declarative shadow DOM.
 
@@ -28,7 +28,7 @@ Mode `closed` membatasi akses melalui `element.shadowRoot`, tetapi bukan securit
 
 ## Templates dan Slots
 
-Elemen `template` menyimpan subtree yang tidak dirender secara langsung. Code dapat clone atau import content tersebut sebagai struktur berulang untuk shadow tree maupun DOM biasa.
+[[References/HTML Templates\|HTML Templates]] menyimpan subtree yang tidak dirender secara langsung pada penggunaan template biasa. Code dapat clone atau import content tersebut sebagai struktur berulang untuk shadow tree maupun DOM biasa.
 
 [Templates dan slots](https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_templates_and_slots) memisahkan struktur internal dari content consumer. Slot bernama menjadi insertion point bagi light DOM yang tetap dimiliki consumer.
 

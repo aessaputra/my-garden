@@ -10,10 +10,10 @@ I use this space to explore technical ideas, record what works, and keep lessons
 
 Everything here is meant to be useful twice: once while I am learning it, and again when I need it later.
 ## Recent
-- [[References/Desktop Applications in JavaScript\|Desktop Applications in JavaScript]]
-- [[Desktop performance claims need workload measurements\|Desktop performance claims need workload measurements]]
-- [[Native desktop access needs explicit trust boundaries\|Native desktop access needs explicit trust boundaries]]
-- [[Desktop runtime choices trade package size for rendering control\|Desktop runtime choices trade package size for rendering control]]
-- [[References/Progressive Web Apps\|Progressive Web Apps]]
+- [[References/Ionic\|Ionic]]
+- [[Adaptive styling does not change the rendering model\|Adaptive styling does not change the rendering model]]
+- [[Ionic separates web interfaces from native integration\|Ionic separates web interfaces from native integration]]
+- [[Closed shadow roots are not security boundaries\|Closed shadow roots are not security boundaries]]
+- [[References/Web Components\|Web Components]]
 
 { .block-language-dataview}
