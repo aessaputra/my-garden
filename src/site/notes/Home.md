@@ -10,10 +10,10 @@ I use this space to explore technical ideas, record what works, and keep lessons
 
 Everything here is meant to be useful twice: once while I am learning it, and again when I need it later.
 ## Recent
-- [[References/Server-Side Rendering\|Server-Side Rendering]]
-- [[SiFarma\|SiFarma]]
-- [[References/Web Security Knowledge\|Web Security Knowledge]]
-- [[Parameterized queries separate data from commands\|Parameterized queries separate data from commands]]
-- [[Updates and logging close the loop attackers exploit\|Updates and logging close the loop attackers exploit]]
+- [[Static output broadens hosting choices\|Static output broadens hosting choices]]
+- [[Content stability should determine static generation\|Content stability should determine static generation]]
+- [[Static generation narrows runtime exposure without removing frontend risk\|Static generation narrows runtime exposure without removing frontend risk]]
+- [[Static generation moves rendering work to build time\|Static generation moves rendering work to build time]]
+- [[References/Static Site Generators\|Static Site Generators]]
 
 { .block-language-dataview}
