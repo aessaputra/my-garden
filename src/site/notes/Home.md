@@ -10,10 +10,10 @@ I use this space to explore technical ideas, record what works, and keep lessons
 
 Everything here is meant to be useful twice: once while I am learning it, and again when I need it later.
 ## Recent
+- [[References/Server-Side Rendering\|Server-Side Rendering]]
 - [[SiFarma\|SiFarma]]
 - [[References/Web Security Knowledge\|Web Security Knowledge]]
 - [[Parameterized queries separate data from commands\|Parameterized queries separate data from commands]]
 - [[Updates and logging close the loop attackers exploit\|Updates and logging close the loop attackers exploit]]
-- [[Secure cookies still need explicit CSRF defense\|Secure cookies still need explicit CSRF defense]]
 
 { .block-language-dataview}
