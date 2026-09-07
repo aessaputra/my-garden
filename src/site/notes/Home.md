@@ -11,10 +11,10 @@ I use this space to explore technical ideas, share [[Craft\|the things I build]]
 Everything here is meant to be useful twice: *once while I am learning it, and again when I need it later.*
 
 ## Recent
+- [[References/Android\|Android]]
+- [[Android components are separate system entry points with distinct lifecycles\|Android components are separate system entry points with distinct lifecycles]]
+- [[Android build variants multiply release targets from types and flavors\|Android build variants multiply release targets from types and flavors]]
+- [[Installable Android packages differ from publishable bundles\|Installable Android packages differ from publishable bundles]]
 - [[About-me\|About-me]]
-- [[References/Python\|Python]]
-- [[Python bytecode caches reduce loading work rather than execution work\|Python bytecode caches reduce loading work rather than execution work]]
-- [[NumPy vectorization moves loops into compiled operations\|NumPy vectorization moves loops into compiled operations]]
-- [[References/Go\|Go]]
 
 { .block-language-dataview}
