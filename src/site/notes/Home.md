@@ -8,7 +8,8 @@ Welcome to Aes's Garden, where I collect ideas, lessons, and useful things I dis
 
 I use this space to explore technical ideas, record what works, and keep lessons from problems I have solved. Related notes connect across topics, making it easier to follow an idea beyond a single page.
 
-Everything here is meant to be useful twice: once while I am learning it, and again when I need it later.
+Everything here is meant to be useful twice: *once while I am learning it, and again when I need it later.*
+
 ## Recent
 - [[References/Python\|Python]]
 - [[Python bytecode caches reduce loading work rather than execution work\|Python bytecode caches reduce loading work rather than execution work]]
