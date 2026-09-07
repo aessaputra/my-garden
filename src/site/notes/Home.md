@@ -4,17 +4,17 @@
 
 ![2026-08-30-digital-garden-logo-no-bg.png\|123](/img/user/Attachments/2026-08-30-digital-garden-logo-no-bg.png)
 # Welcome
-Welcome to Aes's Garden, where I collect ideas, lessons, and useful things I discover along the way.
+Welcome to [[ About-me\|Aes's]] Garden, where I collect ideas, lessons, and useful things I discover along the way.
 
-I use this space to explore technical ideas, record what works, and keep lessons from problems I have solved. Related notes connect across topics, making it easier to follow an idea beyond a single page.
+I use this space to explore technical ideas, share [[Craft\|the things I build]], and keep lessons from problems I have solved. Related notes connect across topics, making it easier to follow an idea beyond a single page.
 
 Everything here is meant to be useful twice: *once while I am learning it, and again when I need it later.*
 
 ## Recent
+- [[About-me\|About-me]]
 - [[References/Python\|Python]]
 - [[Python bytecode caches reduce loading work rather than execution work\|Python bytecode caches reduce loading work rather than execution work]]
 - [[NumPy vectorization moves loops into compiled operations\|NumPy vectorization moves loops into compiled operations]]
 - [[References/Go\|Go]]
-- [[Goroutines need explicit exit paths even with garbage collection\|Goroutines need explicit exit paths even with garbage collection]]
 
 { .block-language-dataview}
