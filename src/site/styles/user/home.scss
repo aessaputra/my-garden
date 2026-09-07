@@ -1,3 +1,16 @@
 .content.home > header > h1 {
   display: none;
 }
+
+.content.home > p:has(+ h2#recent) {
+  margin-block: 2rem 2.5rem;
+
+  > em {
+    display: block;
+    margin-block-start: 0.5rem;
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: var(--text-normal);
+    text-wrap: pretty;
+  }
+}
