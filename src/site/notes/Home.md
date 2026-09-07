@@ -4,7 +4,7 @@
 
 ![2026-08-30-digital-garden-logo-no-bg.png\|123](/img/user/Attachments/2026-08-30-digital-garden-logo-no-bg.png)
 # Welcome
-Welcome to [[ About-me\|Aes's]] Garden, where I collect ideas, lessons, and useful things I discover along the way.
+Welcome to [[About-me\|Aes's]] Garden, where I collect ideas, lessons, and useful things I discover along the way.
 
 I use this space to explore technical ideas, share [[Craft\|the things I build]], and keep lessons from problems I have solved. Related notes connect across topics, making it easier to follow an idea beyond a single page.
 
