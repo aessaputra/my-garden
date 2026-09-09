@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/database-transactions-keep-dependent-writes-from-becoming-partial-outcomes/","title":"Database transactions keep dependent writes from becoming partial outcomes","hideInFiletree":true,"tags":["backend","programming"],"noteIcon":"","dg-note-properties":{"title":"Database transactions keep dependent writes from becoming partial outcomes","categories":["Backend Systems"],"tags":["backend","programming"],"created":"2026-09-07","updated":"2026-09-07"}}
+{"dg-publish":true,"permalink":"/database-transactions-keep-dependent-writes-from-becoming-partial-outcomes/","title":"Database transactions keep dependent writes from becoming partial outcomes","hideInFiletree":true,"tags":["backend","programming"],"noteIcon":"","dg-note-properties":{"title":"Database transactions keep dependent writes from becoming partial outcomes","categories":["Backend Systems"],"tags":["backend","programming"],"created":"2026-09-07","updated":"2026-09-09"}}
 ---
-
 
 A transfer that debits one account without crediting another leaves a business operation incomplete.
 
@@ -18,3 +17,5 @@ Tests should interrupt the operation between dependent writes and verify that pa
 This database guarantee does not automatically include an external payment service or another independent system.
 
 Define the transaction boundary explicitly, and verify failures inside that boundary before promising atomic outcomes.
+
+Atomicity does not imply that successive reads share one snapshot. [[Transaction isolation determines what concurrent operations may observe\|Transaction isolation determines what concurrent operations may observe]] qualifies this boundary: [PostgreSQL Read Committed](https://www.postgresql.org/docs/18/transaction-iso.html) permits two queries in the same transaction to see different committed data. [[Database constraints enforce shared invariants at the write boundary\|Database constraints enforce shared invariants at the write boundary]] complements atomicity by defining which resulting states are admissible.

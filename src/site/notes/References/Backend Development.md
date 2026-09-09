@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Backend Development.md","permalink":"/backend-development/","title":"Backend Development","hideInFiletree":true,"tags":["references","backend","programming","security"],"noteIcon":"","dg-note-properties":{"title":"Backend Development","categories":["Backend Systems"],"tags":["references","backend","programming","security"],"sources":["_raw/articles/backend-development-evidence-addendum-2026-09-07.md"],"created":"2026-09-07","updated":"2026-09-07","confidence":"high"}}
+{"dg-publish":true,"dg-path":"Backend Development.md","permalink":"/backend-development/","title":"Backend Development","hideInFiletree":true,"tags":["references","backend","programming","security"],"noteIcon":"","dg-note-properties":{"title":"Backend Development","categories":["Backend Systems"],"tags":["references","backend","programming","security"],"sources":["_raw/articles/backend-development-evidence-addendum-2026-09-07.md"],"created":"2026-09-07","updated":"2026-09-09","confidence":"high"}}
 ---
 
 Backend development adalah pengembangan logika server yang menerima request, memproses aturan aplikasi, mengakses data, dan menghasilkan response untuk client.
@@ -23,6 +23,8 @@ Kontrak mencakup operasi, representasi data, status, dan perilaku error. Loose c
 [[References/HTTP\|HTTP]] membahas protokolnya, sedangkan [[References/GraphQL\|GraphQL]] membahas pendekatan API berbasis schema. Browser APIs pada [[References/Web APIs\|Web APIs]] bukan sinonim endpoint backend.
 
 ## Data dan transaksi
+
+[[References/Relational Databases\|Relational Databases]] memperinci tabel, keys, constraints, dan isolation sebagai dasar penyimpanan terstruktur. Pilihan database tidak menggantikan kontrak API atau aturan bisnis backend.
 
 [PostgreSQL](https://www.postgresql.org/docs/current/tutorial-transactions.html) menjelaskan transaksi sebagai penggabungan beberapa langkah menjadi operasi all-or-nothing.
 
