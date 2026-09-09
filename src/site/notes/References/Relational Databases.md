@@ -4,7 +4,7 @@
 
 Relational database adalah database yang merepresentasikan data sebagai tabel berisi baris dan kolom. RDBMS adalah perangkat lunak untuk mengelolanya. Dalam [definisi PostgreSQL](https://www.postgresql.org/docs/18/tutorial-concepts.html), *relation* merupakan istilah matematis untuk tabel, bukan sekadar hubungan antartabel.
 
-SQL digunakan untuk mendefinisikan, membaca, dan mengubah data pada sistem relasional. PostgreSQL, MySQL, dan Oracle Database merupakan contoh produk yang dibahas di sini; model relasional tidak menyamakan fitur maupun konfigurasi ketiganya.
+SQL digunakan untuk mendefinisikan, membaca, dan mengubah data pada sistem relasional. [[References/PostgreSQL\|PostgreSQL]], MySQL, dan Oracle Database merupakan contoh produk yang dibahas di sini; model relasional tidak menyamakan fitur maupun konfigurasi ketiganya.
 
 ## Struktur dan hubungan
 
