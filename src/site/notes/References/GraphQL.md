@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"GraphQL.md","permalink":"/graph-ql/","title":"GraphQL","hideInFiletree":true,"tags":["references","programming","backend","schema","performance","security"],"noteIcon":"","dg-note-properties":{"title":"GraphQL","type":"reference","status":"evergreen","source_type":"standards-and-official-docs","tags":["references","programming","backend","schema","performance","security"],"sources":["https://spec.graphql.org/September2025/","https://graphql.org/learn/introduction/","https://graphql.org/learn/schema/","https://graphql.org/learn/queries/","https://graphql.org/learn/validation/","https://graphql.org/learn/execution/","https://graphql.org/learn/response/","https://graphql.org/learn/serving-over-http/","https://graphql.org/learn/performance/","https://graphql.org/learn/security/","https://graphql.org/learn/authorization/","https://graphql.org/community/foundation/"],"created":"2026-08-29","updated":"2026-08-29"}}
+{"dg-publish":true,"dg-path":"GraphQL.md","permalink":"/graph-ql/","title":"GraphQL","hideInFiletree":true,"tags":["references","programming","backend","schema","performance","security"],"noteIcon":"","dg-note-properties":{"title":"GraphQL","categories":["APIs"],"type":"reference","status":"evergreen","source_type":"standards-and-official-docs","tags":["references","programming","backend","schema","performance","security"],"sources":["_raw/articles/n-plus-one-problem-research-packet.md","https://spec.graphql.org/September2025/","https://graphql.org/learn/introduction/","https://graphql.org/learn/schema/","https://graphql.org/learn/queries/","https://graphql.org/learn/validation/","https://graphql.org/learn/execution/","https://graphql.org/learn/response/","https://graphql.org/learn/serving-over-http/","https://graphql.org/learn/performance/","https://graphql.org/learn/security/","https://graphql.org/learn/authorization/","https://graphql.org/community/foundation/"],"created":"2026-08-29","updated":"2026-09-09"}}
 ---
 
 GraphQL adalah bahasa query untuk API sekaligus model eksekusi server berdasarkan schema bertipe. Client memilih field yang diperlukan, lalu server memvalidasi operasi terhadap schema dan menjalankan resolver untuk menghasilkan response dengan bentuk yang mengikuti selection set. GraphQL tidak terikat pada database, bahasa pemrograman, atau transport tertentu.
@@ -78,7 +78,7 @@ API GraphQL perlu mempertahankan semantik transport. Authentication biasanya sel
 
 Selection set memberi client kendali payload, tetapi juga memberi kendali atas biaya. Query yang dalam, lebar, memiliki banyak alias, atau meminta list tanpa batas dapat menghabiskan CPU, memori, dan akses backend. Batasi ukuran page, depth, breadth, jumlah operasi per batch, serta kompleksitas berdasarkan biaya field.
 
-Masalah N+1 muncul ketika satu resolver list diikuti request backend terpisah untuk setiap item. Batching dan caching per request, misalnya dengan DataLoader, dapat menggabungkan pemuatan. Solusi harus mengikuti karakter sumber data; DataLoader bukan pengganti index database, query plan, atau observability.
+[[References/N plus one problem\|N plus one problem]] muncul ketika satu resolver list diikuti request backend terpisah untuk setiap item. [GraphQL Performance](https://graphql.org/learn/performance/) menjelaskan batching untuk menggabungkan pemuatan. [[Relationship loading should minimize total work rather than query count\|Relationship loading should minimize total work rather than query count]] membatasi optimasi pada biaya keseluruhan, bukan jumlah query saja. [[DataLoader caches belong to the request that defines access\|DataLoader caches belong to the request that defines access]] menjaga agar cache tidak melewati batas pengguna; DataLoader bukan pengganti index database, query plan, atau observability.
 
 Persisted atau trusted documents mengganti document penuh dengan identifier. Untuk first-party client, allowlist trusted documents juga membatasi operasi yang dapat dijalankan. Public API yang menerima operasi pihak ketiga tetap memerlukan demand control karena operasinya tidak dapat diketahui seluruhnya saat build.
 
@@ -98,15 +98,15 @@ Schema sebaiknya mencerminkan domain dan use case, bukan menyalin tabel database
 
 ## Sumber
 
-1. GraphQL Specification, September 2025 — GraphQL Specification Project: https://spec.graphql.org/September2025/
-2. Introduction to GraphQL — GraphQL Foundation: https://graphql.org/learn/introduction/
-3. Schemas and Types — GraphQL Foundation: https://graphql.org/learn/schema/
-4. Queries — GraphQL Foundation: https://graphql.org/learn/queries/
-5. Validation — GraphQL Foundation: https://graphql.org/learn/validation/
-6. Execution — GraphQL Foundation: https://graphql.org/learn/execution/
-7. Response — GraphQL Foundation: https://graphql.org/learn/response/
-8. Serving over HTTP — GraphQL Foundation: https://graphql.org/learn/serving-over-http/
-9. Performance — GraphQL Foundation: https://graphql.org/learn/performance/
-10. Security — GraphQL Foundation: https://graphql.org/learn/security/
-11. Authorization — GraphQL Foundation: https://graphql.org/learn/authorization/
-12. What is the GraphQL Foundation? — GraphQL Foundation: https://graphql.org/community/foundation/
+- [GraphQL Specification, September 2025: GraphQL Specification Project](https://spec.graphql.org/September2025/)
+- [Introduction to GraphQL: GraphQL Foundation](https://graphql.org/learn/introduction/)
+- [Schemas and Types: GraphQL Foundation](https://graphql.org/learn/schema/)
+- [Queries: GraphQL Foundation](https://graphql.org/learn/queries/)
+- [Validation: GraphQL Foundation](https://graphql.org/learn/validation/)
+- [Execution: GraphQL Foundation](https://graphql.org/learn/execution/)
+- [Response: GraphQL Foundation](https://graphql.org/learn/response/)
+- [Serving over HTTP: GraphQL Foundation](https://graphql.org/learn/serving-over-http/)
+- [Performance: GraphQL Foundation](https://graphql.org/learn/performance/)
+- [Security: GraphQL Foundation](https://graphql.org/learn/security/)
+- [Authorization: GraphQL Foundation](https://graphql.org/learn/authorization/)
+- [What is the GraphQL Foundation?: GraphQL Foundation](https://graphql.org/community/foundation/)

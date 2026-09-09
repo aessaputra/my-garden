@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Deployment.md","permalink":"/deployment/","title":"Deployment","hideInFiletree":true,"tags":["references","deployment","devops","performance"],"noteIcon":"","dg-note-properties":{"title":"Deployment","category":"references","tags":["references","deployment","devops","performance"],"sources":["_raw/articles/deployment-research-packet.md"],"created":"2026-09-02","updated":"2026-09-02","confidence":"high"}}
+{"dg-publish":true,"dg-path":"Deployment.md","permalink":"/deployment/","title":"Deployment","hideInFiletree":true,"tags":["references","deployment","devops","performance"],"noteIcon":"","dg-note-properties":{"title":"Deployment","category":"references","tags":["references","deployment","devops","performance"],"sources":["_raw/articles/deployment-research-packet.md","_raw/articles/database-migrations-research-packet.md"],"created":"2026-09-02","updated":"2026-09-09","confidence":"high"}}
 ---
 
 Deployment adalah proses memindahkan versi aplikasi yang telah dibangun ke environment tempat pengguna atau sistem lain dapat mengaksesnya.
@@ -74,7 +74,9 @@ Verifikasi harus membandingkan versi baru dengan baseline. Alarm yang hanya meli
 
 Rollback aplikasi tidak otomatis membalikkan schema, data, queue message, file, cache, atau efek samping pada layanan eksternal.
 
-Migrasi database sebaiknya kompatibel dengan versi lama dan baru selama rollout. Pola expand and contract mengurangi kebutuhan perubahan schema yang harus terjadi serentak dengan kode.
+[[References/Database Migrations\|Database Migrations]] mengelola evolusi schema dan data sebagai perubahan yang dilacak. [[Schema changes need compatibility until old clients retire\|Schema changes need compatibility until old clients retire]] memperjelas syarat rollout: [expand and contract](https://www.prisma.io/dataguide/types/relational/expand-and-contract-pattern) mempertahankan struktur lama sampai client berpindah, tetapi data khusus schema baru tetap dapat membatasi rollback.
+
+Kompatibilitas aplikasi bukan jaminan bebas downtime. [PostgreSQL ALTER TABLE](https://www.postgresql.org/docs/18/sql-altertable.html) dapat mengambil restrictive lock atau melakukan table rewrite; dampak operasional migrasi harus diuji terpisah.
 
 Backup perlu disertai restore test. Snapshot tanpa prosedur pemulihan, target waktu, dan validasi integritas belum menjadi strategi rollback data yang memadai.
 

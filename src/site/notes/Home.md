@@ -11,10 +11,10 @@ I use this space to explore technical ideas, share [[Craft\|the things I build]]
 Everything here is meant to be useful twice: *once while I am learning it, and again when I need it later.*
 
 ## Recent
-- [[Database transactions keep dependent writes from becoming partial outcomes\|Database transactions keep dependent writes from becoming partial outcomes]]
-- [[References/Relational Databases\|Relational Databases]]
-- [[References/Backend Development\|Backend Development]]
-- [[Transaction isolation determines what concurrent operations may observe\|Transaction isolation determines what concurrent operations may observe]]
-- [[Database constraints enforce shared invariants at the write boundary\|Database constraints enforce shared invariants at the write boundary]]
+- [[References/N plus one problem\|N plus one problem]]
+- [[References/GraphQL\|GraphQL]]
+- [[DataLoader caches belong to the request that defines access\|DataLoader caches belong to the request that defines access]]
+- [[Relationship loading should minimize total work rather than query count\|Relationship loading should minimize total work rather than query count]]
+- [[References/Database Migrations\|Database Migrations]]
 
 { .block-language-dataview}

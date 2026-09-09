@@ -10,7 +10,7 @@ SQL digunakan untuk mendefinisikan, membaca, dan mengubah data pada sistem relas
 
 Kolom mempunyai tipe data, sedangkan baris menyimpan record. `PRIMARY KEY` mengidentifikasi baris secara unik dan tidak boleh null; kunci dapat terdiri atas beberapa kolom. `FOREIGN KEY` menjaga agar nilai referensi yang diwajibkan cocok dengan baris yang dirujuk. Rincian ini dijelaskan dalam [dokumentasi constraints PostgreSQL](https://www.postgresql.org/docs/18/ddl-constraints.html).
 
-`JOIN` menggabungkan baris berdasarkan kondisi yang ditulis dalam query. Foreign key menjaga integritas, bukan prasyarat sintaks join. [Tutorial joins](https://www.postgresql.org/docs/18/tutorial-join.html) menunjukkan pemilihan pasangan baris melalui ekspresi `ON`. Implementasi melalui Data API dibahas dalam [[References/Join dan Nested Tables di Supabase\|Join dan Nested Tables di Supabase]], sedangkan [[References/Tabel dan Data di Supabase\|Tabel dan Data di Supabase]] memberi panduan pembuatan tabel.
+`JOIN` menggabungkan baris berdasarkan kondisi yang ditulis dalam query. Foreign key menjaga integritas, bukan prasyarat sintaks join. [Tutorial joins](https://www.postgresql.org/docs/18/tutorial-join.html) menunjukkan pemilihan pasangan baris melalui ekspresi `ON`.
 
 Contoh hipotetis: tabel pelanggan menyimpan identitas pelanggan, tabel pesanan menyimpan referensi pelanggan, dan tabel item pesanan menghubungkan pesanan dengan produk. Struktur ini memungkinkan detail pelanggan dan item diperoleh bersama tanpa menyalin semua atribut pelanggan ke setiap baris item.
 
