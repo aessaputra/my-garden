@@ -11,8 +11,8 @@ I use this space to explore technical ideas, share [[Craft\|the things I build]]
 Everything here is meant to be useful twice: *once while I am learning it, and again when I need it later.*
 
 ## Recent
-- [[Craft\|Craft]]
 - [[PaperMind\|PaperMind]]
+- [[Craft\|Craft]]
 - [[References/MySQL\|MySQL]]
 - [[References/Relational Databases\|Relational Databases]]
 - [[References/PostgreSQL\|PostgreSQL]]
