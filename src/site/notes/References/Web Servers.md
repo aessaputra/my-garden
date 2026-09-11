@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Web Servers.md","permalink":"/web-servers/","title":"Web Servers","hideInFiletree":true,"tags":["references","programming","performance","security"],"noteIcon":"","dg-note-properties":{"title":"Web Servers","categories":["Web Technologies"],"type":"reference","tags":["references","programming","performance","security"],"sources":["_raw/articles/web-servers-user-summary-2026-09-11.md"],"created":"2026-09-11","updated":"2026-09-11","confidence":"medium"}}
+{"dg-publish":true,"dg-path":"Web Servers.md","permalink":"/web-servers/","title":"Web Servers","hideInFiletree":true,"tags":["references","programming","performance","security"],"noteIcon":"","dg-note-properties":{"title":"Web Servers","categories":["Web Technologies"],"type":"reference","tags":["references","programming","performance","security"],"sources":["_raw/articles/web-servers-user-summary-2026-09-11.md"],"created":"2026-09-11","updated":"2026-09-12","confidence":"medium"}}
 ---
 
 Web server adalah perangkat lunak yang menerima request HTTP dari client dan mengembalikan response HTTP. Client umumnya browser atau aplikasi lintas jaringan, sedangkan server yang dibahas di sini adalah server perangkat lunak yang dijalankan pada host, bukan mesin fisiknya.
@@ -25,7 +25,7 @@ Web server dapat menjadi bagian dari arsitektur yang lebih besar, bukan satu-sat
 
 [[References/Cache-Control\|Cache-Control]] mengatur perilaku cache yang mematuhi aturan HTTP. [[References/Caching\|Caching]] menjelaskan reuse di luar HTTP, [[References/Client Side Caching\|Client Side Caching]] untuk perangkat pengguna, dan [[References/Deployment\|Deployment]] untuk peran server dalam release.
 
-Apache HTTP Server, [[References/Nginx\|Nginx]], dan IIS adalah contoh perangkat lunak web server yang umum dipakai. Daftar tiga produk tersebut tidak berarti ketiganya sekelas dalam semua kasus atau cocok untuk setiap workload. Pilihan bergantung pada kebutuhan statis dan dinamis, traffic, operasional, dan ekosistem tim.
+[[References/Apache\|Apache HTTP Server]], [[References/Nginx\|Nginx]], [[References/Caddy\|Caddy]], dan IIS adalah contoh perangkat lunak web server. Daftar tersebut bukan rekomendasi universal atau jaminan kesesuaian untuk setiap workload. Pilihan bergantung pada kebutuhan statis dan dinamis, traffic, operasional, dan ekosistem tim.
 
 ## Batas arsitektur
 
