@@ -11,10 +11,10 @@ I use this space to explore technical ideas, share [[Craft\|the things I build]]
 Everything here is meant to be useful twice: *once while I am learning it, and again when I need it later.*
 
 ## Recent
-- [[References/Oracle Database\|Oracle Database]]
-- [[References/Microsoft SQL Server\|Microsoft SQL Server]]
-- [[References/SQLite\|SQLite]]
-- [[References/MariaDB\|MariaDB]]
-- [[PaperMind\|PaperMind]]
+- [[References/Caching\|Caching]]
+- [[References/Client Side Caching\|Client Side Caching]]
+- [[References/Memcached\|Memcached]]
+- [[References/Redis\|Redis]]
+- [[References/Cache-Control\|Cache-Control]]
 
 { .block-language-dataview}

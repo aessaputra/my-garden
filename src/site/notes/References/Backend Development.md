@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Backend Development.md","permalink":"/backend-development/","title":"Backend Development","hideInFiletree":true,"tags":["references","backend","programming","security"],"noteIcon":"","dg-note-properties":{"title":"Backend Development","categories":["Backend Systems"],"tags":["references","backend","programming","security"],"sources":["_raw/articles/backend-development-evidence-addendum-2026-09-07.md"],"created":"2026-09-07","updated":"2026-09-09","confidence":"high"}}
+{"dg-publish":true,"dg-path":"Backend Development.md","permalink":"/backend-development/","title":"Backend Development","hideInFiletree":true,"tags":["references","backend","programming","security"],"noteIcon":"","dg-note-properties":{"title":"Backend Development","categories":["Backend Systems"],"tags":["references","backend","programming","security"],"sources":["_raw/articles/backend-development-evidence-addendum-2026-09-07.md"],"created":"2026-09-07","updated":"2026-09-10","confidence":"high"}}
 ---
 
 Backend development adalah pengembangan logika server yang menerima request, memproses aturan aplikasi, mengakses data, dan menghasilkan response untuk client.
@@ -15,6 +15,8 @@ Backend bukan sekadar penghubung frontend dengan database. MDN juga mencakup has
 Framework membantu fungsi umum seperti routing, sessions, authentication, database access, dan templating. Pemilihan framework tidak menggantikan penetapan aturan aplikasi.
 
 ## API sebagai kontrak
+
+[[References/APIs\|APIs]] membedakan kontrak antarmuka umum dari endpoint, methods, dan format data pada HTTP API.
 
 [Microsoft](https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design) menyarankan REST API berorientasi resource dan tidak menyalin struktur tabel database secara langsung.
 

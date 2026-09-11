@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Authentication Strategies.md","permalink":"/authentication-strategies/","title":"Authentication Strategies","hideInFiletree":true,"tags":["references","security","auth","architecture"],"noteIcon":"","dg-note-properties":{"title":"Authentication Strategies","category":"references","tags":["references","security","auth","architecture"],"sources":["_raw/articles/authentication-strategies-research-packet.md"],"created":"2026-09-03","updated":"2026-09-03","confidence":"high"}}
+{"dg-publish":true,"dg-path":"Authentication Strategies.md","permalink":"/authentication-strategies/","title":"Authentication Strategies","hideInFiletree":true,"tags":["references","security","auth","architecture"],"noteIcon":"","dg-note-properties":{"title":"Authentication Strategies","category":"references","tags":["references","security","auth","architecture"],"sources":["_raw/articles/authentication-strategies-research-packet.md"],"created":"2026-09-03","updated":"2026-09-11","confidence":"high"}}
 ---
 
 
@@ -8,6 +8,8 @@ Authentication memverifikasi bahwa pihak yang meminta akses menguasai autentikat
 Identity proofing berbeda lagi. Proses itu menilai apakah identitas digital benar-benar terkait dengan orang atau organisasi yang diklaim.
 
 Strategi autentikasi bukan sekadar format token. Ia mencakup cara login, penyimpanan state, pengiriman bukti, validasi, pencabutan, pemulihan akun, dan peningkatan assurance.
+
+Pengantar khusus API tersedia di [[References/Authentication\|Authentication]]. Halaman ini berfokus pada pemilihan strategi dan trade-off penerapannya.
 
 ## Model ancaman dan kebutuhan
 
