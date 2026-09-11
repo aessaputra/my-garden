@@ -11,8 +11,8 @@ I use this space to explore technical ideas, share [[Craft\|the things I build]]
 Everything here is meant to be useful twice: *once while I am learning it, and again when I need it later.*
 
 ## Recent
-- [[References/Web Servers\|Web Servers]]
 - [[References/Nginx\|Nginx]]
+- [[References/Web Servers\|Web Servers]]
 - [[References/Deployment\|Deployment]]
 - [[References/Caching\|Caching]]
 - [[References/Client Side Caching\|Client Side Caching]]

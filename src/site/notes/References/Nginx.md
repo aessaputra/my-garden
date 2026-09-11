@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"Nginx.md","permalink":"/nginx/","title":"Nginx","hideInFiletree":true,"tags":["references","programming","performance","security"],"noteIcon":"","dg-note-properties":{"title":"Nginx","categories":["Software Systems"],"type":"reference","tags":["references","programming","performance","security"],"sources":["_raw/articles/nginx-user-summary-2026-09-11.md"],"created":"2026-09-11","updated":"2026-09-11","confidence":"medium"}}
 ---
 
-Nginx (dibaca engine-x) adalah perangkat lunak web server yang juga dapat berperan sebagai reverse proxy. Nginx bersifat open source dengan lisensi BSD dua klausa, sedangkan NGINX Plus adalah produk komersial dengan fitur tambahan. Pemakaian dan lisensi perlu diperiksa per versi dan produk, bukan diasumsikan seragam.
+Nginx adalah perangkat lunak web server yang juga dapat berperan sebagai reverse proxy. Nginx bersifat open source dengan lisensi BSD dua klausa, sedangkan NGINX Plus adalah produk komersial dengan fitur tambahan.
 
 ## Peran umum
 
@@ -30,7 +30,5 @@ Kesalahan konfigurasi dapat menimbulkan risiko keamanan, misalnya path traversal
 [[References/Deployment\|Deployment]] dan [[References/Caching\|Caching]] menghubungkan peran Nginx dengan proses rilis dan strategi cache yang lebih luas.
 
 ## Sumber
-
-Paste pengguna sebagai konteks awal. Dokumentasi berikut menjadi rujukan pemeriksaan implementasi, bukan snapshot yang diverifikasi pada ingest ini:
 
 - [NGINX Documentation](https://nginx.org/en/docs/): modul, konfigurasi, dan panduan pengoperasian.
