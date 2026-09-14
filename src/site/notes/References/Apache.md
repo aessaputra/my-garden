@@ -2,8 +2,7 @@
 {"dg-publish":true,"dg-path":"Apache.md","permalink":"/apache/","title":"Apache","hideInFiletree":true,"tags":["references","programming","performance","security"],"noteIcon":"","dg-note-properties":{"title":"Apache","aliases":["Apache HTTP Server","httpd"],"categories":["Software Systems"],"type":"reference","tags":["references","programming","performance","security"],"sources":["_raw/articles/apache-research-packet-2026-09-12.md"],"created":"2026-09-12","updated":"2026-09-12","confidence":"high"}}
 ---
 
-Apache HTTP Server, sering disebut Apache atau httpd, adalah web server open source dari Apache Software Foundation. Server ini berjalan pada Linux, Windows, macOS, dan sistem Unix-like. Apache di sini bukan nama untuk seluruh proyek yayasan tersebut.
-
+Apache HTTP Server, sering disebut Apache atau httpd, adalah web server open source dari Apache Software Foundation. Server ini berjalan pada Linux, Windows, macOS, dan sistem Unix-like. Apache di sini bukan nama untuk seluruh proyek yayasan tersebut
 Dalam keluarga [[References/Web Servers\|Web Servers]], Apache dapat menyajikan konten statis, meneruskan request ke aplikasi, menjadi reverse proxy, dan mengakhiri koneksi TLS. Fitur yang tersedia bergantung pada modul dan konfigurasi yang diaktifkan.
 
 ## Modul dan model concurrency
