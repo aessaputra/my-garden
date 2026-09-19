@@ -12,3 +12,7 @@ I prefer simple solutions that I can understand and maintain. Before adding a to
 That also shapes this garden. I keep related notes connected so I can return to a question without starting over. The notes are useful to me first; I share them in case they help someone else working through the same thing.
 
 You can start at [[Home\|Home]] or browse the notes that catch your attention.
+
+## How to reach me
+
+Find me at [aes.my.id](https://aes.my.id).
