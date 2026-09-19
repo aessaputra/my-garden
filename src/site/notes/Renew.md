@@ -3,7 +3,11 @@
 ---
 
 ![renew-x8s0IFP6.webp](/img/user/Attachments/renew-x8s0IFP6.webp)
-![renew-60pVRiJD.webp\|513](/img/user/Attachments/renew-60pVRiJD.webp)![renew-94WfRJqh.webp\|141](/img/user/Attachments/renew-94WfRJqh.webp)
+
+![renew-60pVRiJD.webp](/img/user/Attachments/renew-60pVRiJD.webp)
+
+![renew-94WfRJqh.webp\|center\|300](/img/user/Attachments/renew-94WfRJqh.webp)
+
 Renew adalah antarmuka untuk mengecek biaya langganan dan jadwal pembayaran tanpa membuka panel administrasi Wallos. Data langganan tetap dikelola oleh Wallos sebagai backend.
 
 Di Renew, pengguna bisa mencari langganan aktif dan menyaringnya berdasarkan kategori atau metode pembayaran. Detail tiap langganan bisa dibuka, datanya diedit, atau langganannya dihapus. Saat menambah maupun mengedit langganan, pengguna juga bisa mengatur interval pembayaran dan pengingat.
