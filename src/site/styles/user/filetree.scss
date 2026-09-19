@@ -6,6 +6,12 @@ body {
   --dg-search-btn-icon-size: 18px;
 }
 
+@media (width < 1000px) {
+  body:not(.no-filetree) .navbar .search-button {
+    display: none;
+  }
+}
+
 .filetree-sidebar h1 {
   margin: 10px;
 }
