@@ -11,7 +11,7 @@ Redis adalah data structure store yang terutama mengolah data di memori. Redis m
 - **Real-time analytics**: counters, agregasi, atau leaderboard, misalnya menggunakan sorted sets.
 - **Messaging**: mendukung pola pertukaran pesan, tetapi jaminan delivery bergantung pada mekanisme yang dipilih.
 
-Pub/Sub mengirim pesan kepada subscriber yang sedang terhubung tanpa menyimpan riwayat untuk replay. Redis Streams menyediakan log pesan dan consumer groups, tetapi durability serta pemrosesan ulang tetap memerlukan konfigurasi dan penanganan aplikasi. Keduanya tidak boleh dianggap memiliki jaminan delivery yang sama.
+Pub/Sub mengirim pesan kepada subscriber yang sedang terhubung tanpa menyimpan riwayat untuk replay. Redis Streams menyediakan log pesan dan consumer groups, tetapi durability serta pemrosesan ulang tetap memerlukan konfigurasi dan penanganan aplikasi. Keduanya tidak boleh dianggap memiliki jaminan delivery yang sama. Untuk log event persisten dengan replay, lihat [[References/Kafka\|Kafka]].
 
 ## Persistence dan distribusi
 

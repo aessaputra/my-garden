@@ -11,10 +11,10 @@ I use this space to explore technical ideas, share [[Craft\|the things I build]]
 Everything here is meant to be useful twice: *once while I am learning it, and again when I need it later.*
 
 ## Recent
-- [[References/Server Security\|Server Security]]
-- [[References/MD5\|MD5]]
-- [[References/Scrypt\|Scrypt]]
-- [[References/SHA Family\|SHA Family]]
-- [[References/Bcrypt\|Bcrypt]]
+- [[References/Tech Stack Testing\|Tech Stack Testing]]
+- [[References/SuperTest\|SuperTest]]
+- [[References/Testing Your Apps\|Testing Your Apps]]
+- [[References/RabbitMQ\|RabbitMQ]]
+- [[References/Kafka\|Kafka]]
 
 { .block-language-dataview}

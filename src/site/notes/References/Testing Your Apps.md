@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Testing Your Apps.md","permalink":"/testing-your-apps/","title":"Testing Your Apps","hideInFiletree":true,"tags":["references","programming","testing","ci-cd","devops"],"noteIcon":"","dg-note-properties":{"title":"Testing Your Apps","category":"references","tags":["references","programming","testing","ci-cd","devops"],"sources":["_raw/articles/testing-your-apps-research-packet.md"],"created":"2026-09-04","updated":"2026-09-04","confidence":"high"}}
+{"dg-publish":true,"dg-path":"Testing Your Apps.md","permalink":"/testing-your-apps/","title":"Testing Your Apps","hideInFiletree":true,"tags":["references","programming","testing","ci-cd","devops"],"noteIcon":"","dg-note-properties":{"title":"Testing Your Apps","category":"references","tags":["references","programming","testing","ci-cd","devops"],"sources":["_raw/articles/testing-your-apps-research-packet.md","_raw/articles/integration-testing-user-summary-2026-09-25.md"],"created":"2026-09-04","updated":"2026-09-25","confidence":"high"}}
 ---
 
 
@@ -13,7 +13,7 @@ Acceptance menguji kebutuhan bisnis dari sudut pengguna pada environment mirip p
 
 Unit memanggil kode langsung dan menilai output tanpa UI, service, atau database. Test ini murah, cepat, dan cocok dijalankan setiap perubahan.
 
-Integrasi menguji pertukaran data antar komponen, misalnya model dengan database atau method dengan API. Lihat [porsi integration pada piramida](https://semaphore.io/blog/testing-pyramid).
+Integrasi menguji pertukaran data antar komponen, misalnya model dengan database atau method dengan API — termasuk layanan pihak ketiga. Ia menangkap masalah yang lolos dari unit test: data mismatch dan protocol error antar batas modul. Lihat [porsi integration pada piramida](https://semaphore.io/blog/testing-pyramid) dan [[Integration tests catch contract mismatch\|Integration tests catch contract mismatch]].
 
 System test menilai aplikasi lengkap yang terintegrasi. Acceptance test menilai kesiapan rilis terhadap kriteria bisnis.
 
