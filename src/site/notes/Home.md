@@ -11,10 +11,10 @@ I use this space to explore technical ideas, share [[Craft\|the things I build]]
 Everything here is meant to be useful twice: *once while I am learning it, and again when I need it later.*
 
 ## Recent
-- [[About-me\|About-me]]
-- [[Craft\|Craft]]
-- [[FC Barcelona Next Match Monitor\|FC Barcelona Next Match Monitor]]
-- [[Renew\|Renew]]
-- [[MXAlias\|MXAlias]]
+- [[References/Server Security\|Server Security]]
+- [[References/MD5\|MD5]]
+- [[References/Scrypt\|Scrypt]]
+- [[References/SHA Family\|SHA Family]]
+- [[References/Bcrypt\|Bcrypt]]
 
 { .block-language-dataview}

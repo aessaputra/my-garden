@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Web Security Knowledge.md","permalink":"/web-security-knowledge/","title":"Web Security Knowledge","hideInFiletree":true,"tags":["references","security","programming","network","auth"],"noteIcon":"","dg-note-properties":{"title":"Web Security Knowledge","category":"references","tags":["references","security","programming","network","auth"],"sources":["_raw/articles/web-security-knowledge-research-packet.md"],"created":"2026-09-04","updated":"2026-09-04","confidence":"high"}}
+{"dg-publish":true,"dg-path":"Web Security Knowledge.md","permalink":"/web-security-knowledge/","title":"Web Security Knowledge","hideInFiletree":true,"tags":["references","security","programming","network","auth"],"noteIcon":"","dg-note-properties":{"title":"Web Security Knowledge","category":"references","tags":["references","security","programming","network","auth"],"sources":["_raw/articles/web-security-knowledge-research-packet.md","_raw/articles/web-security-knowledge-user-summary-2026-09-25.md"],"created":"2026-09-04","updated":"2026-09-25","confidence":"high"}}
 ---
 
 Web security melindungi website dari cyber threats selama in transit, di browser, dan di server. Ia memadukan HTTPS/TLS, XSS/SQL injection/CSRF prevention, CSP, secure authentication, input validation, dan regular updates.
@@ -12,7 +12,7 @@ OWASP Top 10 adalah awareness document bagi developers dan web application secur
 
 Edisi 2025 memuat ten categories: A01 Broken Access Control, A02 Security Misconfiguration, A03 Software Supply Chain Failures, A04 Cryptographic Failures, A05 Injection, A06 Insecure Design, A07 Authentication Failures, A08 Software or Data Integrity Failures, A09 Security Logging and Alerting Failures, dan A10 Mishandling of Exceptional Conditions. Lihat [pengantar edisi 2025](https://owasp.org/Top10/2025/0x00_2025-Introduction).
 
-Global ranking tidak menentukan remediation order tiap system. Team menggabungkan Top 10 dengan asset inventory, data classification, threat model, architecture, business context, dan regulasi. Lihat [[OWASP Top 10:2025\|OWASP Top 10:2025]].
+Global ranking tidak menentukan remediation order tiap system. Team menggabungkan Top 10 dengan asset inventory, data classification, threat model, architecture, business context, dan regulasi. Contoh kegagalan cryptographic failure adalah collision pada [[References/MD5\|MD5]]. Lihat [[OWASP Top 10:2025\|OWASP Top 10:2025]].
 
 ## HTTPS dan TLS
 
@@ -37,6 +37,12 @@ Strict CSP berbasis nonce atau hash direkomendasikan untuk scripts. Nonce dibuat
 Injection terjadi saat untrusted input dikirim ke interpreter dan sebagian input diperlakukan sebagai command. Bentuknya mencakup SQL injection, NoSQL, OS command, LDAP, expression language, dan XSS.
 
 Pertahanan utama adalah memisahkan data dari commands lewat secure API dan parameterized queries. Allowlist validation sisi server-side dan context-aware escaping melengkapi, tidak menggantikan parameterization. SAST, DAST, IAST, dan fuzzing menjadi detection layer di CI/CD pipeline.
+
+## Secure coding dan security testing
+
+Secure coding menerapkan security requirements pada boundary implementasi: validasi input yang tidak tepercaya di server, pisahkan data dari interpreter, gunakan output encoding yang sesuai konteks, enforce authorization pada setiap request, dan jangan simpan secret di browser code atau log. Praktik ini mengurangi defect umum, tetapi tidak membuktikan aplikasi bebas dari kerentanan.
+
+Security testing perlu berjalan terus-menerus dan sesuai risiko sistem. Gabungkan code review, static dan dynamic analysis, dependency dan secret scanning, fuzzing yang sesuai, serta authorized penetration testing. [[References/Testing Your Apps\|Testing Your Apps]] menyediakan lapisan pengujian umum; [[References/OWASP Security Risks\|OWASP Security Risks]] dan [[OWASP Top 10:2025\|OWASP Top 10:2025]] membantu awareness, bukan checklist lengkap. Pentest menilai attack path realistis dalam scope yang disepakati. Laporan yang bersih tidak membuktikan semua vulnerability sudah hilang; setiap finding tetap membutuhkan remediation, retesting, monitoring, dan owner respons.
 
 ## CSRF dan session
 
