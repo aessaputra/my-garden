@@ -11,10 +11,10 @@ I use this space to explore technical ideas, share [[Craft\|the things I build]]
 Everything here is meant to be useful twice: *once while I am learning it, and again when I need it later.*
 
 ## Recent
+- [[Craft\|Craft]]
+- [[Mengumpulkan log Coolify di Grafana Cloud\|Mengumpulkan log Coolify di Grafana Cloud]]
 - [[References/Testing Your Apps\|Testing Your Apps]]
 - [[References/Tech Stack Testing\|Tech Stack Testing]]
 - [[References/SuperTest\|SuperTest]]
-- [[References/RabbitMQ\|RabbitMQ]]
-- [[References/Kafka\|Kafka]]
 
 { .block-language-dataview}
