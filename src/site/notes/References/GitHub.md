@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"GitHub.md","permalink":"/git-hub/","title":"GitHub","hideInFiletree":true,"tags":["git","github","version-control","programming","tutorial","guide"],"noteIcon":"","dg-note-properties":{"title":"GitHub","category":"references","tags":["git","github","version-control","programming","tutorial","guide"],"sources":["_raw/articles/github-hello-world.md","_raw/articles/github-skills-quickstart.md","_raw/articles/github-skills-content-model.md","_raw/articles/github-how-github-works-youtube.md"],"created":"2026-08-21","updated":"2026-08-21"}}
+{"dg-publish":true,"dg-path":"GitHub.md","permalink":"/git-hub/","title":"GitHub","hideInFiletree":true,"tags":["git","github","version-control","programming","tutorial","guide"],"noteIcon":"","dg-note-properties":{"title":"GitHub","category":"references","tags":["git","github","version-control","programming","tutorial","guide"],"sources":["_raw/articles/github-hello-world.md","_raw/articles/github-skills-quickstart.md","_raw/articles/github-skills-content-model.md","_raw/articles/github-how-github-works-youtube.md","_raw/articles/github-home-2026-11-26.md","_raw/articles/github-platform-2026-11-26.md","_raw/articles/github-actions-features-2026-11-26.md","_raw/articles/github-copilot-features-2026-11-26.md","_raw/articles/github-codespaces-features-2026-11-26.md","_raw/articles/ooloo-github-flow-course-2026-11-26.md","_raw/articles/ooloo-git-workflows-2026-11-26.md","_raw/articles/ooloo-the-flow-2026-11-26.md","_raw/articles/ooloo-when-complicated-2026-11-26.md","_raw/articles/ooloo-merge-vs-squash-2026-11-26.md"],"created":"2026-08-21","updated":"2026-11-26"}}
 ---
 
 GitHub adalah layanan hosting untuk repository Git dan tempat orang membangun software bersama.
@@ -87,6 +87,12 @@ GitHub melacak perubahan Vijay dan menyimpan snapshot progres. Ketika siap, Vija
 
 Setelah tim menyetujui, Vijay melakukan merge. Fitur baru langsung tersedia untuk semua petani. Video menutup dengan pesan bahwa GitHub adalah komunitas developer besar dan ide seperti milik Eddie bisa dipakai jauh di luar dugaan, entah oleh engineer, code enthusiast, atau petani.
 
+## GitHub Flow dan Git Flow
+
+GitHub Flow adalah alur ringan: branch, commit, push, pull request, review, merge ke `main`, lalu deploy. Kursus ooloo melewatkan deploy karena caranya berbeda tiap tim; dokumentasi GitHub memasukkannya. Alur ini setara dengan Merge Request di GitLab/Bitbucket. Git Flow lebih berat (`develop`, `release`, `hotfix`) dan cocok untuk software berversio, bukan web app yang deploy terus-menerus; penulisnya sendiri menambahkan catatan bahwa model itu kurang cocok untuk continuous delivery.
+
+Di tim, beberapa branch dan PR hidup bersamaan; review bisa tertunda berhari-hari dan PR bisa saling bergantung. Beban utamanya menjaga branch tetap sinkron dengan `main`. Merge biasa mempertahankan commit per branch; squash merge menggabungkan satu PR menjadi satu commit di `main`, sehingga history linear tetapi granularitas commit hilang. Metode default mengikuti pengaturan repository, bukan selalu merge biasa. Konsep branch dan merge ada di [[References/Git\|Git]]; alur agen yang membuka PR dibahas di [[References/GitHub Copilot\|GitHub Copilot]].
+
 ## GitHub Skills dan Learn
 
 Setelah Hello World, langkah yang disarankan adalah kursus interaktif di [skills.github.com](https://skills.github.com/), sekarang bernama GitHub Learn. Skills memakai repository template dan workflow Actions yang otomatis memajukan langkah saat Anda push atau trigger event.
@@ -98,6 +104,51 @@ File di `.github/steps/` menyimpan konten per step, dan `.github/workflows/` men
 Penulis kursus sebaiknya kenal Markdown, YAML, dan GitHub Actions, ditambah GitHub CLI bila perlu. Perencanaan kursus: tulis learning goal, outline 3 sampai 5 step yang bisa selesai 30 sampai 45 menit, dan pertimbangkan bahwa learner butuh waktu sekitar empat kali expert. Jika kursus panjang, pecah menjadi beberapa kursus. Selama setup, gunakan template, centang Template repository karena Actions mati di fork, tambah social image 1280x640, aktifkan auto-delete head branches, tambah LICENSE dan .gitignore, dan masukkan topik `skills-course`.
 
 Bagian testing dan best practices menekankan komentar yang banyak, simpan semua di satu repo, dan jaga format tetap konsisten.
+
+## Produk dan permukaan platform (November 2026)
+
+Beranda github.com adalah portal produk, bukan dokumentasi. Klaim di bagian ini diambil dari halaman anak yang ditautkan beranda; angka komunitas adalah snapshot vendor.
+
+### Platform
+
+GitHub menyatukan repository, Issues dan Projects, pull request dan review, Actions, serta keamanan kode. Agen bisa dihubungkan lewat GitHub MCP server, API, atau CLI; issue bisa ditugaskan ke Copilot, dan Copilot bisa diminta menangani komentar atau check yang gagal. Dependabot memperbarui dependency rentan, sedangkan Copilot Autofix menangani alert code scanning. Sisi agen dibahas di [[References/GitHub Copilot\|GitHub Copilot]], dan model Git di belakang repository di [[References/Git\|Git]].
+
+### Copilot
+
+Copilot diposisikan sebagai AI coding agent, bukan hanya autocomplete: satu sesi bisa membawa konteks issue, diskusi, dan repository, lalu berujung di pull request. Permukaannya mencakup VS Code, Visual Studio, JetBrains, Xcode, Vim, Neovim, Zed, dan Eclipse; ditambah terminal/CLI, aplikasi desktop, web, mobile, Slack, dan Teams.
+
+Plan yang tersedia: Free, Pro, Pro+, Max, Business, dan Enterprise. Chat dan sesi agen memakai AI Credits (1 credit = USD 0,01), sedangkan completion dan next edit tetap unlimited di plan berbayar. Free dibatasi 2.000 completion per bulan dan model entry-level. Business dan Enterprise mengatur batas pemakaian; jika tambahan berbayar tidak diizinkan, Copilot berhenti sampai siklus berikutnya.
+
+Filter kode publik bersifat opsional dan menahan saran yang cocok dengan kode publik sepanjang 65 lexeme atau lebih (sekitar 150 karakter). Halaman Copilot sendiri menyatakan saran bisa mengandung pola tidak aman dan kualitas prompt non-Inggris lebih rendah; ini alat bantu, bukan pengganti developer.
+
+### Actions
+
+Actions menjalankan CI/CD dari event repository. Runner hosted mencakup Linux, macOS, Windows, ARM, GPU, dan container; matrix build menguji beberapa versi sekaligus; secret terenkripsi disimpan di level repository, environment, atau organisasi; multi-container test bisa memakai docker-compose. Marketplace menyediakan action siap pakai, dan self-hosted runner tersedia untuk kebutuhan khusus. Actions gratis untuk repository publik, tetapi menit runner dan batas plan tetap berlaku.
+
+### Codespaces
+
+Codespaces adalah lingkungan pengembangan cloud dari 2 sampai 32 core, dikonfigurasi lewat dev container dan dibuka dari browser, VS Code, atau IDE JetBrains. Codespaces tidak bisa self-host. Akun personal mendapat kuota gratis bulanan (120 core-hours atau 60 jam pada 2 core, plus 15 GB storage); organisasi harus mengaktifkan dan membayar sendiri. Untuk hosting statis, [[References/GitHub Pages\|GitHub Pages]] adalah jalur yang berbeda.
+
+### Angka komunitas
+
+Halaman platform menyebut 220 juta developer, 800 juta repository publik, dan 1,9 juta kontribusi open source dalam setahun. Beranda menampilkan angka developer yang lebih tinggi (sekitar 225 juta) dan 230 repository baru per menit. Angka-angka ini tidak konsisten antar halaman dan tidak diaudit, jadi perlakukan sebagai snapshot pemasaran.
+
+## Koreksi dan catatan sumber
+
+1. **Beranda bukan sumber teknis.** github.com adalah portal produk; isi yang diverifikasi diambil dari `/platform`, `/features/actions`, `/features/copilot`, dan `/features/codespaces`.
+2. **Angka komunitas tidak konsisten.** 220 juta versus sekitar 225 juta developer, dan metrik "1,9 juta kontribusi" tanpa definisi. Jangan dikutip sebagai statistik pasti.
+3. **FAQ Codespaces usang.** Halaman masih menyebut JetBrains/JupyterLab "in beta" dan akses gratis "through Feb 2023". Keduanya sudah lewat; status sekarang harus dicek di dokumentasi, bukan FAQ pemasaran.
+4. **"Gratis untuk repository publik" bukan tanpa batas.** Actions tetap tunduk pada menit runner dan ketentuan plan; halaman yang sama menautkan tabel billing.
+5. **"Dilatih pada semua bahasa" bukan jaminan kualitas.** Copilot menyatakan prompt non-Inggris bisa lebih buruk, dan saran kode bisa mengandung pola tidak aman.
+6. **Filter kode publik bersifat opsional.** Filter 65 lexeme menahan kemiripan, tetapi tidak menghapus risiko lisensi; keputusan memakai saran tetap milik pengguna.
+7. **Posisi "AI coding agent" adalah perubahan framing.** Halaman lama menekankan autocomplete; halaman 2026 menekankan sesi agen lintas repository. Plan dan harga cepat berubah, jadi catat tanggal akses.
+
+## Koreksi terhadap kursus ooloo
+
+1. **"GitHub mengganti master dengan main" dan "default-nya merge".** `main` hanya default repository baru sejak 2020; repo lama dan host lain bisa tetap `master`. Metode merge default juga pengaturan repository (merge commit, squash, atau rebase), bukan selalu merge biasa.
+2. **Commit "disalin" ke main.** Objek commit-nya sama: fast-forward memindahkan pointer, merge commit menyatukan history. Tidak ada duplikasi commit.
+3. **`git merge --squash` lokal tidak langsung membuat commit.** Perintah ini men-stage perubahan; commit dibuat terpisah. Probe git 2.43.0: setelah `git merge --squash feature`, `git status` menunjukkan `M a.txt` dan `git log` belum bertambah. GitHub "Squash and merge" yang membuat satu commit.
+4. **`git checkout` dan "enam langkah".** `git switch` (Git 2.23+) lebih jelas untuk pindah branch; alur resmi GitHub mencakup deploy dan CI, yang dilewatkan kursus. `main` yang selalu bisa dirilis butuh test/check, bukan hanya merge.
 
 ## Praktik yang disarankan
 

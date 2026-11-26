@@ -86,6 +86,7 @@ Operator juga perlu memantau kegagalan *handshake*, galat nama host, sertifikat 
 ## Lihat juga
 
 - [[References/HTTP\|HTTP]]
+- [[References/SSL\|SSL]]
 - [[References/Content Security Policy\|Content Security Policy]]
 - [[References/Web Browser\|Web Browser]]
 - [[References/Jaringan (Network)\|Jaringan (Network)]]

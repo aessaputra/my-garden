@@ -86,6 +86,7 @@ Keduanya dapat memakai teknologi dan protokol yang sama dengan Internet, tetapi 
 
 - [[References/HTTP\|HTTP]]: request, response, versi protokol, dan HTTP/3
 - [[References/HTTPS\|HTTPS]]: TLS, sertifikat, HSTS, dan praktik keamanan
+- [[References/TCP IP\|TCP/IP]]: suite protokol dan model empat lapis, peran TCP versus IP, serta TCP versus UDP
 - [[References/DNS\|DNS]]: proses penerjemahan domain menjadi IP address
 - [[References/Domain Name\|Domain Name]]: struktur dan pengelolaan nama domain
 - [[References/Jaringan (Network)\|Jaringan (Network)]]: networking di React Native melalui Fetch API dan WebSocket
